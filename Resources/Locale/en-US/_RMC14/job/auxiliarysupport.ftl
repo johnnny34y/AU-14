@@ -9,8 +9,8 @@ cm-job-description-dropship-pilot = Transport troops via the dropship and provid
 cm-job-prefix-dropship-pilot = DP
 CMJobPilotDropship = Dropship Pilot
 
-cm-job-name-gunship-pilot = Gunship Pilot
-cm-job-description-gunship-pilot = Fly, protect, and maintain the ship's transport dropship.
+cm-job-name-gunship-pilot = Pilot Officer
+cm-job-description-gunship-pilot = Maintain the dropship, and use it to provide Close Air Support and transport to the marine section.
 cm-job-prefix-gunship-pilot = GP
 CMJobPilotGunship = Gunship Officer
 
