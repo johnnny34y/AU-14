@@ -23,7 +23,7 @@
     - name: Prepared Meals
       entries:
       - id: CMMRE
-        name: UNMC Meal Ready to Eat
+        name: USCM Meal Ready to Eat
         amount: 15
       - id: CMMarinePreparedMealChicken
         amount: 15
