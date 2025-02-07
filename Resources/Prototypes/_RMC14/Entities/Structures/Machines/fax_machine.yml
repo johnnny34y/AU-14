@@ -43,7 +43,7 @@
 - type: entity
   parent: CMFax
   id: CMFaxWY
-  name: we-ya fax machine
+  name: WY fax machine
   suffix: WEYA
   components:
   - type: FaxMachine
@@ -93,7 +93,7 @@
   suffix: SPP
   components:
   - type: FaxMachine
-    name: "Socialist Progressive Peoples"
+    name: "Union of Progressive Peoples"
     notifyAdmins: true
 
 - type: entity
@@ -102,5 +102,5 @@
   suffix: TSE
   components:
   - type: FaxMachine
-    name: "Three Suns Empire"
+    name: "Three Worlds Empire"
     notifyAdmins: true
