@@ -16,11 +16,11 @@
     - !type:RoleTimeRequirement
       role: CMJobHospitalCorpsman
       time: 252000 # 70 hours
-    RMCRankLanceCorporal:
+    RMCRankCorporal:
     - !type:RoleTimeRequirement
       role: CMJobHospitalCorpsman
-      time: 36000 # 10 hours
-    RMCRankPrivateFirstClass: []
+      time: 90000 # 25 hours
+    RMCRankLanceCoporal: []
   startingGear: CMGearHospitalCorpsman
   dummyStartingGear: CMGearHospitalCorpsmanEquipped
   icon: "CMJobIconHospitalCorpsman"
