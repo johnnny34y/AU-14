@@ -17,9 +17,10 @@
         amount: 20
       - id: CMBootsBrown
         amount: 20
-      - id: JumpsuitMarine
+      - id: AU14DesertFatigues
         amount: 30
-        name: USCM Uniform
+      - id: AU14JungleFatigues
+        amount: 30
       - id: CMHandsBrown
         amount: 20
       - id: CMHandsBlackMarine
@@ -465,6 +466,8 @@
       - id: CMBootsBlack
         amount: 2
       - id: CMBootsBrown
+        amount: 2
+      - id: AU14TacticalFlightSuit
         amount: 2
       - id: CMJumpsuitPilot
         amount: 2
