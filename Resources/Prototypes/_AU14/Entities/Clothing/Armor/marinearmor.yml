@@ -109,3 +109,43 @@
   components:
   - type: Sprite
     sprite: _AU14/Clothing/pilotflakvest.rsi
+
+- type: entity
+  parent: [ RMCAllowSuitStorageClothingSmartgunner, AU14BaseArmor ]
+  id: AU14ArmorSmartGunDesertCombatHarness
+  name: M56 Desert Combat Harness
+  description: An M56 Combat Harness specially made for Smartgunners.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/DesertArmor/uscmarmorsmartgunner.rsi
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,3,1 # 2 slots
+  - type: RMCArmorSpeedTier
+    speedTier: light
+  - type: ClothingSpeedModifier
+    walkModifier: .725
+    sprintModifier: .725
+  - type: ClothingBlockBackpack
+  - type: SmartGunArmor
+
+- type: entity
+  parent: [ RMCAllowSuitStorageClothingSmartgunner, AU14BaseArmor ]
+  id: AU14ArmorSmartGunJungleCombatHarness
+  name: M56 Jungle Harness
+  description: An M56 Combat Harness specially made for Smartgunners.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/JungleArmor/uscmarmorsmartgunner.rsi
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,3,1 # 2 slots
+  - type: RMCArmorSpeedTier
+    speedTier: light
+  - type: ClothingSpeedModifier
+    walkModifier: .725
+    sprintModifier: .725
+  - type: ClothingBlockBackpack
+  - type: SmartGunArmor
