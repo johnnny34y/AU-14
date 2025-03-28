@@ -29,3 +29,8 @@
   id: RMCRankCivilianOfficer
   name: Officer
   prefix: Off.
+
+- type: rank
+  id: RMCRankCivilianSeniorOfficer
+  name: Senior Officer
+  prefix: Sr. Off.
