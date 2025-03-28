@@ -166,11 +166,15 @@
         amount: 10
     - name: Miscellaneous
       entries:
-      - id: RMCGogglesBallistic
+      - id: AU14GogglesM1A1ClearBallistic
         amount: 20
-      - id: RMCGogglesM1A1Ballistic
+      - id: AU14GogglesM1A1Ballistic
         amount: 20
-      - id: RMCGogglesPrescriptionBallistic
+      - id: AU14GogglesM1A1DarkBallistic
+        amount: 20
+      - id: AU14GogglesM60
+        amount: 20
+      - id: AU14GogglesM1A1LaserBallistic
         amount: 20
       - id: RMCGlassesMarineRpg
         amount: 20
@@ -589,12 +593,16 @@
         amount: 2
     - name: Miscellaneous
       entries:
-      - id: RMCGogglesBallistic
-        amount: 2
-      - id: RMCGogglesM1A1Ballistic
-        amount: 2
-      - id: RMCGogglesPrescriptionBallistic
-        amount: 2
+      - id: AU14GogglesM1A1ClearBallistic
+        amount: 20
+      - id: AU14GogglesM1A1Ballistic
+        amount: 20
+      - id: AU14GogglesM1A1DarkBallistic
+        amount: 20
+      - id: AU14GogglesM60
+        amount: 20
+      - id: AU14GogglesM1A1LaserBallistic
+        amount: 20
       - id: RMCGlassesMarineRpg
         amount: 2
       - id: RMCGlassesAviators
@@ -804,12 +812,16 @@
         amount: 2
     - name: Miscellaneous
       entries:
-      - id: RMCGogglesBallistic
-        amount: 2
-      - id: RMCGogglesM1A1Ballistic
-        amount: 2
-      - id: RMCGogglesPrescriptionBallistic
-        amount: 2
+      - id: AU14GogglesM1A1ClearBallistic
+        amount: 20
+      - id: AU14GogglesM1A1Ballistic
+        amount: 20
+      - id: AU14GogglesM1A1DarkBallistic
+        amount: 20
+      - id: AU14GogglesM60
+        amount: 20
+      - id: AU14GogglesM1A1LaserBallistic
+        amount: 20
       - id: RMCGlassesMarineRpg
         amount: 2
       - id: RMCGlassesAviators
