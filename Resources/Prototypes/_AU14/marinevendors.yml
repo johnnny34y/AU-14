@@ -88,7 +88,7 @@
 #      - id: Marine Chestrig
 #        amount: 15
       - id: RMCSatchelWelderChestrig
-        amount: 15
+        amount: 2
       - id: RMCScabbardShotgun
         amount: 2
       - id: RMCBackpackRTO
@@ -177,12 +177,6 @@
       - id: AU14GogglesM1A1LaserBallistic
         amount: 20
       - id: RMCGlassesMarineRpg
-        amount: 20
-      - id: RMCGlassesAviators
-        amount: 20
-      - id: RMCSunglassesBig
-        amount: 20
-      - id: RMCSunglasses
         amount: 20
 #      - id: M5 Integrated Gas Mask
 #        amount: 10
@@ -823,13 +817,7 @@
       - id: AU14GogglesM1A1LaserBallistic
         amount: 20
       - id: RMCGlassesMarineRpg
-        amount: 2
-      - id: RMCGlassesAviators
-        amount: 2
-      - id: RMCSunglassesBig
-        amount: 2
-      - id: RMCSunglasses
-        amount: 2
+        amount: 20
 #      - id: M5 Integrated Gas Mask
 #        amount: 10
 #      - id: M10 Helmet Netting
