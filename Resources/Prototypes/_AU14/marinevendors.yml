@@ -46,7 +46,7 @@
         amount: 25
       - id: AU14JungleM10Helmet
         amount: 25
-    - name: Armor # to be replaced with PvE armor.
+    - name: Armor
       entries:
       - id: AU14ArmorM3JungleOne
         amount: 25
@@ -492,7 +492,7 @@
         amount: 2
       - id: AU14JungleM30Helmet
         amount: 2
-    - name: Armor # to be replaced with PvE armor.
+    - name: Armor
       entries:
       - id: AU14ArmorPilotFlakJacket
         amount: 2
@@ -624,7 +624,6 @@
         amount: 1
     - name: Medical Utilities
       entries:
-     #    CMMS11SmartRefillTank
      # FixOVien
       - id: CMRollerBedSpawnFolded
         amount: 2
