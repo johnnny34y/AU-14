@@ -438,9 +438,203 @@
         amount: 1
       - id: RMCVial
         amount: 10
+      - id: RMCGlassesMedicalHUDGlasses
+        amount: 1
     - name: Medical Gloves
       entries:
       - id: CMHandsLatex
         amount: 1
       - id: ClothingHandsGlovesNitrile
         amount: 1
+
+- type: entity
+  parent: ColMarTechBase
+  id: AU14USCMaircrewvendor
+  name: USCM aircrew vendor
+  description: An automated rack hooked up to a small storage of aircrew apparel and equipment.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessMarinePrep" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+  - type: CMAutomatedVendor
+    sections:
+    - name: Clothing
+      entries:
+      - id: CMBootsBlack
+        amount: 2
+      - id: CMBootsBrown
+        amount: 2
+      - id: CMJumpsuitPilot
+        amount: 2
+      - id: CMHandsBrown
+        amount: 2
+      - id: CMHandsBlackMarine
+        amount: 2
+      - id: CMHeadsetPilot
+        amount: 2
+    - name: Webbings
+      entries:
+      - id: CMWebbingBrown
+        amount: 2
+      - id: CMWebbingBlack
+        amount: 2
+      - id: CMWebbing
+        amount: 2
+      - id: CMWebbingPouch
+        amount: 2
+      - id: CMWebbingHolster
+        amount: 2
+    - name: Helmets
+      entries:
+      - id: AU14DesertM30Helmet
+        amount: 2
+      - id: AU14JungleM30Helmet
+        amount: 2
+    - name: Armor # to be replaced with PvE armor.
+      entries:
+      - id: AU14ArmorPilotFlakJacket
+        amount: 2
+      - id: CMArmorM3VLFlakVest
+        amount: 2
+    - name: Backpack
+      entries:
+      - id: CMSatchelMarine
+        amount: 2
+    - name: Belts
+      entries:
+      - id: RMCBeltHolsterPistol
+        amount: 2
+      - id: RMCBeltHolsterRevolver
+        amount: 2
+#      - id: M276 Pattern M82F Holster Rig
+#        amount: 5
+      - id: RMCBeltUtilityGeneral
+        amount: 2
+      - id: CMBeltMedicalFilled
+        amount: 2
+      - id: CMBeltMedicBagFilled
+        amount: 2
+    - name: Pouches
+      entries:
+      - id: RMCPouchBayonet
+        name: Bayonet Sheath (Full)
+        amount: 2
+      - id: RMCPouchFirstAid
+        name: First-Aid Pouch (Empty)
+        amount: 2
+      - id: RMCPouchFlareFilled
+        name: Flare Pouch (Full)
+        amount: 2
+      - id: RMCPouchDocumentSmall
+        amount: 2
+      - id: RMCPouchMagazine
+        amount: 2
+      - id: RMCPouchGeneralMedium
+        amount: 2
+      - id: RMCPouchPistol
+        amount: 2
+      - id: RMCPouchMagazinePistolLarge
+        amount: 2
+      - id: RMCPouchFirstResponder
+        name: First Responder Pouch (Empty)
+        amount: 2
+      - id: RMCPouchTools
+        amount: 2
+#      - id: Sling Pouch
+#        amount: 1
+    - name: Mask
+      entries:
+      - id: CMMaskGas
+        amount: 2
+      - id: RMCMaskRebreather
+        amount: 2
+      - id: CMMaskCoif
+        amount: 2
+      - id: RMCMaskScarfBlack
+        amount: 2
+      - id: RMCMaskScarfGray
+        amount: 2
+      - id: RMCMaskScarfTan
+        amount: 2
+      - id: RMCMaskTornScarfBlack
+        amount: 2
+    - name: Miscellaneous
+      entries:
+      - id: RMCGogglesBallistic
+        amount: 2
+      - id: RMCGogglesM1A1Ballistic
+        amount: 2
+      - id: RMCGogglesPrescriptionBallistic
+        amount: 2
+      - id: RMCGlassesMarineRpg
+        amount: 2
+      - id: RMCGlassesAviators
+        amount: 2
+      - id: RMCSunglassesBig
+        amount: 2
+      - id: RMCSunglasses
+        amount: 2
+#      - id: M5 Integrated Gas Mask
+#        amount: 10
+#      - id: M10 Helmet Netting
+#        amount: 10
+#      - id: M10 Helmet Rain Cover
+#        amount: 10
+#      - id: Firearm Lubricant
+#        amount: 15
+#      - id: Marine Flair
+#        amount: 15
+#      - id: Falling Falcons Shoulder Patch
+#        amount: 15
+#      - id: Marine Shoulder Patch
+#        amount: 15
+    - name: Field Medical Supplies
+      entries:
+      - id: CMBurnKit10
+        amount: 10
+      - id: CMTraumaKit10
+        amount: 10
+      - id: CMSurgicalLine
+        amount: 2
+      - id: CMSynthGraft
+        amount: 2
+    #    CMMedicalSplints
+      - id: CMBloodPackFull # TODO RMC14 O-
+        name: blood bag (O-)
+        amount: 4
+    - name: Injectors
+      entries:
+      - id: CMBicaridineAutoInjector
+        amount: 20
+      - id: CMDexalinPlusAutoInjector
+        amount: 20
+      - id: CMEpinephrineAutoInjector
+        amount: 20
+      - id: CMInaprovalineAutoInjector
+        amount: 20
+      - id: CMKelotaneAutoInjector
+        amount: 20
+#      - id: CMAutoinjectorOxycodone
+#      - id: CMAutoinjectorTramadol
+      - id: CMTricordrazineAutoInjector
+        amount: 20
+      - id: RMCMedicAutoInjectorBicaridine15
+        amount: 1
+    - name: Medical Utilities
+      entries:
+     #    CMMS11SmartRefillTank
+     # FixOVien
+      - id: CMRollerBedSpawnFolded
+        amount: 2
+      - id: CMStasisBagFolded
+        amount: 4
+      - id: RMCBoxBodyBag
+        amount: 2
+      - id: CMHealthAnalyzer
+        amount: 2
+      - id: RMCFlashlightPen
+        amount: 2
+      - id: RMCGlassesMedicalHUDGlasses
+        amount: 2
