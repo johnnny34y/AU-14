@@ -178,6 +178,10 @@
         amount: 20
       - id: RMCGlassesMarineRpg
         amount: 20
+      - id: AU14GlassesBiMex
+        amount: 20
+      - id: AU14GlassesBiMexOrange
+        amount: 20
 #      - id: M5 Integrated Gas Mask
 #        amount: 10
 #      - id: M10 Helmet Netting
@@ -588,22 +592,22 @@
     - name: Miscellaneous
       entries:
       - id: AU14GogglesM1A1ClearBallistic
-        amount: 20
+        amount: 2
       - id: AU14GogglesM1A1Ballistic
-        amount: 20
+        amount: 2
       - id: AU14GogglesM1A1DarkBallistic
-        amount: 20
+        amount: 2
       - id: AU14GogglesM60
-        amount: 20
+        amount: 2
       - id: AU14GogglesM1A1LaserBallistic
-        amount: 20
+        amount: 2
       - id: RMCGlassesMarineRpg
         amount: 2
+      - id: AU14GlassesBiMex
+        amount: 2
+      - id: AU14GlassesBiMexOrange
+        amount: 2
       - id: RMCGlassesAviators
-        amount: 2
-      - id: RMCSunglassesBig
-        amount: 2
-      - id: RMCSunglasses
         amount: 2
 #      - id: M5 Integrated Gas Mask
 #        amount: 10
@@ -807,17 +811,21 @@
     - name: Miscellaneous
       entries:
       - id: AU14GogglesM1A1ClearBallistic
-        amount: 20
+        amount: 2
       - id: AU14GogglesM1A1Ballistic
-        amount: 20
+        amount: 2
       - id: AU14GogglesM1A1DarkBallistic
-        amount: 20
+        amount: 2
       - id: AU14GogglesM60
-        amount: 20
+        amount: 2
       - id: AU14GogglesM1A1LaserBallistic
-        amount: 20
+        amount: 2
       - id: RMCGlassesMarineRpg
-        amount: 20
+        amount: 2
+      - id: AU14GlassesBiMex
+        amount: 2
+      - id: AU14GlassesBiMexOrange
+        amount: 2
 #      - id: M5 Integrated Gas Mask
 #        amount: 10
 #      - id: M10 Helmet Netting
