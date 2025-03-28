@@ -43,27 +43,23 @@
     - name: Helmets
       entries:
       - id: AU14DesertM10Helmet
-        amount: 15
+        amount: 25
       - id: AU14JungleM10Helmet
-        amount: 15
+        amount: 25
     - name: Armor # to be replaced with PvE armor.
       entries:
-      - id: RMCArmorM3MediumCarrier
-        amount: 15
-      - id: RMCArmorM3MediumPadded
-        amount: 15
-      - id: RMCArmorM3MediumPadless
-        amount: 15
-      - id: RMCArmorM3MediumRidged
-        amount: 15
-      - id: RMCArmorM3MediumSkull
-        amount: 15
-      - id: RMCArmorM3MediumSmooth
-        amount: 15
-      - id: RMCArmorM3HeavyPadded
-        amount: 10
-      - id: RMCArmorM3LightPadded
-        amount: 10
+      - id: AU14ArmorM3JungleOne
+        amount: 25
+      - id: AU14ArmorM3JungleTwo
+        amount: 25
+      - id: AU14ArmorM3JungleThree
+        amount: 25
+      - id: AU14ArmorM3DesertOne
+        amount: 25
+      - id: AU14ArmorM3DesertTwo
+        amount: 25
+      - id: AU14ArmorM3DesertThree
+        amount: 25
     - name: Backpack
       entries:
       - id: CMBackpackMarine
@@ -301,6 +297,12 @@
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
   - type: CMAutomatedVendor
     sections:
+    - name: Medical Helmets
+      entries:
+      - id: AU14DesertM10CorpsmanHelmet
+        amount: 1
+      - id: AU14JungleM10CorpsmanHelmet
+        amount: 1
     - name: Medical Pouches
       entries:
       - id: RMCPouchAutoinjector
