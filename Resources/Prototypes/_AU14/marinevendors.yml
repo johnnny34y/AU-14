@@ -878,7 +878,7 @@
       entries:
       - id: RMCBeltSmartGunOperatorPistolFilled
         amount: 1
-      - id: RMCBeltSmartGunOperatorFilled
+      - id: CMBeltSmartGunOperatorFilled
         amount: 1
     - name: Smartgun Munitions
       entries:
