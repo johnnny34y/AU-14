@@ -29,7 +29,7 @@
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14MixedSnowFatigues
   name: mixed USCM snow fatigues
-  description: A mix of winter and jungle USCM fatigues. Reservists don't get amazing funding, huh...
+  description: A mix of winter and jungle USCM fatigues. Us reservists don't get amazing funding, huh...
   components:
   - type: Sprite
     sprite: _AU14/Clothing/mixedsnowfatigues.rsi
