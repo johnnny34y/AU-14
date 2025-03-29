@@ -32,7 +32,7 @@
       path: /Audio/_AU14/Medical/defib_safetyOff.ogg
   - type: Defibrillator
     zapDelay: 0
-    doAfterDuration: 15
+    doAfterDuration: 12.5
     allowDoAfterMovement: false
     canDefibCrit: false
     cmZapHeal:
@@ -45,7 +45,7 @@
     zapSound:
       path: /Audio/_AU14/Medical/defib_release.ogg
       params:
-        volume: 0
+        volume: 0.1
     chargeSound:
       path: /Audio/_AU14/Medical/defib_charge.ogg
       params:
@@ -53,15 +53,15 @@
     failureSound:
       path: /Audio/_AU14/Medical/defib_failed.ogg
       params:
-        volume: 0
+        volume: 0.1
     successSound:
       path: /Audio/_AU14/Medical/defib_success.ogg
       params:
-        volume: 0
+        volume: 0.1
     readySound:
       path: /Audio/_AU14/Medical/defib_ready.ogg
       params:
-        volume: 0
+        volume: 0.1
     zapDamage: 0
   - type: DoAfter
   - type: UseDelay
