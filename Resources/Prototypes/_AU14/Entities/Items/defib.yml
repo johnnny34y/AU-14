@@ -32,7 +32,7 @@
       path: /Audio/_AU14/Medical/defib_safetyOff.ogg
   - type: Defibrillator
     zapDelay: 0
-    doAfterDuration: 15
+    doAfterDuration: 14
     allowDoAfterMovement: false
     canDefibCrit: false
     cmZapHeal:
