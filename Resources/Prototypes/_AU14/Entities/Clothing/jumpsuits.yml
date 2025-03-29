@@ -18,9 +18,9 @@
 
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
-  id: AU14SnowFatigues
-  name: USCM snow fatigues
-  description: Standard-issue USCM fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
+  id: AU14TacticalFlightSuit
+  name: Aircrew Flightsuit
+  description: Standard-issue USCM flightsuit. It has integrated life support mechanisms.
   components:
   - type: Sprite
-    sprite: _AU14/Clothing/snowfatigues.rsi
+    sprite: _AU14/Clothing/tacticalflightsuit.rsi
