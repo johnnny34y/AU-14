@@ -43,24 +43,6 @@
       "name": "adv_defib"
     },
     {
-      "name": "full"
-    },
-    {
-      "name": "half"
-    },
-    {
-      "name": "low"
-    },
-    {
-      "name": "empty",
-      "delays": [
-        [
-          0.4,
-          0.4
-        ]
-      ]
-    },
-    {
       "name": "adv_defib-inhand-left",
       "directions": 4
     },

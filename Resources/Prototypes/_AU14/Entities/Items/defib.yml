@@ -7,18 +7,8 @@
   components:
   - type: Sprite
     sprite: _AU14/items/audefib.rsi
-    layers:
-    - state: defib
-    - state: defib_on
-      map: [ "enum.ToggleVisuals.Layer" ]
-      visible: false
   - type: Appearance
   - type: GenericVisualizer
-    visuals:
-      enum.ToggleVisuals.Toggled:
-        enum.ToggleVisuals.Layer:
-          True: { visible: true }
-          False: { visible: false }
   - type: Item
     size: Normal
     sprite: _AU14/items/audefib.rsi
