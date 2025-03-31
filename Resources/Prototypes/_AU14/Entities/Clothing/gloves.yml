@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: AU14HandsPurpleNitrle # TODO RMC14 armor
+  name: purple nitrile gloves
+  description: "Medical gloves."
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Gloves/purplenitrilegloves.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Gloves/purplenitrilegloves.rsi
+  - type: Fiber
+    fiberMaterial: fibers-leather
+    fiberColor: fibers-black
+  - type: FingerprintMask

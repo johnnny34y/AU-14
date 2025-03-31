@@ -355,6 +355,8 @@
         amount: 2
       - id: RMCPouchMedical
         amount: 2
+      - id: RMCPouchMedkit
+        amount: 2
       - id: RMCPouchSyringeFill
         amount: 2
       - id: RMCPouchFirstAidInjectors
@@ -384,6 +386,10 @@
         amount: 10
       - id: CMTraumaKit10
         amount: 10
+      - id: CMGauze10
+        amount: 30
+      - id: CMOintment10
+        amount: 30
       - id: CMSurgicalLine
         amount: 2
       - id: CMSynthGraft
@@ -419,6 +425,8 @@
         amount: 5
       - id: CMPillCanisterKelotane
         amount: 5
+      - id: CMPillCanisterTricordrazine
+        amount: 5
         recommended: true
 #      - id: CMPillCanisterPeridaxon
 #      - id: CMPillCanisterTramadol
@@ -444,9 +452,9 @@
       - id: RMCMedicAutoInjectorKelotane15
         amount: 1
         name: autoinjector kelotane (large)
-      - id: RMCMedicAutoInjectorTricordrazine15
+      - id: RMCMedicAutoInjectorTricordrazineRevival15
         amount: 1
-        name: autoinjector tricordrazine (large)
+        name: autoinjector tricordrazine revival (large)
       - id: CMSyringe
         amount: 10
     - name: Medical Utilities
@@ -474,6 +482,8 @@
       - id: CMHandsLatex
         amount: 1
       - id: ClothingHandsGlovesNitrile
+        amount: 1
+      - id: AU14HandsPurpleNitrle
         amount: 1
     - name: Medical Masks
       entries:
@@ -564,6 +574,8 @@
         amount: 2
       - id: RMCPouchFirstAid
         name: First-Aid Pouch (Empty)
+        amount: 2
+      - id: RMCPouchMedkit
         amount: 2
       - id: RMCPouchFlareFilled
         name: Flare Pouch (Full)
@@ -680,6 +692,14 @@
         amount: 2
       - id: RMCGlassesMedicalHUDGlasses
         amount: 2
+    - name: Medical Gloves
+      entries:
+      - id: CMHandsLatex
+        amount: 1
+      - id: ClothingHandsGlovesNitrile
+        amount: 1
+      - id: AU14HandsPurpleNitrle
+        amount: 1
 
 - type: entity
   parent: ColMarTechBase
