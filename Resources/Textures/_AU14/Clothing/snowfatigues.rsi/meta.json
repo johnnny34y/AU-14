@@ -19,10 +19,6 @@
       "name": "icon"
     },
     {
-      "name": "jacket-equipped-INNERCLOTHING",
-      "directions": 4
-    },
-    {
       "name": "sleeveless-equipped-INNERCLOTHING",
       "directions": 4
     }
