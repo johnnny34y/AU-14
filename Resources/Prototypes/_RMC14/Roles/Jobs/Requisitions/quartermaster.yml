@@ -52,6 +52,8 @@
     - type: RMCPointing
     - type: JobPrefix
       prefix: cm-job-prefix-quartermaster
+    - type: ViewIntelObjectives
+    - type: CommandAccent
 
 - type: startingGear
   id: CMGearQuartermaster
@@ -75,10 +77,7 @@
   - type: SpawnPoint
     job_id: CMQuartermaster
   - type: Sprite
-    layers:
-    - sprite: Markers/jobs.rsi
-      state: green
-    - state: quartermaster
+    state: ro_spawn
 
 - type: playTimeTracker
   id: CMJobQuartermaster

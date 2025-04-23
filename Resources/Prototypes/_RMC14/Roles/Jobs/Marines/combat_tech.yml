@@ -78,10 +78,7 @@
   - type: SpawnPoint
     job_id: CMCombatTech
   - type: Sprite
-    layers:
-    - sprite: Markers/jobs.rsi
-      state: green
-    - state: combat_tech
+    state: engi_spawn
 
 - type: entity
   parent: CMSpawnPointCombatTech
@@ -91,6 +88,8 @@
   - type: SquadSpawner
     squad: SquadAlpha
     role: CMCombatTech
+  - type: Sprite
+    state: engi_spawn_alpha
 
 - type: entity
   parent: CMSpawnPointCombatTech
@@ -100,6 +99,8 @@
   - type: SquadSpawner
     squad: SquadBravo
     role: CMCombatTech
+  - type: Sprite
+    state: engi_spawn_bravo
 
 - type: entity
   parent: CMSpawnPointCombatTech
@@ -109,6 +110,8 @@
   - type: SquadSpawner
     squad: SquadCharlie
     role: CMCombatTech
+  - type: Sprite
+    state: engi_spawn_charlie
 
 - type: entity
   parent: CMSpawnPointCombatTech
@@ -118,3 +121,5 @@
   - type: SquadSpawner
     squad: SquadDelta
     role: CMCombatTech
+  - type: Sprite
+    state: engi_spawn_delta

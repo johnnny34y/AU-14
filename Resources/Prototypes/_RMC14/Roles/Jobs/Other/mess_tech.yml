@@ -5,6 +5,16 @@
   description: cm-job-description-messtech
   setPreference: false
   playTimeTracker: CMJobMessTech
+  ranks:
+    RMCRankLanceCorporal:
+    - !type:RoleTimeRequirement
+      role: CMJobMessTech
+      time: 252000 # 70 hours
+    RMCRankPrivateFirstClass:
+    - !type:RoleTimeRequirement
+      role: CMJobMessTech
+      time: 36000 # 10 hours
+    RMCRankPrivate: []
   startingGear: CMGearMessTech
   icon: "CMJobIconMessTech"
   joinNotifyCrew: false
@@ -53,10 +63,7 @@
   - type: SpawnPoint
     job_id: CMMessTech
   - type: Sprite
-    layers:
-    - sprite: Markers/jobs.rsi
-      state: green
-    - state: mess_tech
+    state: chef_spawn
 
 - type: playTimeTracker
   id: CMJobMessTech
