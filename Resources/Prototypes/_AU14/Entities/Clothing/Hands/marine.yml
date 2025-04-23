@@ -10,6 +10,6 @@
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/black.rsi
   - type: Fiber
-    fiberMaterial: fibers-insulated
+    fiberMaterial: fibers-black
     fiberColor: fibers-black
   - type: FingerprintMask
