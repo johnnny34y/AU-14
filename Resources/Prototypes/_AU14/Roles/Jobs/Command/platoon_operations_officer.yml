@@ -4,7 +4,7 @@
   name: cm-job-name-platoon-operations-officer
   description: cm-job-description-platoon-operations-officer
   playTimeTracker: AU14JobPlatoonOperationsOfficer
-  setpreference: true
+  setPreference: true
   ranks:
     RMCRankSecondLT: []
   weight: 5
