@@ -62,10 +62,7 @@
   - type: SpawnPoint
     job_id: CMRifleman
   - type: Sprite
-    layers:
-    - sprite: Markers/jobs.rsi
-      state: green
-    - state: rifleman
+    state: marine_spawn
 
 - type: entity
   parent: CMSpawnPointRifleman
@@ -75,6 +72,8 @@
   - type: SquadSpawner
     squad: SquadAlpha
     role: CMRifleman
+  - type: Sprite
+    state: marine_spawn_alpha
 
 - type: entity
   parent: CMSpawnPointRifleman
@@ -84,6 +83,8 @@
   - type: SquadSpawner
     squad: SquadBravo
     role: CMRifleman
+  - type: Sprite
+    state: marine_spawn_bravo
 
 - type: entity
   parent: CMSpawnPointRifleman
@@ -93,6 +94,8 @@
   - type: SquadSpawner
     squad: SquadCharlie
     role: CMRifleman
+  - type: Sprite
+    state: marine_spawn_charlie
 
 - type: entity
   parent: CMSpawnPointRifleman
@@ -102,3 +105,14 @@
   - type: SquadSpawner
     squad: SquadDelta
     role: CMRifleman
+  - type: Sprite
+    state: marine_spawn_delta
+
+- type: entity
+  parent: CMGuidebookRole
+  id: CMGuidebookRoleYou
+  name: You?
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    state: rifleman
