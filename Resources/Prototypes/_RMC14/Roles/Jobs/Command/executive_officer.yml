@@ -3,6 +3,7 @@
   id: CMExecutiveOfficer
   name: cm-job-name-platoon-commander
   description: cm-job-description-platoon-commander
+  setPreference: true
   playTimeTracker: CMJobExecutiveOfficer
   ranks:
     RMCRankFirstLT: []
