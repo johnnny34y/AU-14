@@ -456,7 +456,9 @@
      #    CMMS11SmartRefillTank
      # FixOVien
       - id: CMRollerBedSpawnFolded
-        amount: 4
+        amount: 2
+      - id: RMCMedevacStretcherFolded
+        amount: 1
       - id: CMStasisBagFolded
         amount: 4
       - id: RMCBoxBodyBag
