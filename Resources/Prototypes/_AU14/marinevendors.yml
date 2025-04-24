@@ -277,7 +277,9 @@
       #  amount: 2
       #- id: CMSparePDTLBattleBuddyKit
       #  amount: 3
-      - id: RMCPowerCellCrap
+      - id: CMSandbagEmpty25
+        amount: 5
+      - id: RMCPowerCellHigh
         amount: 5
     - name: Attachments
       entries:
