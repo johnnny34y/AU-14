@@ -4,7 +4,7 @@
   name: cm-job-name-platoon-commander
   description: cm-job-description-platoon-commander
   setPreference: false
-  playTimeTracker: CMJobExecutiveOfficer
+  playTimeTracker: AU14JobPlatoonCommander
   ranks:
     RMCRankSecondLT: []
   weight: 5
