@@ -17,7 +17,7 @@
             # Command
             CMCommandingOfficer: [0, 0]
             CMExecutiveOfficer: [1, 1]
-            CMStaffOfficer: [0, 0]
+            CMStaffOfficer: [1, 1]
             CMSeniorEnlistedAdvisor: [0, 0]
 
             # Military Police
