@@ -40,6 +40,8 @@
         RMCSkillJtac: 1
         RMCSkillMedical: 2
         RMCSkillSurgery: 1
+        RMCSkillConstruction: 2
+        RMCSkillEngineer: 3
     - type: CMVendorUser
       points: 45
     - type: SquadArmorWearer
