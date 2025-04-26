@@ -4,10 +4,6 @@
   name: cm-job-name-fireteam-leader
   description: cm-job-description-fireteam-leader
   playTimeTracker: CMJobFireteamLeader
-  requirements:
-  - !type:DepartmentTimeRequirement
-    department: CMSquad
-    time: 36000 # 10 hours
   ranks:
     RMCRankSergeant: []
   startingGear: CMGearFireteamLeader

@@ -4,10 +4,6 @@
   name: cm-job-name-smart-gun-operator
   description: cm-job-description-smart-gun-operator
   playTimeTracker: CMJobSmartGunOperator
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: CMSquad
-      time: 36000 # 10 hours
   ranks:
     RMCRankCorporal:
     - !type:RoleTimeRequirement
