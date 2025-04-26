@@ -1,9 +1,9 @@
 ﻿- type: job
   parent: CMJobBase
   id: CMStaffOfficer
-  name: cm-job-name-staff-officer
-  description: cm-job-description-staff-officer
-  setPreference: false
+  name: cm-job-name-platoon-operations-officer
+  description: cm-job-description-platoon-operations-officer
+  setPreference: true
   playTimeTracker: CMJobStaffOfficer
   ranks:
     RMCRankSecondLT: []
@@ -12,7 +12,7 @@
   icon: "CMJobIconStaffOfficer"
   requireAdminNotify: true
   joinNotifyCrew: true
-  supervisors: cm-job-supervisors-co
+  supervisors: cm-job-supervisors-platco
   accessGroups:
   - MarineMain
   minimapIcon:
@@ -58,8 +58,6 @@
     ears: RMCHeadsetMarineCommand
     pocket1: RMCPouchGeneralLarge
     pocket2: RMCPouchGeneralLarge
-  inhand:
-    - RMCRangefinder
 
 - type: entity
   parent: CMSpawnPointJobBase
