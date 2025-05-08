@@ -37,6 +37,10 @@
     layers:
     - state: base
       map: [ "enum.GunVisualLayers.Base" ]
+    - sprite: _RMC14/Objects/Weapons/Guns/Attachments/barrel.rsi
+      state: d_ml66_barrel
+      offset: 0.65, 0.0
+      map: [ "barrel" ]
     - state: mag-0
       map: [ "enum.GunVisualLayers.Mag" ]
   - type: Clothing
@@ -144,7 +148,7 @@
           - RMCAttachmentRailFlashlight
   - type: AttachableHolderVisuals
     offsets:
-      rmc-aslot-rail: -0.1875, 0.125
+      rmc-aslot-rail: 0.1900, 0.00
   - type: ItemCamouflage
     camouflageVariations:
       Jungle: _RMC14/Objects/Weapons/Guns/SmartGuns/ml66a/jungle.rsi
