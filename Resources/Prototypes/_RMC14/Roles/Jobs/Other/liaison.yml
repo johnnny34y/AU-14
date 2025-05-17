@@ -3,6 +3,7 @@
   id: CMLiaison
   name: cm-job-name-liaison
   description: cm-job-description-liaison
+  setPreference: false
   requirements:
   - !type:TotalDepartmentsTimeRequirement
     group: CMDepartmentsHuman

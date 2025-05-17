@@ -1,6 +1,7 @@
 - type: soundCollection
   id: LobbyMusic
   files:
+  - /Audio/_AU14/Lobby/mazianni.ogg
   - /Audio/_AU14/Lobby/the_day_it_fell_apart.ogg
   - /Audio/_AU14/Lobby/bomber.ogg
   - /Audio/_AU14/Lobby/sam_jones.ogg
