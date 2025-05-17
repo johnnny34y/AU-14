@@ -55,13 +55,7 @@
 - type: startingGear
   id: CMGearExecutiveOfficer
   equipment:
-    jumpsuit: CMJumpsuitBO
-    shoes: RMCShoesLaceup
-    head: CMHeadCap
     id: CMIDCardExecutiveOfficer
-    ears: CMHeadsetSeniorCommand
-    pocket1: RMCPouchGeneralLarge
-    pocket2: RMCPouchGeneralLarge
 
 - type: entity
   parent: CMSpawnPointJobBase
