@@ -103,7 +103,7 @@
   parent: AU14WallFlagBase
   id: AU14WallFlagUPP
   name: "UPP Flag"
-  description: "The flag of the Three World Empire."
+  description: "The flag of the Union of Progressive Peoples."
   components:
   - type: Sprite
     state: uppflag

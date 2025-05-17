@@ -45,10 +45,7 @@
 - type: startingGear
   id: CMGearPilotGunship
   equipment:
-    jumpsuit: CMJumpsuitPilot
-    shoes: CMBootsBlackFilled
     id: CMIDCardPilotGunship
-    ears: CMHeadsetPilot
 
 - type: entity
   parent: CMSpawnPointJobBase
