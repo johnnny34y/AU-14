@@ -29,7 +29,7 @@
     soundActivate:
       path: /Audio/_RMC14/Medical/defib_SafetyOn.ogg
     soundDeactivate:
-      path: /Audio/_RMC14/Medical/defib_safetyOff.ogg
+      path: /Audio/_RMC14/Medical/defib_SafetyOff.ogg
   - type: Defibrillator
     zapDelay: 0
     doAfterDuration: 6.25
