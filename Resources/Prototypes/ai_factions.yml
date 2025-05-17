@@ -48,6 +48,7 @@
   - Zombie
   - Revolutionary
   - AllHostile
+  - UNMC
 
 - type: npcFaction
   id: SimpleNeutral
@@ -62,6 +63,7 @@
   - Zombie
   - Dragon
   - AllHostile
+  - UNMC
 
 - type: npcFaction
   id: Xeno
@@ -86,6 +88,7 @@
   - PetsNT
   - Revolutionary
   - AllHostile
+  - UNMC
 
 - type: npcFaction
   id: Revolutionary
@@ -95,6 +98,7 @@
   - SimpleHostile
   - Dragon
   - AllHostile
+  - UNMC
 
 - type: npcFaction
   id: AllHostile
@@ -110,3 +114,4 @@
   - Xeno
   - Zombie
   - Revolutionary
+  - UNMC
