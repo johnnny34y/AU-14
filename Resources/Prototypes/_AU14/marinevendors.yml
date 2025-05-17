@@ -219,7 +219,7 @@
     access:
     - [ "CMAccessMarinePrep" ]
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/gear.rsi
   - type: CMAutomatedVendor
     sections:
     - name: Food
@@ -329,7 +329,7 @@
     access:
     - [ "CMAccessMarinePrep" ]
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_gear.rsi
   - type: CMAutomatedVendor
     sections:
     - name: Medical Helmets
