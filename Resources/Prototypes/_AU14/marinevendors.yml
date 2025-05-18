@@ -386,6 +386,8 @@
         amount: 1
     - name: Field Supplies
       entries:
+      - id: AU14CMDefibrillator
+        amount: 1
       - id: CMBurnKit10
         amount: 10
       - id: CMTraumaKit10
@@ -517,7 +519,7 @@
         amount: 2
       - id: AU14PVEHandsInsulatedBlackMarine
         amount: 2
-      - id: CMHeadsetPilot
+      - id: CMHeadsetSeniorCommand
         amount: 2
     - name: Webbings
       entries:
