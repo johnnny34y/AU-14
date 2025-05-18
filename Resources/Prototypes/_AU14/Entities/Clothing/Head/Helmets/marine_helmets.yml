@@ -118,3 +118,14 @@
     sprite: _AU14/Clothing/JungleHats/m50tankerhelmet.rsi
   - type: Clothing
     sprite: _AU14/Clothing/JungleHats/m50tankerhelmet.rsi
+
+- type: entity
+  parent: RMCMarineHelmetBase
+  id: AU14UACGHelmet
+  name: UACG Riot Helmet
+  description: A cheap and lightweight riot helmet used by the United Americas Colonial Guard. Provides little to no ballistic protection.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/uacghelmet.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/uacghelmet.rsi
