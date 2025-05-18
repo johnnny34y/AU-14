@@ -81,7 +81,7 @@
   components:
   - type: PowerCellDraw
     enabled: false
-    useRate: 66
+    useRate: 150
   - type: RMCPowerUsageDisplay
 
 - type: entity
