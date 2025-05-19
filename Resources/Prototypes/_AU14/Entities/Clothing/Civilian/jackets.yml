@@ -1,0 +1,203 @@
+#Parkas
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianJacketBlueParka
+  name: Blue Parka
+  description: A nice parka, designed to keep you warm in cold weather.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/blueparka.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/blueparka.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianJacketGreenParka
+  name: Green Parka
+  description: A nice parka, designed to keep you warm in cold weather.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/greenparka.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/greenparka.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianJacketRedParka
+  name: Red Parka
+  description: A nice parka, designed to keep you warm in cold weather.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/redparka.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/redparka.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianJacketYellowParka
+  name: Yellow Parka
+  description: A nice parka, designed to keep you warm in cold weather.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/yellowparka.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/yellowparka.rsi
+
+# Puffer Jackets
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianJacketGrayPufferJacket
+  name: Gray Puffer Jacket
+  description: A stylish puffer jacket.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/graypufferjacket.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/graypufferjacket.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianJacketKhakiPufferJacket
+  name: Khaki Puffer Jacket
+  description: A stylish puffer jacket.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/kahkipufferjacket.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/kahkipufferjacket.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianJacketOrangePufferJacket
+  name: Orange Puffer Jacket
+  description: A stylish puffer jacket.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/orangepufferjacket.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/orangepufferjacket.rsi
+
+#Puffer Vests
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianJacketGrayPufferVest
+  name: Gray Puffer Vest
+  description: A stylish puffer vest.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/graypuffervest.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/graypuffervest.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianJacketKhakiPufferVest
+  name: Khaki Puffer Vest
+  description: A stylish puffer vest.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/kahkipuffervest.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/kahkipuffervest.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianJacketTanPufferVest
+  name: Tan Puffer Vest
+  description: A stylish puffer vest.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/tanpuffervest.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/tanpuffervest.rsi
+
+#Windbreakers
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14WindbreakerBlue
+  name: Blue Windbreaker
+  description: A windbreaker designed to keep you warm in windy conditions. Its also waterproof.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/bluewindbreaker.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/bluewindbreaker.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14WindbreakerGray
+  name: Gray Windbreaker
+  description: A windbreaker designed to keep you warm in windy conditions. Its also waterproof.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/graywindbreaker.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/graywindbreaker.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14WindbreakerGreen
+  name: Green Windbreaker
+  description: A windbreaker designed to keep you warm in windy conditions. Its also waterproof.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/greenwindbreaker.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/greenwindbreaker.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14WindbreakerKhaki
+  name: Khaki Windbreaker
+  description: A windbreaker designed to keep you warm in windy conditions. Its also waterproof.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/kahkiwindbreaker.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/kahkiwindbreaker.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14WindbreakerKhakiGreenMix
+  name: Green-Khaki Windbreaker
+  description: A windbreaker designed to keep you warm in windy conditions. Its also waterproof.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/windbreakerkahkigreen.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/windbreakerkahkigreen.rsi
+
+#misc/other
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianJacketBomberJacket
+  name: Bomber Jacket
+  description: A simple bomber jacket, originally designed for pilots.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/bomberjacket.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/bomberjacket.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianJacketOldCoat
+  name: Old Coat
+  description: A very old coat, something your grandpa would wear...
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/oldcoat.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/oldcoat.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianJacketSnowSuit
+  name: Snow Jacket
+  description: A white snow jacket for very cold conditions.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/snowsuit.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/snowsuit.rsi
