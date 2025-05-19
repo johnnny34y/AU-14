@@ -20,7 +20,7 @@
           True: { visible: true }
           False: { visible: false }
   - type: Item
-    size: Normal
+    size: Ginormous
     sprite: _AU14/Items/audefib.rsi
     heldPrefix: defib
   - type: Speech
@@ -81,7 +81,7 @@
   components:
   - type: PowerCellDraw
     enabled: false
-    useRate: 66
+    useRate: 150
   - type: RMCPowerUsageDisplay
 
 - type: entity

@@ -74,3 +74,14 @@
     sprite: _AU14/Clothing/JungleHats/booniehat.rsi
   - type: Clothing
     sprite: _AU14/Clothing/JungleHats/booniehat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: AU14UACGPatrolCap
+  name: UACG Patrol Cap
+  description: A simple patrol cap.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/DesertHats/cap.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/DesertHats/cap.rsi
