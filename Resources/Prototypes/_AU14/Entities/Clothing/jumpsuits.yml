@@ -45,9 +45,9 @@
 
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
-  id: AU14UACGFatigues
-  name: UACG fatigues
-  description: Standard-issue UACG fatigues.
+  id: AU14USCMOperationsUniform
+  name: USCM operations uniform
+  description: Standard-issue USCM operations uniform. Used by command and support personnel on USCM installations.
   components:
   - type: Sprite
-    sprite: _AU14/Clothing/desertfatigues.rsi
+    sprite: _AU14/Clothing/uscmoperationsuniform.rsi
