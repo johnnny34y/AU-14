@@ -1,0 +1,440 @@
+﻿- type: entity
+  parent: ColMarTechBase
+  id: AU14CivilianClothingVendor
+  name: Civilian Clothing Wardrobe
+  description: A wardrobe containing all the clothes a civilian would ever need.
+  suffix: Civ
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/corp_wardrobe.rsi
+    layers:
+    - state: "base"
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded", "enum.VendingMachineVisualLayers.Base" ]
+  - type: CMAutomatedVendor
+    sections:
+    - name: Shoes
+      entries:
+      - id: RMCShoesBlack
+        amount: 30
+      - id: RMCShoesBlue
+        amount: 30
+      - id: RMCShoesBrown
+        amount: 30
+      - id: RMCShoesGreen
+        amount: 30
+      - id: RMCShoesOrange
+        amount: 30
+      - id: RMCShoesPurple
+        amount: 30
+      - id: RMCShoesRed
+        amount: 30
+      - id: RMCShoesWhite
+        amount: 30
+      - id: RMCShoesYellow
+        amount: 30
+      - id: RMCBootsPMC
+        amount: 30
+      - id: RMCShoesLaceupBrown
+        amount: 30
+      - id: RMCShoesLaceup
+        amount: 30
+      - id: RMCShoesLeather
+        amount: 30
+    - name: Hats
+      entries:
+      - id: AU14CivBallCapBlack
+        amount: 30
+    - name: Work Wear
+      entries:
+      - id: AU14CivilianWorkwearYellow
+        amount: 30
+      - id: AU14CivilianWorkwearPink
+        amount: 30
+      - id: AU14CivilianWorkwearBlue
+        amount: 30
+      - id: AU14CivilianWorkwearGreen
+        amount: 30
+    - name: Business Attire
+      entries:
+      - id: CMJumpsuitLiaisonBlack
+        amount: 30
+      - id: CMJumpsuitLiaisonBlue
+        amount: 30
+      - id: CMJumpsuitLiaisonBrown
+        amount: 30
+      - id: CMJumpsuitLiaisonField
+        amount: 30
+      - id: CMJumpsuitLiaisonIvy
+        amount: 30
+      - id: CMJumpsuitLiaisonCorporateFormal
+        amount: 30
+      - id: CMJumpsuitLiaisonFormal
+        amount: 30
+      - id: CMJumpsuitLiaison
+        amount: 30
+      - id: CMJumpsuitLiaisonBlazer
+        amount: 30
+      - id: CMJumpsuitLiaisonCharcoal
+        amount: 30
+    - name: Miscellaneous Clothes
+      entries:
+      - id: RMCJumpsuitDutchBandolier
+        amount: 30
+      - id: RMCJumpsuitCivilian
+        amount: 30
+      - id: CMJumpsuitColonist
+        amount: 30
+      - id: CMJumpsuitTShirtWhite
+        amount: 30
+      - id: CMJumpsuitTShirtGray
+        amount: 30
+      - id: CMJumpsuitTShirtRed
+        amount: 30
+    - name: Suit Jackets
+      entries:
+      - id: RMCJacketCorporateKhaki
+        amount: 30
+      - id: RMCJacketCorporateBlack
+        amount: 30
+      - id: RMCJacketCorporateBlue
+        amount: 30
+      - id: RMCJacketCorporateBrown
+        amount: 30
+    - name: Puffer Vests
+      entries:
+      - id: AU14CivilianJacketGrayPufferVest
+        amount: 30
+      - id: AU14CivilianJacketKhakiPufferVest
+        amount: 30
+      - id: AU14CivilianJacketTanPufferVest
+        amount: 30
+    - name: Puffer Jackets
+      entries:
+      - id: AU14CivilianJacketGrayPufferJacket
+        amount: 30
+      - id: AU14CivilianJacketOrangePufferJacket
+        amount: 30
+      - id: AU14CivilianJacketKhakiPufferJacket
+        amount: 30
+    - name: Windbreakers
+      entries:
+      - id: AU14WindbreakerBlue
+        amount: 30
+      - id: AU14WindbreakerGray
+        amount: 30
+      - id: AU14WindbreakerGreen
+        amount: 30
+      - id: AU14WindbreakerKhakiGreenMix
+        amount: 30
+      - id: AU14WindbreakerKhaki
+        amount: 30
+    - name: Parkas
+      entries:
+      - id: AU14CivilianJacketBlueParka
+        amount: 30
+      - id: AU14CivilianJacketGreenParka
+        amount: 30
+      - id: AU14CivilianJacketRedParka
+        amount: 30
+      - id: AU14CivilianJacketYellowParka
+        amount: 30
+    - name: Miscellaneous Jackets
+      entries:
+      - id: AU14CivilianJacketBomberJacket
+        amount: 30
+      - id: AU14CivilianJacketOldCoat
+        amount: 30
+      - id: AU14CivilianJacketSnowSuit
+        amount: 30
+    - name: Gloves
+      entries:
+      - id: CMHandsBrown
+        amount: 30
+      - id: CMHandsLightBrown
+        amount: 30
+    - name: Headsets
+      entries:
+      - id: CMHeadsetColony
+        amount: 30
+    - name: Storage
+      entries:
+      - id: CMSatchel
+        amount: 30
+      - id: RMCBeltUtilityGeneral
+        amount: 30
+      - id: RMCPouchGeneral
+        amount: 30
+
+- type: entity
+  parent: ColMarTechBase
+  id: AU14CivilianEngineerVendor
+  name: Civilian Engineering Vendor
+  description: A vendor containing all the equipment an engineer would ever need.
+  suffix: Civ
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/corp_wardrobe.rsi
+    layers:
+    - state: "base"
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded", "enum.VendingMachineVisualLayers.Base" ]
+  - type: CMAutomatedVendor
+    sections:
+    - name: Shoes
+      entries:
+      - id: RMCBootsCorporate
+        amount: 10
+    - name: Helmets
+      entries:
+      - id: RMCHardhatOrange
+        amount: 10
+    - name: Clothing
+      entries:
+      - id: AU14CivilianBoilerSuitLightBlue
+        amount: 10
+      - id: CMJumpsuitTShirtWhite
+        amount: 10
+      - id: CMJumpsuitTShirtGray
+        amount: 10
+    - name: Jackets & Vests
+      entries:
+      - id: RMCHazardVest
+        amount: 10
+      - id: AU14CivilianJacketSnowSuit
+        amount: 10
+    - name: Gloves
+      entries:
+      - id: RMCHandsVeteranInsulated
+        amount: 10
+    - name: Headsets
+      entries:
+      - id: CMHeadsetColony
+        amount: 10
+    - name: Storage & Belts
+      entries:
+      - id: CMSatchel
+        amount: 10
+      - id: CMSatchelEngineer
+        amount: 10
+      - id: CMBeltUtilityFilled
+        amount: 10
+      - id: RMCBeltUtilityGeneral
+        amount: 10
+      - id: RMCPouchGeneral
+        amount: 10
+      - id: RMCPouchToolsFill
+        amount: 10
+      - id: RMCPouchElectronics
+        amount: 10
+
+- type: entity
+  parent: ColMarTechBase
+  id: AU14CivilianMedicalClothingVendor
+  name: Civilian Medical Clothing Wardrobe
+  description: A wardrobe containing all the clothes medical personnel would ever need.
+  suffix: Civ
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/corp_wardrobe.rsi
+    layers:
+    - state: "base"
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded", "enum.VendingMachineVisualLayers.Base" ]
+  - type: CMAutomatedVendor
+    sections:
+    - name: Shoes
+      entries:
+      - id: RMCShoesBlack
+        amount: 5
+      - id: RMCShoesBlue
+        amount: 5
+      - id: RMCShoesBrown
+        amount: 5
+      - id: RMCShoesGreen
+        amount: 5
+      - id: RMCShoesOrange
+        amount: 5
+      - id: RMCShoesPurple
+        amount: 5
+      - id: RMCShoesRed
+        amount: 5
+      - id: RMCShoesWhite
+        amount: 5
+      - id: RMCShoesYellow
+        amount: 5
+      - id: RMCShoesLaceupBrown
+        amount: 5
+      - id: RMCShoesLaceup
+        amount: 5
+      - id: RMCShoesLeather
+        amount: 5
+    - name: Work Wear
+      entries:
+      - id: AU14CivilianWorkwearYellow
+        amount: 5
+      - id: AU14CivilianWorkwearPink
+        amount: 5
+      - id: AU14CivilianWorkwearBlue
+        amount: 5
+      - id: AU14CivilianWorkwearGreen
+        amount: 5
+    - name: Medical Scrubs
+      entries:
+      - id: CMScrubsPurple
+        amount: 5
+      - id: CMScrubsBlue
+        amount: 5
+      - id: CMScrubsGreen
+        amount: 5
+      - id: RMCScrubsLightBlue
+        amount: 5
+    - name: Medical Scrub Caps
+      entries:
+      - id: CMHeadCapSurgPurple
+        amount: 5
+      - id: CMHeadCapSurgBlue
+        amount: 5
+      - id: CMHeadCapSurgGreen
+        amount: 5
+    - name: Jackets
+      entries:
+      - id: RMCLabcoat
+        amount: 5
+      - id: AU14CivilianJacketSnowSuit
+        amount: 5
+    - name: Medical Gloves
+      entries:
+      - id: CMHandsLatex
+        amount: 5
+      - id: ClothingHandsGlovesNitrile
+        amount: 5
+    - name: Medical Masks
+      entries:
+      - id: CMMaskSterile
+        amount: 5
+    - name: Headsets
+      entries:
+      - id: CMHeadsetColony
+        amount: 5
+    - name: Medical Pouches
+      entries:
+      - id: RMCPouchAutoinjector
+        amount: 5
+      - id: RMCPouchFirstResponder
+        amount: 5
+      - id: RMCPouchReagentCanisterBicaridine
+        name: Pressurized Reagent Canister Pouch\n(Bicaridine)
+        amount: 5
+      - id: RMCPouchReagentCanisterKelotane
+        name: Pressurized Reagent Canister Pouch\n(Kelotane)
+        amount: 5
+      - id: RMCPouchReagentCanisterTricordrazine
+        name: Pressurized Reagent Canister Pouch\n(Tricordrazine)
+        amount: 5
+      - id: RMCPouchReagentCanister
+        name: Pressurized Reagent Canister Pouch\n(EMPTY)
+        amount: 5
+      - id: RMCPouchVialFill
+        name: vial pouch (Full)
+        amount: 5
+      - id: RMCPouchMedical
+        amount: 5
+      - id: RMCPouchSyringeFill
+        amount: 5
+      - id: RMCPouchFirstAidInjectors
+        name: first-aid pouch (refillable injectors)
+        amount: 5
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: first-aid pouch (gauze, ointment) # TODO RMC14 splints
+        amount: 5
+      - id: RMCPouchFirstAidPills
+        name: first-aid pouch (pills)
+        amount: 5
+    - name: Medical Belts
+      entries:
+      - id: CMBeltMedicalFilled
+        amount: 5
+      - id: CMBeltMedicBagFilled
+        amount: 5
+    - name: Medical Bags
+      entries:
+      - id: CMSatchelMedical
+        amount: 5
+      - id: CMSatchel
+        amount: 5
+    - name: Field Supplies
+      entries:
+      - id: CMBurnKit10
+        amount: 20
+      - id: CMTraumaKit10
+        amount: 20
+      - id: CMSurgicalLine
+        amount: 5
+      - id: CMSynthGraft
+        amount: 5
+    #    CMMedicalSplints
+      - id: CMBloodPackFull # TODO RMC14 O-
+        name: blood bag (O-)
+        amount: 10
+    - name: Firstaid Kits
+      entries:
+      - id: CMAdvFirstAidKitFilled
+        amount: 5
+#        recommended: true
+      - id: CMFirstAidKitFilled
+        amount: 5
+      - id: CMBurnAidKitFilled
+        amount: 5
+      - id: CMToxinAidKitFilled
+        amount: 5
+      - id: CMFirstAidO2KitFilled
+        amount: 5
+#      - id: #    CMRadiationFirstaidKit
+    - name: Pill Bottles
+      entries:
+      - id: CMPillCanisterBicaridine
+        amount: 5
+        recommended: true
+      - id: CMPillCanisterDexalin
+        amount: 5
+      - id: CMPillCanisterDylovene
+        amount: 5
+      - id: CMPillCanisterInaprovaline
+        amount: 5
+      - id: CMPillCanisterKelotane
+        amount: 5
+        recommended: true
+#      - id: CMPillCanisterPeridaxon
+#      - id: CMPillCanisterTramadol
+    - name: Injectors
+      entries:
+      - id: CMBicaridineAutoInjector
+        amount: 20
+      - id: CMDexalinPlusAutoInjector
+        amount: 20
+      - id: CMEpinephrineAutoInjector
+        amount: 20
+      - id: CMInaprovalineAutoInjector
+        amount: 20
+      - id: CMKelotaneAutoInjector
+        amount: 20
+    - name: Medical Utilities
+      entries:
+     #    CMMS11SmartRefillTank
+     # FixOVien
+      - id: CMRollerBedSpawnFolded
+        amount: 5
+      - id: RMCRollerBedHospitalSheet2Folded
+        amount: 5
+      - id: CMStasisBagFolded
+        amount: 2
+      - id: RMCBoxBodyBag
+        amount: 5
+      - id: CMHealthAnalyzer
+        amount: 5
+      - id: RMCFlashlightPen
+        amount: 5
+      - id: CMHyposprayWithVial
+        amount: 5
+      - id: RMCVial
+        amount: 20
+      - id: RMCGlassesMedicalHUDGlasses
+        amount: 5

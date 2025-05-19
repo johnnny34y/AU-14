@@ -1,0 +1,80 @@
+﻿- type: entity
+  parent: ColMarTechBase
+  id: AU14CMBequipmentvendor
+  name: CMB equipment vendor
+  description: An automated rack hooked up to a small storage of CMB equipment.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_ammo.rsi
+  - type: CMAutomatedVendor
+    sections:
+    - name: Clothes
+      entries:
+      - id: AU14CMBUniform
+        amount: 6
+      - id: AU14CMBDeputyWindbreaker
+        amount: 5
+      - id: AU14CMBMarshalWindbreaker
+        amount: 1
+      - id: RMCHeadCapBureau
+        amount: 6
+      - id: RMCBootsPMCFilled
+        amount: 6
+    - name: Glasses
+      entries:
+      - id: CMGlassesSecurity
+        amount: 6
+    - name: Storage
+      entries:
+      - id: CMBeltSecurityMarshalFilled
+        amount: 6
+      - id: RMCBeltUtilityGeneral
+        amount: 6
+      - id: CMWebbingHolster
+        amount: 6
+      - id: CMSatchelSecurity
+        amount: 6
+      - id: CMSatchel
+        amount: 6
+      - id: RMCSatchelLightpack
+        amount: 6
+    - name: Pouches
+      entries:
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        amount: 6
+      - id: RMCPouchRadio
+        amount: 6
+      - id: RMCPouchGeneralMedium
+        amount: 6
+      - id: RMCPouchPistol
+        amount: 6
+      - id: RMCPouchMagazinePistol
+        amount: 6
+    - name: Equipment
+      entries:
+      - id: RMCRadioHandheldColonyOff
+        amount: 6
+      - id: RMCGrenadeFlashBang
+        amount: 2
+      - id: RMCHandcuffs
+        amount: 12
+      - id: Zipties
+        amount: 20
+    - name: Headsets
+      entries:
+      - id: CMHeadsetColony
+        amount: 6
+    - name: Duty Weapons
+      entries:
+      - id: RMCGunCasePistolM1984
+        amount: 3
+      - id: RMCGunCasePistolM77
+        amount: 2
+      - id: RMCGunCaseRevolverRSh9
+        amount: 1
+    - name: Less Than Lethal Ammunition
+      entries:
+      - id: RMCMagazinePistolM1984Rubber
+        amount: 5
+      - id: RMCMagazinePistolM77Rubber
+        amount: 5

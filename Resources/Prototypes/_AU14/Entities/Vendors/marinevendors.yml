@@ -219,7 +219,7 @@
     access:
     - [ "CMAccessMarinePrep" ]
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/gear.rsi
   - type: CMAutomatedVendor
     sections:
     - name: Food
@@ -329,7 +329,7 @@
     access:
     - [ "CMAccessMarinePrep" ]
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_gear.rsi
   - type: CMAutomatedVendor
     sections:
     - name: Medical Helmets
@@ -722,7 +722,7 @@
         amount: 30
       - id: CMJumpsuitXOFormal
         amount: 2
-      - id: CMJumpsuitOperations
+      - id: AU14USCMOperationsUniform
         amount: 2
       - id: CMHandsBrown
         amount: 2
@@ -890,7 +890,7 @@
     access:
     - [ "CMAccessMarinePrep" ]
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/smart_gun_operator_gear.rsi
   - type: CMAutomatedVendor
     sections:
     - name: Essential Equipment
