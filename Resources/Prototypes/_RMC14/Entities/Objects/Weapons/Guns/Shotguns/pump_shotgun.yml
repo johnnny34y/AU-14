@@ -2,7 +2,7 @@
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
   name: M37A3 pump shotgun
   id: WeaponShotgunM42A2
-  description: An ARMAT Battlefield Armaments classic design, the M42A2 combines close-range firepower with long term reliability. Needs to be pumped.
+  description: An ARMAT Battlefield Armaments classic design, the M37A3 combines close-range firepower with long term reliability. Needs to be pumped.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m42a2/desert.rsi
