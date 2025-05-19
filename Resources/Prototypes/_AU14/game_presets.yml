@@ -1,8 +1,21 @@
 - type: gamePreset
-  id: Insurgency
+  id: AUExtended
   alias:
   - extended
-  name: insurgency-title
+  - Extended
+  name: au-extended-title
   showInVote: true
-  description: insurgency-description
+  description: au-extended-description
   # rules:
+
+- type: gamePreset
+  id: Insurgency
+  alias:
+    - insurgency
+    - traitor
+  name: insurgency-title
+  description: insurgency-description
+  showInVote: true
+  rules:
+    - Traitor
+    - SubGamemodesRule
