@@ -4,11 +4,8 @@
   name: CMB equipment vendor
   description: An automated rack hooked up to a small storage of CMB equipment.
   components:
-  - type: AccessReader
-    access:
-    - [ "CMAccessMarinePrep" ]
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_ammo.rsi
   - type: CMAutomatedVendor
     sections:
     - name: Clothes
@@ -63,6 +60,10 @@
         amount: 12
       - id: Zipties
         amount: 20
+    - name: Headsets
+      entries:
+      - id: CMHeadsetColony
+        amount: 6
     - name: Duty Weapons
       entries:
       - id: RMCGunCasePistolM1984

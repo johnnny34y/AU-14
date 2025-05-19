@@ -167,13 +167,13 @@
   parent: ColMarTechBase
   id: AU14LACNequipmentvendor
   name: LACN landing forces equipment vendor
-  description: An automated rack hooked up to a small storage of standard marine equipment.
+  description: An automated rack hooked up to a small storage of standard LACN equipment.
   components:
   - type: AccessReader
     access:
     - [ "CMAccessMarinePrep" ]
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/gear.rsi
   - type: CMAutomatedVendor
     sections:
     - name: Food
@@ -283,7 +283,7 @@
     access:
     - [ "CMAccessMarinePrep" ]
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_equipment.rsi
   - type: CMAutomatedVendor
     sections:
     - name: Medical Pouches
@@ -792,7 +792,7 @@
     access:
     - [ "CMAccessMarinePrep" ]
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_ammo.rsi
   - type: CMAutomatedVendor
     sections:
     - name: Essential Equipment
