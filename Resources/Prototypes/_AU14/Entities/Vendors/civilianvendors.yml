@@ -40,6 +40,10 @@
         amount: 30
       - id: RMCShoesLeather
         amount: 30
+    - name: Hats
+      entries:
+      - id: AU14CivBallCapBlack
+        amount: 30
     - name: Work Wear
       entries:
       - id: AU14CivilianWorkwearYellow

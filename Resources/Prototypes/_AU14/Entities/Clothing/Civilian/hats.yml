@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: AU14USCMVeteranCap
+  name: USCM Veteran Ball Cap
+  description: "A black ball cap with the patch of the USCM, surrounded by the words 'USCMC Veteran Semper Fi'"
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/ussartemiscap.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/ussartemiscap.rsi
+    
+- type: entity
+  parent: ClothingHeadBase
+  id: AU14CivBallCapBlack
+  name: Black Ball Cap
+  description: A simple ball cap.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Hats/blackballcap.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Hats/blackballcap.rsi
