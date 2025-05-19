@@ -97,7 +97,7 @@
   - type: PointLight
     enabled: true
     radius: 10
-    netsync: false
+    netsync: true
     energy: 7
     offset: "0,0.5"
     color: "#ECFFFF"
@@ -128,6 +128,9 @@
         layer:
         - WallLayer
   - type: Appearance
+  - type: RMCReactorPoweredLight
+  - type: PreventAttackLightOff
+  - type: RequireProjectileTarget
 
 - type: entity
   parent: BaseStructure
@@ -171,8 +174,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCLZFloodlight
-  name: LZ floodlight
-  description: An indestructible bit of light in the darkness. Never seems to run out of power.
+  name: landing light
+  description: A powerful light usually stationed near landing zones to provide better visibility. This one seems to have been bolted down and is unable to be moved.
   placement:
     mode: SnapgridCenter
   components:
@@ -247,6 +250,7 @@
     netsync: true
   - type: RMCReactorPoweredLight
   - type: PreventAttackLightOff
+  - type: RequireProjectileTarget
 
 - type: entity
   parent: RMCFloodlightBroken

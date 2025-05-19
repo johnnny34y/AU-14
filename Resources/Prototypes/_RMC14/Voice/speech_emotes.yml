@@ -173,33 +173,107 @@
     - whining.
 
 - type: emote
-  id: Warcry
-  name: au14-emote-name-warcry
+  id: Gnash
+  name: rmc-emote-name-gnash
   category: Vocal
+  available: false
   whitelist:
     components:
     - Vocal
   blacklist:
     components:
     - BorgChassis
-  icon: _AU14/Interface/Emotes/warcry.png
-  chatMessages: ["au14-chat-emote-msg-warcry"]
+  chatMessages: ["rmc-emote-gnash"]
   chatTriggers:
-   - shouts an inspiring cry
-   - shouts an inspiring cry!
+    - gnash
+    - gnashes
+    - gnashes.
+    - gnashes!
+    - gnash.
+    - gnash!
+    - gnashes teeth
+    - gnashes their teeth
+    - gnashes her teeth
+    - gnashes his teeth
+    - gnashes its teeth
+
+# Skrell
+- type: emote
+  id: RMCSkrellAnger
+  name: rmc-emote-name-anger
+  category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["rmc-emote-anger"]
+  chatTriggers:
+    - anger
+    - anger.
+    - anger!
+    - angers
+    - angers.
+    - angers!
 
 - type: emote
-  id: Corpsman
-  name: au14-emote-name-corpsman
+  id: RMCSkrellPeep
+  name: rmc-emote-name-peep
   category: Vocal
+  available: false
   whitelist:
     components:
     - Vocal
   blacklist:
     components:
     - BorgChassis
-  icon: _AU14/Interface/Emotes/corpsman.png
-  chatMessages: ["au14-chat-emote-msg-corpsman"]
+  chatMessages: ["rmc-emote-peep"]
   chatTriggers:
-   - screams for a corpsman
-   - screams for a corpsman!
+    - peep
+    - peep.
+    - peep!
+    - peeps
+    - peeps.
+    - peeps!
+
+- type: emote
+  id: RMCSkrellTrill
+  name: rmc-emote-name-trill
+  category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["rmc-emote-trill"]
+  chatTriggers:
+    - trill
+    - trill.
+    - trill!
+    - trills
+    - trills.
+    - trills!
+
+- type: emote
+  id: RMCSkrellWarble
+  name: rmc-emote-name-warble
+  category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: ["rmc-emote-warble"]
+  chatTriggers:
+    - warble
+    - warble.
+    - warble!
+    - warbles
+    - warbles.
+    - warbles!

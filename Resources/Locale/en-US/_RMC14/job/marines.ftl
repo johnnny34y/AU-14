@@ -7,7 +7,7 @@ CMJobRifleman = Rifleman
 cm-job-name-squad-leader = Section Leader
 cm-job-description-squad-leader = Leader of a rifle section. Give your section and squads objectives and follow orders from Command. Keep your section in one piece.
 cm-job-prefix-squad-leader = SL
-CMJobSquaderLeader = Squad Leader
+CMJobSquadLeader = Squad Leader
 
 cm-job-name-fireteam-leader = Squad Leader
 cm-job-description-fireteam-leader = Follow the section leader's orders and command your squad.
@@ -33,3 +33,7 @@ cm-job-name-combat-tech = Combat Technician
 cm-job-description-combat-tech = Build or remove fortifications. Establish and maintain FOB and Power. Gain access to blocked off areas.
 cm-job-prefix-combat-tech = ComTech
 CMJobCombatTech = Combat Tech
+
+rmc-job-name-mortar-operator = Mortar Operator
+rmc-job-name-loader = Loader
+rmc-job-name-spotter= Spotter
