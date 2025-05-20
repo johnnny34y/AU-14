@@ -31,6 +31,10 @@
         amount: 20
       - id: AU14PVEHandsInsulatedBlackMarine
         amount: 20
+      - id: AU14PVEHandsFingerlessBlackGloves
+        amount: 20
+      - id: AU14PVEHandsFingerlessBrownGloves
+        amount: 20
       - id: AU14HeadsetSectionMarine
         amount: 20
       - id: CMEncryptionKeyJTAC
@@ -519,6 +523,10 @@
         amount: 2
       - id: AU14PVEHandsInsulatedBlackMarine
         amount: 2
+      - id: AU14PVEHandsFingerlessBlackGloves
+        amount: 2
+      - id: AU14PVEHandsFingerlessBrownGloves
+        amount: 2
       - id: CMHeadsetSeniorCommand
         amount: 2
     - name: Webbings
@@ -727,6 +735,10 @@
       - id: CMHandsBrown
         amount: 2
       - id: AU14PVEHandsInsulatedBlackMarine
+        amount: 2
+      - id: AU14PVEHandsFingerlessBlackGloves
+        amount: 2
+      - id: AU14PVEHandsFingerlessBrownGloves
         amount: 2
       - id: CMHeadsetSeniorCommand
         amount: 2
@@ -952,6 +964,10 @@
       - id: CMHandsBrown
         amount: 2
       - id: AU14PVEHandsInsulatedBlackMarine
+        amount: 2
+      - id: AU14PVEHandsFingerlessBlackGloves
+        amount: 2
+      - id: AU14PVEHandsFingerlessBrownGloves
         amount: 2
       - id: AU14HeadsetSectionLeader
         amount: 2

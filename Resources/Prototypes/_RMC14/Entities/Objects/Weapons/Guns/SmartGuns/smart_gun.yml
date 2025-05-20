@@ -319,7 +319,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSmartGun
-  name: "MM56B drum magazine (10x28mm)"
+  name: "M56B drum magazine (10x28mm)"
   components:
   - type: Tag
     tags:
