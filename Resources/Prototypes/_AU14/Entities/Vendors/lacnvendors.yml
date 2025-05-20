@@ -13,8 +13,8 @@
     sections:
     - name: Clothing
       entries:
-      - id: CMBootsBlack
-        amount: 20
+      - id: AU14LACNBoots
+        amount: 30
       - id: AU14LACNUniformCoat
         amount: 30
       - id: AU14LACNUniform
@@ -954,3 +954,91 @@
         amount: 2
       - id: RMCPackFlareCAS
         amount: 2
+
+- type: entity
+  parent: ColMarTechBase
+  id: AU14LACNWeaponsVendor
+  name: LACN weapons rack
+  description: An automated rack hooked up to a small storage of weapons.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessMarinePrep" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/guns.rsi
+  - type: CMAutomatedVendor
+    sections:
+    - name: Rifles
+      entries:
+      - id: AU14WeaponRifleKramerAR
+        amount: 6
+    - name: Rifle Ammunition
+      entries:
+      - id: AU14WeaponRifleKramerMagazineStandard
+        amount: 42
+      - id: AU14WeaponRifleKramerMagazineAP
+        amount: 6
+    - name: Handguns
+      entries:
+      - id: AU14WeaponPistolTPR23B
+        amount: 6
+    - name: Handgun Ammunition
+      entries:
+      - id: CMMagazinePistolM1984
+        amount: 42
+    - name: Explosives
+      entries:
+      - id: CMGrenadeFragOld
+        amount: 24
+      - id: CMGrenadeSmoke
+        amount: 6
+      - id: RMCExplosivePlastic
+        amount: 4
+      - id: RMCExplosiveBreachingCharge
+        amount: 4
+
+- type: entity
+  parent: ColMarTechBase
+  id: AU14LACNSpecialWeaponsVendor
+  name: LACN special weapons rack
+  description: An automated rack hooked up to a small storage of special weapons.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessMarinePrep" ]
+  - type: Sprite
+    sprite: _AU14/Structures/Vendors/genericweaponrack.rsi
+  - type: CMAutomatedVendor
+    sections:
+    - name: M79 grenade launcher
+      entries:
+      - id: CMWeaponLauncherM79
+        amount: 1
+      - id: CMPacketGrenadeFragFilled
+        amount: 4
+      - id: CMPacketGrenadeHighExplosiveFilled
+        amount: 2
+      - id: RMCPouchExplosive
+        amount: 2
+    - name: M42A2 scout rifle
+      entries:
+      - id: AU14WeaponSniperRifleM42A2
+        amount: 1
+      - id: CMMagazineSniperM96S
+        amount: 6
+      - id: CMMagazineSniperM96SFlak
+        amount: 2
+      - id: CMMagazineSniperM96SIncendiary
+        amount: 1
+      - id: RMCScoutShoes
+        amount: 1
+    - name: MOU53 break action shotgun
+      entries:
+      - id: WeaponShotgunMOU53
+        amount: 1
+      - id: RMCAttachmentMOU53Stock
+        amount: 1
+      - id: RMCBoxShotgunFlechette
+        amount: 7
+      - id: RMCBoxShotgunSlugs
+        amount: 5
