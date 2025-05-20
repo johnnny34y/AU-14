@@ -173,7 +173,7 @@
   suffix: Civ
   components:
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/corp_wardrobe.rsi
+    sprite: _AU14/Structures/Vendors/assortedequipment.rsi
     layers:
     - state: "base"
       map: [ "enum.VendingMachineVisualLayers.BaseUnshaded", "enum.VendingMachineVisualLayers.Base" ]
@@ -225,16 +225,18 @@
         amount: 10
       - id: RMCPouchElectronics
         amount: 10
+      - id: RMCPouchConstruction
+        amount: 10
 
 - type: entity
   parent: ColMarTechBase
   id: AU14CivilianMedicalClothingVendor
-  name: Civilian Medical Clothing Wardrobe
-  description: A wardrobe containing all the clothes medical personnel would ever need.
+  name: Civilian Medical Vendor
+  description: A wardrobe containing all the clothes and supplies medical personnel would ever need.
   suffix: Civ
   components:
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/corp_wardrobe.rsi
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_gear.rsi
     layers:
     - state: "base"
       map: [ "enum.VendingMachineVisualLayers.BaseUnshaded", "enum.VendingMachineVisualLayers.Base" ]

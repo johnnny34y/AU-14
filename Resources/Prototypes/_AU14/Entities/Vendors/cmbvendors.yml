@@ -55,9 +55,9 @@
       - id: RMCRadioHandheldColonyOff
         amount: 6
       - id: RMCGrenadeFlashBang
-        amount: 2
+        amount: 1
       - id: RMCHandcuffs
-        amount: 12
+        amount: 4
       - id: Zipties
         amount: 20
     - name: Headsets
@@ -75,6 +75,6 @@
     - name: Less Than Lethal Ammunition
       entries:
       - id: RMCMagazinePistolM1984Rubber
-        amount: 5
+        amount: 2
       - id: RMCMagazinePistolM77Rubber
-        amount: 5
+        amount: 2

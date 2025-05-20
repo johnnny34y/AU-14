@@ -8,7 +8,7 @@
     access:
     - [ "CMAccessMarinePrep" ]
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+    sprite: _AU14/Structures/Vendors/uscmgearrack.rsi
   - type: CMAutomatedVendor
     sections:
     - name: Clothing
@@ -223,7 +223,7 @@
     access:
     - [ "CMAccessMarinePrep" ]
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/gear.rsi
+    sprite: _AU14/Structures/Vendors/assortedequipment.rsi
   - type: CMAutomatedVendor
     sections:
     - name: Food
@@ -709,7 +709,7 @@
     access:
     - [ "CMAccessMarinePrep" ]
   - type: Sprite
-    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+    sprite: _AU14/Structures/Vendors/uscmcommandclothes.rsi
   - type: CMAutomatedVendor
     sections:
     - name: Clothing
@@ -948,152 +948,152 @@
     - name: Clothing
       entries:
       - id: CMBootsBlack
-        amount: 2
+        amount: 1
       - id: CMBootsBrown
-        amount: 2
+        amount: 1
       - id: AU14BootsJungle
-        amount: 2
+        amount: 1
       - id: AU14DesertFatigues
-        amount: 2
+        amount: 1
       - id: AU14JungleFatigues
-        amount: 2
+        amount: 1
       - id: AU14SnowFatigues
-        amount: 30
+        amount: 1
       - id: AU14MixedSnowFatigues
-        amount: 30
+        amount: 1
       - id: CMHandsBrown
-        amount: 2
+        amount: 1
       - id: AU14PVEHandsInsulatedBlackMarine
-        amount: 2
+        amount: 1
       - id: AU14PVEHandsFingerlessBlackGloves
-        amount: 2
+        amount: 1
       - id: AU14PVEHandsFingerlessBrownGloves
-        amount: 2
+        amount: 1
       - id: AU14HeadsetSectionLeader
-        amount: 2
+        amount: 1
     - name: Webbings
       entries:
       - id: CMWebbingBrown
-        amount: 2
+        amount: 1
       - id: CMWebbingBlack
-        amount: 2
+        amount: 1
       - id: CMWebbing
-        amount: 2
+        amount: 1
       - id: CMWebbingPouch
-        amount: 2
+        amount: 1
       - id: CMWebbingHolster
-        amount: 2
+        amount: 1
     - name: Helmets and Hats
       entries:
       - id: AU14DesertM11Helmet
-        amount: 2
+        amount: 1
       - id: AU14JungleM11Helmet
-        amount: 2
+        amount: 1
       - id: RMCHeadBeretSquad
-        amount: 2
+        amount: 1
         name: Black Beret
       - id: AU14JunglePatrolCap
-        amount: 2
+        amount: 1
       - id: AU14DesertPatrolCap
-        amount: 2
+        amount: 1
     - name: Armor and Rigs
       entries:
       - id: AU14ArmorM3JungleOne
-        amount: 2
+        amount: 1
       - id: AU14ArmorM3JungleTwo
-        amount: 2
+        amount: 1
       - id: AU14ArmorM3JungleThree
-        amount: 2
+        amount: 1
       - id: AU14ArmorM3DesertOne
-        amount: 2
+        amount: 1
       - id: AU14ArmorM3DesertTwo
-        amount: 2
+        amount: 1
       - id: AU14ArmorM3DesertThree
-        amount: 2
+        amount: 1
       - id: AU14ExternalWebbing
-        amount: 2
+        amount: 1
     - name: Backpack
       entries:
       - id: AU14IMPBackpackMarine
         amount: 1
       - id: CMSatchelMarine
-        amount: 2
+        amount: 1
 #      - id: Marine Chestrig
 #        amount: 15
       - id: RMCBackpackRTO
-        amount: 2
+        amount: 1
     - name: Belts
       entries:
       - id: CMBeltMarine
-        amount: 2
+        amount: 1
       - id: RMCBeltHolsterPistol
-        amount: 2
+        amount: 1
       - id: RMCBeltHolsterRevolver
-        amount: 2
+        amount: 1
 #      - id: M276 Pattern M82F Holster Rig
 #        amount: 5
       - id: RMCBeltUtilityGeneral
-        amount: 2
+        amount: 1
     - name: Pouches
       entries:
       - id: RMCPouchBayonet
         name: Bayonet Sheath (Full)
-        amount: 2
+        amount: 1
       - id: RMCPouchFirstAid
         name: First-Aid Pouch (Empty)
-        amount: 2
+        amount: 1
       - id: RMCPouchFlareFilled
         name: Flare Pouch (Full)
-        amount: 2
+        amount: 1
       - id: RMCPouchDocumentSmall
-        amount: 2
+        amount: 1
       - id: RMCPouchMagazine
-        amount: 2
+        amount: 1
       - id: RMCPouchGeneralMedium
-        amount: 2
+        amount: 1
       - id: RMCPouchPistol
-        amount: 2
+        amount: 1
       - id: RMCPouchFirstResponder
         name: First Responder Pouch (Empty)
-        amount: 2
+        amount: 1
       - id: RMCPouchMagazinePistolLarge
-        amount: 2
+        amount: 1
       - id: RMCPouchTools
-        amount: 2
+        amount: 1
 #      - id: Sling Pouch
 #        amount: 1
     - name: Mask
       entries:
       - id: CMMaskGas
-        amount: 2
+        amount: 1
       - id: CMMaskCoif
-        amount: 2
+        amount: 1
       - id: RMCMaskScarfBlack
-        amount: 2
+        amount: 1
       - id: RMCMaskScarfGray
-        amount: 2
+        amount: 1
       - id: RMCMaskScarfTan
-        amount: 2
+        amount: 1
       - id: RMCMaskTornScarfBlack
-        amount: 2
+        amount: 1
     - name: Miscellaneous
       entries:
       - id: AU14GogglesM1A1ClearBallistic
-        amount: 2
+        amount: 1
       - id: AU14GogglesM1A1Ballistic
-        amount: 2
+        amount: 1
       - id: AU14GogglesM1A1DarkBallistic
-        amount: 2
+        amount: 1
       - id: AU14GogglesM60
-        amount: 2
+        amount: 1
       - id: AU14GogglesM1A1LaserBallistic
-        amount: 2
+        amount: 1
       - id: RMCGlassesMarineRpg
-        amount: 2
+        amount: 1
       - id: AU14GlassesBiMex
-        amount: 2
+        amount: 1
       - id: AU14GlassesBiMexOrange
-        amount: 2
+        amount: 1
 #      - id: M5 Integrated Gas Mask
 #        amount: 10
 #      - id: M10 Helmet Netting
@@ -1109,8 +1109,103 @@
 #      - id: Marine Shoulder Patch
 #        amount: 15
       - id: RMCLaserDesignator
-        amount: 2
+        amount: 1
       - id: RMCWhistle
-        amount: 2
+        amount: 1
       - id: RMCPackFlareCAS
         amount: 2
+
+- type: entity
+  parent: ColMarTechBase
+  id: AU14USCMWeaponsVendor
+  name: USCM weapons rack
+  description: An automated rack hooked up to a small storage of weapons.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessMarinePrep" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/guns.rsi
+  - type: CMAutomatedVendor
+    sections:
+    - name: Rifles
+      entries:
+      - id: WeaponRifleM54CMK1
+        amount: 6
+    - name: Rifle Ammunition
+      entries:
+      - id: CMMagazineRifleM54CMK1
+        amount: 42
+      - id: CMMagazineRifleM54CMK1AP
+        amount: 6
+    - name: Handguns
+      entries:
+      - id: CMWeaponPistolM1984Empty
+        amount: 6
+      - id: RMCWeaponPistolM77Empty
+        amount: 2
+    - name: Handgun Ammunition
+      entries:
+      - id: CMMagazinePistolM1984
+        amount: 42
+      - id: CMMagazinePistolM77AP
+        amount: 14
+    - name: Explosives
+      entries:
+      - id: CMGrenadeHighExplosive
+        amount: 24
+      - id: CMGrenadeFrag
+        amount: 6
+      - id: CMGrenadeSmoke
+        amount: 6
+      - id: RMCGrenadeIncendiary
+        amount: 4
+      - id: CMGrenadeFragOld
+        amount: 4
+      - id: RMCExplosivePlastic
+        amount: 4
+      - id: RMCExplosiveBreachingCharge
+        amount: 4
+
+- type: entity
+  parent: ColMarTechBase
+  id: AU14USCMSpecialWeaponsVendor
+  name: USCM special weapons rack
+  description: An automated rack hooked up to a small storage of special weapons.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessMarinePrep" ]
+  - type: Sprite
+    sprite: _AU14/Structures/Vendors/genericweaponrack.rsi
+  - type: CMAutomatedVendor
+    sections:
+    - name: M240 Incinerator
+      entries:
+      - id: RMCWeaponFlamer
+        amount: 1
+      - id: RMCTankFlamer
+        amount: 3
+      - id: RMCBackpackFlamer
+        name: G4-1 fueltank
+        amount: 1
+    - name: M4RA battle rifle
+      entries:
+      - id: WeaponRifleM4SPR
+        amount: 1
+      - id: RMCAttachmentB8SmartScope
+        amount: 1
+      - id: RMCAttachmentBipod
+        amount: 1
+      - id: CMMagazineRifleM4SPR
+        amount: 12
+    - name: MK221 tactical shotgun
+      entries:
+      - id: WeaponShotgunM890
+        amount: 1
+      - id: RMCBoxShotgunBuckshot
+        amount: 8
+      - id: RMCBoxShotgunSlugs
+        amount: 6
+      - id: RMCBoxShotgunFlechette
+        amount: 6
