@@ -1,6 +1,6 @@
 - type: entity
   parent: BaseItem
-  id: AU14UADeskFlag # TODO RMC14
+  id: AU14UADeskFlag
   name: UA desk flag
   description: A desk flag of the United Americas.
   components:
@@ -15,7 +15,7 @@
 
 - type: entity
   parent: BaseItem
-  id: AU14USCMDeskFlag # TODO RMC14
+  id: AU14USCMDeskFlag
   name: USCM desk flag
   description: A desk flag of the United States Colonial Marine Corps.
   components:
