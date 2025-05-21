@@ -59,4 +59,13 @@
   description: Standard-issue UACG fatigues.
   components:
   - type: Sprite
-    sprite: _AU14/Clothing/desertfatigues.rsi
+    sprite: _AU14/Clothing/Civilian/Uniforms/kahkiboilersuit.rsi
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: AU14UASFFatigues
+  name: USASF fatigues
+  description: Standard-issue USASF fatigues.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/junglefatigues.rsi

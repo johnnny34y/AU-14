@@ -618,3 +618,234 @@
   - FoodPackagedRMC
   - FoodHealthyRMC
   - RMCLoadoutGroupPins
+
+- type: roleLoadout
+  id: AU14JobCivilianColonist
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianFoodServiceWorker
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianWasteManagementSpecialist
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianJournalist
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianColonyAdministrator
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianFreightSystemsSpecialist
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianEngineer
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianForeman
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianCorporateLiaison
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianPhysician
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianNurse
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianEthicsAndWellnessAdvisor
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianEmergencyResponseOfficer
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianCMBDeputy
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianCMBMarshal
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCLFGuerilla
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCLFPhysician
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCLFMachineGunner
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCLFCellLeader
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianEcologist
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobCivilianUSASFRecruiter
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC

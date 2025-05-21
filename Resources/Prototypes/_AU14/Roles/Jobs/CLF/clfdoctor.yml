@@ -1,0 +1,64 @@
+- type: job
+  parent: CMJobBase
+  id: AU14JobCLFPhysician
+  name: au14-job-name-clfphysician
+  description: au14-job-description-clfphysician
+  setPreference: true
+  playTimeTracker: AU14JobCLFPhysician
+  ranks:
+    RMCRankCivilian: []
+  startingGear: AU14GearCLFPhysician
+  icon: "CMJobIconEmpty"
+  requireAdminNotify: true
+  joinNotifyCrew: false
+  supervisors: au14-job-supervisors-clflrs
+  accessGroups:
+  - Colonist
+  roleWeight: 0.25
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      skills:
+        RMCSkillFireman: 1
+        RMCSkillVehicles: 1
+        RMCSkillDomestics: 1
+    - type: JobPrefix
+      prefix: au14-job-prefix-clfphysician
+    - type: TacticalMapIcon
+      icon:
+        sprite: _RMC14/Interface/map_blips.rsi
+        state: synth
+  hidden: false
+
+- type: startingGear
+  id: AU14GearCLFPhysician
+  equipment:
+    mask: CMMaskSterile
+    gloves: CMHandsLatex
+    jumpsuit: RMCJumpsuitCivilian
+    outerClothing: RMCLabcoatOpened
+    belt: CMBeltMedicBagFilled
+    shoes: CMBootsBlackFilled
+    ears2: RMCFlashlightPen
+    pocket1: RMCPouchAutoinjectorFill
+    suitstorage: RMCFlashlight
+    id: CMIDCardColonist
+    ears: CMHeadsetColony
+    neck: RMCCLFArmband
+  inhand:
+  - CMAdvFirstAidKitFilled
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: AU14SpawnPointCLFPhysician
+  name: Spawn Point CLF Physician
+  components:
+  - type: SpawnPoint
+    job_id: AU14JobCLFPhysician
+  - type: Sprite
+    state: syn_spawn
+
+- type: playTimeTracker
+  id: AU14JobCLFPhysician
+  isHumanoid: true
