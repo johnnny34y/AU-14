@@ -19,6 +19,25 @@
 
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
+  id: AU14LACNArmorStandardPadless
+  name: Padless LACN BL-1 Armor
+  description: A set of ballistic armor used by the LACN landing forces. This one is missing the grieves and shoulder pads.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/LACN/Armor/lacninfantryarmorstripped.rsi
+  - type: RMCArmorSpeedTier
+    speedTier: light
+  - type: ClothingSpeedModifier
+    walkModifier: .725
+    sprintModifier: .725
+  - type: CMArmor
+    bullet: 20
+    bio: 20
+    explosionArmor: 10
+  - type: CMHardArmor
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: AU14LACNArmorSL
   name: LACN BL-2 Armor
   description: A set of ballistic armor used by the LACN landing forces NCOs and Officers.

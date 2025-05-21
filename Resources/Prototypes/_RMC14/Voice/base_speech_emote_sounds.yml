@@ -2,7 +2,7 @@
   id: RMCBaseHumanoidSounds
   abstract: true
   params:
-    variation: 0.125
+    variation: 0
   sounds:
     Snore:
       collection: Snores
