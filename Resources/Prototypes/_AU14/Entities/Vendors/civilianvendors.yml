@@ -434,6 +434,8 @@
         amount: 5
       - id: RMCFlashlightPen
         amount: 5
+      - id: ClothingNeckStethoscope
+        amount: 5
       - id: CMHyposprayWithVial
         amount: 5
       - id: RMCVial

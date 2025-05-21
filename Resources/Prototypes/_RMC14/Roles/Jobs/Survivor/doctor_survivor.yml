@@ -20,8 +20,6 @@
         RMCSkillFirearms: 1
         RMCSkillMedical: 3
         RMCSkillSurgery: 2
-    - type: EquipSurvivorPreset
-      preset: RMCSurvivorPresetDoctor
     - type: RMCSurvivor
     - type: MotionDetectorTracked
     - type: NpcFactionMember
@@ -32,15 +30,11 @@
 - type: startingGear
   id: RMCGearSurvivorDoctor
   equipment:
-    mask: CMMaskSterile
-    ears: CMHeadsetColony
-    jumpsuit: CMJumpsuitLiaison
+    jumpsuit: RMCScrubsLightBlue
+    shoes: RMCShoesBlack
     outerClothing: RMCLabcoat
-    gloves: CMHandsLatex
-    shoes: RMCShoesLaceup
-    back: CMSatchelMedical
-    id: CMIDCardColonistDoctor
-    pocket1: RMCPouchSurvivalFill
+    id: CMIDCardColonist
+    ears: CMHeadsetColony
 
 - type: entity
   parent: CMSpawnPointJobBase

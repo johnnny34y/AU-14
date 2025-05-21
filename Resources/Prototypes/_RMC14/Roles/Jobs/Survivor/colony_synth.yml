@@ -61,7 +61,6 @@
     shoes: RMCShoesWhite
     id: RMCIDCardSynth
     ears: RMCHeadsetSynth
-    belt: CMBeltUtilityFilled
 
 #- type: entity
 #  parent: CMSpawnPointJobBase
