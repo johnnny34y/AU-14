@@ -11,51 +11,51 @@
     - name: Clothes
       entries:
       - id: AU14CMBUniform
-        amount: 6
+        amount: 2
       - id: AU14CMBDeputyWindbreaker
-        amount: 5
+        amount: 1
       - id: AU14CMBMarshalWindbreaker
         amount: 1
       - id: RMCHeadCapBureau
-        amount: 6
+        amount: 2
       - id: RMCBootsPMCFilled
-        amount: 6
+        amount: 2
     - name: Glasses
       entries:
       - id: CMGlassesSecurity
-        amount: 6
+        amount: 2
     - name: Storage
       entries:
       - id: CMBeltSecurityMarshalFilled
-        amount: 6
+        amount: 2
       - id: RMCBeltUtilityGeneral
-        amount: 6
+        amount: 2
       - id: CMWebbingHolster
-        amount: 6
+        amount: 2
       - id: CMSatchelSecurity
-        amount: 6
+        amount: 2
       - id: CMSatchel
-        amount: 6
+        amount: 2
       - id: RMCSatchelLightpack
-        amount: 6
+        amount: 2
     - name: Pouches
       entries:
       - id: RMCPouchFirstAidSplintsGauzeOintment
-        amount: 6
+        amount: 2
       - id: RMCPouchRadio
-        amount: 6
+        amount: 2
       - id: RMCPouchGeneralMedium
-        amount: 6
+        amount: 2
       - id: RMCPouchPistol
-        amount: 6
+        amount: 2
       - id: RMCPouchMagazinePistol
-        amount: 6
+        amount: 2
     - name: Equipment
       entries:
       - id: RMCRadioHandheldColonyOff
-        amount: 6
+        amount: 2
       - id: RMCGrenadeFlashBang
-        amount: 1
+        amount: 2
       - id: RMCHandcuffs
         amount: 4
       - id: Zipties
@@ -63,13 +63,13 @@
     - name: Headsets
       entries:
       - id: CMHeadsetColony
-        amount: 6
+        amount: 2
     - name: Duty Weapons
       entries:
       - id: RMCGunCasePistolM1984
-        amount: 3
+        amount: 1
       - id: RMCGunCasePistolM77
-        amount: 2
+        amount: 1
       - id: RMCGunCaseRevolverRSh9
         amount: 1
     - name: Less Than Lethal Ammunition
@@ -78,3 +78,9 @@
         amount: 2
       - id: RMCMagazinePistolM77Rubber
         amount: 2
+    - name: Inmate Clothing
+      entries:
+      - id: AU14CivilianPrisonJumpsuit
+        amount: 10
+      - id: RMCShoesBlack
+        amount: 10

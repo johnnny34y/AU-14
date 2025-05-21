@@ -6,7 +6,11 @@
   setPreference: true
   playTimeTracker: AU14JobCivilianColonyAdministrator
   ranks:
-    RMCRankCivilian: []
+    AU14RankColonySeniorAdministrator:
+    - !type:RoleTimeRequirement
+      role: AU14JobCivilianColonyAdministrator
+      time: 1800 # 30 hours
+    AU14RankColonyAdministrator: []
   startingGear: AU14GearCivilianColonyAdministrator
   icon: "CMJobIconEmpty"
   requireAdminNotify: true
