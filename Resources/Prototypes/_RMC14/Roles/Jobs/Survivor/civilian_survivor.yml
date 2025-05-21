@@ -32,8 +32,6 @@
         RMCSkillEndurance: 2
         RMCSkillFireman: 1
         RMCSkillFirearms: 1
-    - type: EquipSurvivorPreset
-      preset: RMCSurvivorPresetCivilian
     - type: RMCSurvivor
     - type: MotionDetectorTracked
     - type: NpcFactionMember
@@ -47,12 +45,9 @@
   id: RMCGearSurvivor
   equipment:
     jumpsuit: CMJumpsuitColonist
-    back: RMCSatchelCivilianFill
     shoes: RMCShoesBlack
     id: CMIDCardColonist
     ears: CMHeadsetColony
-    pocket1: RMCPouchSurvivalFill
-    pocket2: RMCPouchGeneral
 
 - type: entity
   parent: CMSpawnPointJobBase

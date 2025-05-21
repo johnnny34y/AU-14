@@ -49,6 +49,8 @@
       entries:
       - id: AU14LACNArmorStandard
         amount: 25
+      - id: AU14LACNArmorStandardPadless
+        amount: 25
     - name: Backpack
       entries:
       - id: AU14LACNBackpack
@@ -421,6 +423,8 @@
         amount: 1
       - id: RMCFlashlightPen
         amount: 1
+      - id: ClothingNeckStethoscope
+        amount: 1
       - id: CMHyposprayWithVial
         amount: 1
       - id: RMCVial
@@ -628,6 +632,8 @@
         amount: 2
       - id: RMCFlashlightPen
         amount: 2
+      - id: ClothingNeckStethoscope
+        amount: 2
       - id: RMCGlassesMedicalHUDGlasses
         amount: 2
 
@@ -679,8 +685,10 @@
         amount: 2
     - name: Armor and Rigs
       entries:
-      - id: AU14LACNArmorSL
-        amount: 2
+      - id: AU14LACNArmorStandard
+        amount: 25
+      - id: AU14LACNArmorStandardPadless
+        amount: 25
     - name: Backpack
       entries:
       - id: AU14LACNBackpack
@@ -801,9 +809,9 @@
         amount: 1
       - id: CMBeltMarine
         amount: 1
-      - id: RMCWeaponLMGM60
+      - id: AU14WeaponRifleKramerLSW
         amount: 1
-      - id: RMCMagazineLMGM60
+      - id: AU14WeaponRifleKramerMagazineLSWStandard
         amount: 7
 
 - type: entity
@@ -1014,10 +1022,22 @@
       entries:
       - id: CMWeaponLauncherM79
         amount: 1
-      - id: CMPacketGrenadeFragFilled
+      - id: RMCPacketGrenadeM74AGMSHornetFilled
         amount: 4
-      - id: CMPacketGrenadeHighExplosiveFilled
+      - id: RMCPacketGrenadeM74AGMFFilled
+        amount: 3
+      - id: RMCPacketGrenadeM74AGMSFilled
         amount: 2
+      - id: RMCPacketGrenadeM74AGMIFilled
+        amount: 1
+      - id: RMCPacketGrenadeBatonSlugHIRRFilled
+        amount: 1
+      - id: RMCPacketGrenadeM74AGMSStarShellFilled
+        amount: 1
+      - id: CMPacketGrenadeFragFilled
+        amount: 1
+      - id: CMPacketGrenadeHighExplosiveFilled
+        amount: 1
       - id: RMCPouchExplosive
         amount: 2
     - name: M42A2 scout rifle

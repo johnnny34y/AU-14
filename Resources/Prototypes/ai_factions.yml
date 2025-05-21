@@ -9,6 +9,13 @@
   - Revolutionary
   - AllHostile
   - Wizard
+  - UNMC
+  - SPP
+  - WeYa
+  - Survivor
+  - CLF
+  - Bureau
+  - RoyalMarines
 
 - type: npcFaction
   id: NanoTrasen
@@ -21,6 +28,13 @@
   - Dragon
   - AllHostile
   - Wizard
+  - UNMC
+  - SPP
+  - WeYa
+  - Survivor
+  - CLF
+  - Bureau
+  - RoyalMarines
 
 - type: npcFaction
   id: Mouse
@@ -55,6 +69,13 @@
   - AllHostile
   - Wizard
   - Dragon
+  - UNMC
+  - SPP
+  - WeYa
+  - Survivor
+  - CLF
+  - Bureau
+  - RoyalMarines
 
 - type: npcFaction
   id: SimpleNeutral
@@ -70,6 +91,13 @@
   - Dragon
   - AllHostile
   - Wizard
+  - UNMC
+  - SPP
+  - WeYa
+  - Survivor
+  - CLF
+  - Bureau
+  - RoyalMarines
 
 - type: npcFaction
   id: Xeno
@@ -83,6 +111,13 @@
   - AllHostile
   - Wizard
   - Dragon
+  - UNMC
+  - SPP
+  - WeYa
+  - Survivor
+  - CLF
+  - Bureau
+  - RoyalMarines
 
 - type: npcFaction
   id: Zombie
@@ -97,6 +132,13 @@
   - AllHostile
   - Wizard
   - Dragon
+  - UNMC
+  - SPP
+  - WeYa
+  - Survivor
+  - CLF
+  - Bureau
+  - RoyalMarines
 
 - type: npcFaction
   id: Revolutionary
@@ -107,6 +149,13 @@
   - Dragon
   - AllHostile
   - Wizard
+  - UNMC
+  - SPP
+  - WeYa
+  - Survivor
+  - CLF
+  - Bureau
+  - RoyalMarines
 
 - type: npcFaction
   id: AllHostile
@@ -123,6 +172,13 @@
   - Zombie
   - Revolutionary
   - Wizard
+  - UNMC
+  - SPP
+  - WeYa
+  - Survivor
+  - CLF
+  - Bureau
+  - RoyalMarines
 
 - type: npcFaction
   id: Wizard
@@ -139,3 +195,10 @@
   - Zombie
   - Revolutionary
   - AllHostile
+  - UNMC
+  - SPP
+  - WeYa
+  - Survivor
+  - CLF
+  - Bureau
+  - RoyalMarines

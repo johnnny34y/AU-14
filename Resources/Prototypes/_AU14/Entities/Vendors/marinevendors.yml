@@ -71,6 +71,12 @@
         amount: 25
       - id: AU14DesertFlapCap
         amount: 25
+    - name: Heads Up Display
+      entries:
+      - id: RMCVisorSquad
+        amount: 25
+      - id: RMCVisorWelding
+        amount: 5
     - name: Armor
       entries:
       - id: AU14ArmorM3JungleOne
@@ -342,6 +348,10 @@
         amount: 1
       - id: AU14JungleM10CorpsmanHelmet
         amount: 1
+    - name: Heads Up Display
+      entries:
+      - id: RMCVisorMedical
+        amount: 1
     - name: Medical Pouches
       entries:
       - id: RMCPouchAutoinjector
@@ -477,12 +487,12 @@
         amount: 1
       - id: RMCFlashlightPen
         amount: 1
+      - id: ClothingNeckStethoscope
+        amount: 1
       - id: CMHyposprayWithVial
         amount: 1
       - id: RMCVial
         amount: 10
-      - id: RMCGlassesMedicalHUDGlasses
-        amount: 1
     - name: Medical Gloves
       entries:
       - id: CMHandsLatex
@@ -550,6 +560,10 @@
       - id: AU14JunglePatrolCap
         amount: 2
       - id: AU14DesertPatrolCap
+        amount: 2
+    - name: Heads Up Display
+      entries:
+      - id: RMCVisorMedical
         amount: 2
     - name: Armor
       entries:
@@ -695,6 +709,8 @@
       - id: CMHealthAnalyzer
         amount: 2
       - id: RMCFlashlightPen
+        amount: 2
+      - id: ClothingNeckStethoscope
         amount: 2
       - id: RMCGlassesMedicalHUDGlasses
         amount: 2
@@ -1152,20 +1168,20 @@
         amount: 14
     - name: Explosives
       entries:
-      - id: CMGrenadeHighExplosive
-        amount: 24
-      - id: CMGrenadeFrag
-        amount: 6
+      - id: RMCBoxHEDP
+        amount: 1
       - id: CMGrenadeSmoke
         amount: 6
-      - id: RMCGrenadeIncendiary
+      - id: RMCPacketGrenadeM74AGMFFilled
         amount: 4
-      - id: CMGrenadeFragOld
-        amount: 4
+      - id: RMCPacketGrenadeM74AGMSHornetFilled
+        amount: 2
+      - id: RMCPacketGrenadeM74AGMSFilled
+        amount: 2
       - id: RMCExplosivePlastic
-        amount: 4
+        amount: 2
       - id: RMCExplosiveBreachingCharge
-        amount: 4
+        amount: 2
 
 - type: entity
   parent: ColMarTechBase
