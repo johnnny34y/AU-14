@@ -26,12 +26,6 @@
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - Colonist
-  minimapIcon:
-    sprite: _RMC14/Interface/map_blips.rsi
-    state: synth
-  minimapBackground:
-   sprite: _RMC14/Interface/map_blips.rsi
-   state: background_shipside
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -64,10 +58,10 @@
   name: Spawn Point Civilian Corporate Liaison
   components:
   - type: SpawnPoint
-    job_id: CorporateLiaison
+    job_id: AU14JobCivilianCorporateLiaison
   - type: Sprite
     state: syn_spawn
 
 - type: playTimeTracker
-  id: CorporateLiaison
+  id: AU14JobCivilianCorporateLiaison
   isHumanoid: true
