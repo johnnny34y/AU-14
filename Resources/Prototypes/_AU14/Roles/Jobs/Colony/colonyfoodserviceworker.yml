@@ -1,0 +1,62 @@
+- type: job
+  parent: CMJobBase
+  id: AU14JobCivilianFoodServiceWorker
+  name: au14-job-name-civilianfoodserviceworker
+  description: au14-job-description-civilianfoodserviceworker
+  setPreference: true
+  playTimeTracker: AU14JobCivilianFoodServiceWorker
+  ranks:
+    RMCRankCivilian: []
+  startingGear: AU14GearCivilianFoodServiceWorker
+  icon: "CMJobIconMessTech"
+  requireAdminNotify: true
+  joinNotifyCrew: false
+  supervisors: au14-job-supervisors-colonycivilian
+  accessGroups:
+  - Colonist
+  minimapIcon:
+    sprite: _RMC14/Interface/map_blips.rsi
+    state: synth
+  minimapBackground:
+   sprite: _RMC14/Interface/map_blips.rsi
+   state: background_shipside
+  roleWeight: 0.25
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      skills:
+        RMCSkillFireman: 1
+        RMCSkillVehicles: 1
+        RMCSkillDomestics: 2
+        RMCSkillConstruction: 1
+    - type: JobPrefix
+      prefix: au14-job-prefix-civilianfoodserviceworker
+    - type: TacticalMapIcon
+      icon:
+        sprite: _RMC14/Interface/map_blips.rsi
+        state: synth
+  hidden: false
+
+- type: startingGear
+  id: AU14GearCivilianFoodServiceWorker
+  equipment:
+    jumpsuit: AU14CivilianWorkwearYellow
+    shoes: RMCShoesBlack
+    id: CMIDCardColonist
+    ears: CMHeadsetColony
+    outerClothing: RMCMedicalApron
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: AU14SpawnPointCivilianFoodServiceWorker
+  name: Spawn Point Food Service Worker
+  components:
+  - type: SpawnPoint
+    job_id: AU14JobCivilianFoodServiceWorker
+  - type: Sprite
+    state: syn_spawn
+
+- type: playTimeTracker
+  id: AU14JobCivilianFoodServiceWorker
+  isHumanoid: true

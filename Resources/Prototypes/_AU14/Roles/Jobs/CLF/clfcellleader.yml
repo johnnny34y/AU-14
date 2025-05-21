@@ -1,0 +1,67 @@
+- type: job
+  parent: CMJobBase
+  id: AU14JobCLFCellLeader
+  name: au14-job-name-clfcellleader
+  description: au14-job-description-clfcellleader
+  setPreference: true
+  playTimeTracker: AU14JobCLFCellLeader
+  ranks:
+    RMCRankCivilian: []
+  startingGear: AU14GearCLFCellLeader
+  icon: "RMCJobIconCLFCellCommander"
+  requireAdminNotify: true
+  joinNotifyCrew: false
+  supervisors: au14-job-supervisors-clfcellleader
+  accessGroups:
+  - Colonist
+  minimapIcon:
+    sprite: _RMC14/Interface/map_blips.rsi
+    state: synth
+  minimapBackground:
+   sprite: _RMC14/Interface/map_blips.rsi
+   state: background_shipside
+  roleWeight: 0.25
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      skills:
+        RMCSkillFireman: 1
+        RMCSkillVehicles: 1
+        RMCSkillDomestics: 1
+    - type: JobPrefix
+      prefix: au14-job-prefix-clfcellleader
+    - type: TacticalMapIcon
+      icon:
+        sprite: _RMC14/Interface/map_blips.rsi
+        state: synth
+  hidden: false
+
+- type: startingGear
+  id: AU14GearCLFCellLeader
+  equipment:
+    outerClothing: AU14ExternalWebbing
+    gloves: RMCHandsVeteranSPP
+    shoes: RMCScoutShoes
+    neck: RMCCLFArmband
+    head: AU14CivBallCapBlack
+    jumpsuit: CMJumpsuitColonist
+    id: CMIDCardColonist
+    ears: CMHeadsetColony
+    eyes: RMCGlassesAviators
+  inhand:
+  - RMCWeaponRifleType71
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: AU14SpawnPointCLFCellLeader
+  name: Spawn Point CLF Cell Leader
+  components:
+  - type: SpawnPoint
+    job_id: AU14JobCLFCellLeader
+  - type: Sprite
+    state: syn_spawn
+
+- type: playTimeTracker
+  id: AU14JobCLFCellLeader
+  isHumanoid: true

@@ -108,3 +108,40 @@
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Civilian/Uniforms/prisonsuit.rsi
+
+#service jumpsuits
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: AU14CivilianWeYuEngineerClothes
+  name: WeYu Engineer Clothes
+  description: Clothes designed for WeYu engineers.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Uniforms/WeYuEngineer.rsi
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: AU14CivilianParamedicClothesRed
+  name: Red Paramedic Clothes
+  description: Clothes designed for paramedics.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Uniforms/RedParamedic.rsi
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: AU14CivilianParamedicClothesGreen
+  name: Green Paramedic Clothes
+  description: Clothes designed for paramedics.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Uniforms/GreenParamedic.rsi
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: AU14CivilianSanitationClothes
+  name: Sanitation Clothes
+  description: Clothes designed for Sanitation workers.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Uniforms/Sanitation.rsi

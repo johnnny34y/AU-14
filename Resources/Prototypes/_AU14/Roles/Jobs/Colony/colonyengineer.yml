@@ -1,0 +1,65 @@
+- type: job
+  parent: CMJobBase
+  id: AU14JobCivilianEngineer
+  name: au14-job-name-civilianengineer
+  description: au14-job-description-civilianengineer
+  setPreference: true
+  playTimeTracker: AU14JobCivilianEngineer
+  ranks:
+    RMCRankCivilian: []
+  startingGear: AU14GearCivilianEngineer
+  icon: "CMJobIconMaintTech"
+  requireAdminNotify: true
+  joinNotifyCrew: false
+  supervisors: au14-job-supervisors-colonyadministrator
+  accessGroups:
+  - Colonist
+  minimapIcon:
+    sprite: _RMC14/Interface/map_blips.rsi
+    state: synth
+  minimapBackground:
+   sprite: _RMC14/Interface/map_blips.rsi
+   state: background_shipside
+  roleWeight: 0.25
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      skills:
+        RMCSkillFireman: 2
+        RMCSkillVehicles: 1
+        RMCSkillDomestics: 1
+        RMCSkillEngineer: 4
+        RMCSkillConstruction: 4
+        RMCSkillPowerLoader: 2
+    - type: JobPrefix
+      prefix: au14-job-prefix-colonyengineer
+    - type: TacticalMapIcon
+      icon:
+        sprite: _RMC14/Interface/map_blips.rsi
+        state: synth
+  hidden: false
+
+- type: startingGear
+  id: AU14GearCivilianEngineer
+  equipment:
+    head: RMCHardhatWhite
+    jumpsuit: AU14CivilianWeYuEngineerClothes
+    outerClothing: AU14CivilianFullSuitWeYuEngineer
+    shoes: RMCBootsCorporate
+    id: CMIDCardColonist
+    ears: CMHeadsetColony
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: AU14SpawnPointCivilianEngineer
+  name: Spawn Point Civilian Engineer
+  components:
+  - type: SpawnPoint
+    job_id: AU14JobCivilianEngineer
+  - type: Sprite
+    state: syn_spawn
+
+- type: playTimeTracker
+  id: AU14JobCivilianEngineer
+  isHumanoid: true
