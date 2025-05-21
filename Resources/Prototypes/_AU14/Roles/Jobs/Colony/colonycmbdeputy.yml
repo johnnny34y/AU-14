@@ -6,6 +6,10 @@
   setPreference: true
   playTimeTracker: AU14JobCivilianCMBDeputy
   ranks:
+    AU14RankCMBSrDeputy:
+    - !type:RoleTimeRequirement
+      role: AU14JobCivilianCMBDeputy
+      time: 1200 # 20 hours
     RMCRankCMBDeputy: []
   startingGear: AU14GearCivilianCMBDeputy
   icon: "RMCJobIconBureauDeputy"
