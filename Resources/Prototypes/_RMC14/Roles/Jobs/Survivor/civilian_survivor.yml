@@ -3,7 +3,6 @@
   id: CMSurvivor
   name: cm-job-name-survivor
   description: cm-job-description-survivor
-  setPreference: false
   playTimeTracker: CMJobSurvivor
   requirements:
   - !type:DepartmentTimeRequirement
@@ -32,22 +31,29 @@
         RMCSkillEndurance: 2
         RMCSkillFireman: 1
         RMCSkillFirearms: 1
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetCivilianOutfits
     - type: RMCSurvivor
+    - type: RMCRibbon
     - type: MotionDetectorTracked
     - type: NpcFactionMember
       factions:
       - Survivor
     - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
   greeting: rmc-job-greeting-survivor
   hasIcon: false
 
 - type: startingGear
   id: RMCGearSurvivor
   equipment:
-    jumpsuit: CMJumpsuitColonist
-    shoes: RMCShoesBlack
+    # jumpsuit: CMJumpsuitColonist See RMCSurvivorPresetCivilianOutfits
+    back: RMCSatchelCivilianFill
+    # shoes: RMCShoesBlack
     id: CMIDCardColonist
     ears: CMHeadsetColony
+    pocket1: RMCPouchSurvivalFill
+    pocket2: RMCPouchGeneral
 
 - type: entity
   parent: CMSpawnPointJobBase
@@ -101,6 +107,20 @@
     - [ CMBeltMarineBuckshot, RMCWeaponShotgunHG3712 ]
     - [ CMBeltMarineAR10, WeaponRifleAR10 ]
     primaryWeaponChance: 0.6
+
+- type: entity
+  parent: RMCSurvivorPresetCivilian
+  id: RMCSurvivorPresetCivilianOutfits
+  name: civilian colonist preset with random outfits
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SurvivorPreset
+    randomOutfits: # todo different backpacks
+    - [ CMJumpsuitColonist, RMCShoesBlack ] # Default
+    - [ RMCJumpsuitCivilianJanitor, RMCShoesGaloshes, RMCHipsterGlasses, RMCHandsPurple, ClothingHeadHatPurplesoft, RMCHazardVest ] # Janitor
+    - [ RMCJumpsuitLiaisonGreenWorkwear, RMCShoesLaceupBrown, RMCHydroApron ] # Botanist (TODO: Add Hatchet)
+    - [ CMJumpsuitLiaisonBlack, RMCShoesLaceup, RMCJacketCorporateBlue, ClothingHeadHatBowlerHat ] # Bartender
+    - [ CMJumpsuitTShirtGray, RMCShoesWeYaStompers, RMCOuterClothingExternalWebbing ] # Protagonist
 
 - type: entity
   parent: MarkerBase
