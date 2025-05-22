@@ -301,6 +301,15 @@
   chatTriggers:
    - shouts an inspiring cry
    - shouts an inspiring cry!
+   - warcry
+   - warcry.
+   - warcry!
+   - warcries
+   - warcries!
+   - warcries.
+   - war cry
+   - war cry.
+   - war cry!
 
 - type: emote
   id: Corpsman
@@ -317,3 +326,10 @@
   chatTriggers:
    - screams for a corpsman
    - screams for a corpsman!
+   - corpsman!!
+   - corpsman!
+   - corpsman
+   - medic
+   - medic!
+   - medic.
+   - corpsman.
