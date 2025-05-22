@@ -201,3 +201,291 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: RequireProjectileTarget
+
+- type: entity
+  abstract: true
+  id: AU14LargeTruck
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.4,0.5"
+        density: 190
+        layer:
+        - MobMask
+  - type: Sprite
+    sprite: _AU14/Structures/vehicles/largevehicles.rsi
+    offset: 0.5, 0.5
+    noRot: true
+  - type: Clickable
+  - type: DeleteOnExplosion
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: AU14LargeTruck
+  id: AU14PropVehicleAmbulance
+  suffix: Vehicle
+  name: Ambulance
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: ambulance
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14LargeTruck
+  id: AU14LargeTruckArmoredBlue
+  suffix: Vehicle
+  name: Blue Armored Truck
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: armored_truck_blue
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14LargeTruck
+  id: AU14LargeTruckArmoredTeal
+  suffix: Vehicle
+  name: Teal Armored Truck
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: armored_truck_teal
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14LargeTruck
+  id: AU14LargeTruckArmoredWYBlack
+  suffix: Vehicle
+  name: Weyland-Yutani Armored Truck
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: armored_truck_wy_black
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14LargeTruck
+  id: AU14LargeTruckArmoredWYWhite
+  suffix: Vehicle
+  name: Weyland-Yutani Armored Truck
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: armored_truck_wy_white
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14LargeTruck
+  id: AU14LargeTruckLongBlue
+  suffix: Vehicle
+  name: Cargo Hauler
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: longtruck_blue
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14LargeTruck
+  id: AU14LargeTruckLongBrown
+  suffix: Vehicle
+  name: Cargo Hauler
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: longtruck_brown
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14LargeTruck
+  id: AU14LargeTruckLongDonkPockets
+  suffix: Vehicle
+  name: Cargo Hauler
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: longtruck_donk_damage_4
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14LargeTruck
+  id: AU14LargeTruckLongKellandMining
+  suffix: Vehicle
+  name: Kelland Mining Cargo Hauler
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: longtruck_kelland_damage_3
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14LargeTruck
+  id: AU14LargeTruckLongRed
+  suffix: Vehicle
+  name: Cargo Hauler
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: longtruck_red_damage_2
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14LargeTruck
+  id: AU14LargeTruckLongWYBlack
+  suffix: Vehicle
+  name: Weyland-Yutani Cargo Hauler
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: longtruck_wy_black_damage_3
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14LargeTruck
+  id: AU14LargeTruckLongWYBlue
+  suffix: Vehicle
+  name: Weyland-Yutani Cargo Hauler
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: longtruck_wy_blue_damage_2
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
