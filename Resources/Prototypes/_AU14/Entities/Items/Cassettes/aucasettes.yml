@@ -33,3 +33,56 @@
     - /Audio/_AU14/Cassette/BlueStripe/NoJoke.ogg
     - /Audio/_AU14/Cassette/BlueStripe/Bells.ogg
     - /Audio/_AU14/Cassette/BlueStripe/Jump.ogg
+
+- type: entity
+  parent: RMCCassetteTapeBase
+  id: AU14CassetteTapeNeon
+  name: Neon cassette
+  components:
+  - type: Sprite
+    state: cassette_aesthetic
+  - type: Item
+    size: Small
+  - type: CassetteTape
+    songs:
+    - /Audio/_AU14/Cassette/Neon/After.ogg
+    - /Audio/_AU14/Cassette/Neon/Cop.ogg
+    - /Audio/_AU14/Cassette/Neon/Human.ogg
+    - /Audio/_AU14/Cassette/Neon/Running.ogg
+    - /Audio/_AU14/Cassette/Neon/Shame.ogg
+
+- type: entity
+  parent: RMCCassetteTapeBase
+  id: AU14CassetteTapePurple
+  name: Purple cassette
+  components:
+  - type: Sprite
+    state: cassette_purple
+  - type: Item
+    size: Small
+  - type: CassetteTape
+    songs:
+    - /Audio/_AU14/Cassette/Galaxy/Southern.ogg
+    - /Audio/_AU14/Cassette/Galaxy/Closer.ogg
+    - /Audio/_AU14/Cassette/Galaxy/Drive.ogg
+    - /Audio/_AU14/Cassette/Galaxy/Get.ogg
+    - /Audio/_AU14/Cassette/Galaxy/Love.ogg
+    - /Audio/_AU14/Cassette/Galaxy/Sky.ogg
+
+- type: entity
+  parent: RMCCassetteTapeBase
+  id: AU14CassetteTapePartyApproved
+  name: Party approved cassette
+  components:
+  - type: Sprite
+    state: cassette_camo
+  - type: Item
+    size: Small
+  - type: CassetteTape
+    songs:
+    - /Audio/_AU14/Cassette/PartyApproved/Lady.ogg
+    - /Audio/_AU14/Cassette/PartyApproved/Afghan.ogg
+    - /Audio/_AU14/Cassette/PartyApproved/Aporah.ogg
+    - /Audio/_AU14/Cassette/PartyApproved/Caravan.ogg
+    - /Audio/_AU14/Cassette/PartyApproved/Dushman.ogg
+    - /Audio/_AU14/GMMusic/BloodType.ogg
