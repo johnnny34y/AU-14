@@ -17,30 +17,16 @@
       entries:
       - id: RMCCassettePlayer
         amount: 50
-      - id: RMCCassetteTapeWigWoo1
-        amount: 15
-      - id: RMCCassetteTapeMendax
-        amount: 15
-      - id: RMCCassetteTapeNighty
-        amount: 15
-      - id: RMCCassetteTapeGoodShowOldChap
-        amount: 15
-      - id: RMCCassetteTapeRedQwesta
-        amount: 15
-      - id: RMCCassetteTapeBolgarich
-        amount: 15
-      - id: RMCCassetteTapeQwertyquerty
-        amount: 15
-      - id: RMCCassetteTapePigeonBeans
-        amount: 15
-      - id: RMCCassetteTapeCustom
+      - id: AU14CassetteTapeBlueStripe
+        amount: 30
+      - id: AU14CassetteTapeRisingSun
         amount: 30
     - name: Cards
       entries: []
     - name: Other
       entries:
       - id: CMPaper
-        amount: 15
+        amount: 40
       - id: CMPen
         amount: 10
       - id: d20Dice
