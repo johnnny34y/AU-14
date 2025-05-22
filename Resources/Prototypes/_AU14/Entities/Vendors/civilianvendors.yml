@@ -624,3 +624,5 @@
         amount: 4
       - id: CMFireExtinguisherPortable
         amount: 4
+      - id: RMCFireAxe
+        amount: 1

@@ -3,6 +3,7 @@
   id: CMSurvivorEngineer
   name: cm-job-name-survivor-engineer
   description: cm-job-description-survivor
+  setPreference: false
   playTimeTracker: CMJobSurvivorEngineer
   startingGear: RMCGearSurvivorEngineer
   accessGroups:

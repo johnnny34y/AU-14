@@ -3,6 +3,7 @@
   id: RMCJobSyntheticColony
   name: rmc-job-name-synth-colony
   description: rmc-job-description-synth-colony
+  setPreference: false
   playTimeTracker: RMCJobSyntheticColony
   ranks:
     RMCRankSyntheticColonist: []

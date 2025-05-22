@@ -3,6 +3,7 @@
   id: CMSurvivorCorporate
   name: cm-job-name-survivor-corporate
   description: cm-job-description-survivor
+  setPreference: false
   playTimeTracker: CMJobSurvivorCorporate
   ranks:
     RMCRankWeYaExecutiveSpecialist:

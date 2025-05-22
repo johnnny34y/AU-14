@@ -3,6 +3,7 @@
   id: CMSurvivorSecurity
   name: cm-job-name-survivor-security
   description: cm-job-description-survivor
+  setPreference: false
   playTimeTracker: CMJobSurvivorSecurity
   ranks:
     RMCRankCivilianOfficer: []

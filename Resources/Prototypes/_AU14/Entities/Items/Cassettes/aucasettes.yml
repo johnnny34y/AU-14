@@ -1,0 +1,35 @@
+- type: entity
+  parent: RMCCassetteTapeBase
+  id: AU14CassetteTapeRisingSun
+  name: Rising sun cassette
+  components:
+  - type: Sprite
+    state: cassette_rising_sun
+  - type: Item
+    size: Small
+  - type: CassetteTape
+    songs:
+    - /Audio/_AU14/Cassette/RisingSun/CityIsDeath.ogg
+    - /Audio/_AU14/Cassette/RisingSun/Cult.ogg
+    - /Audio/_AU14/Cassette/RisingSun/Cosmonauts.ogg
+    - /Audio/_AU14/Cassette/RisingSun/FoundMe.ogg
+    - /Audio/_AU14/Cassette/RisingSun/MyType.ogg
+    - /Audio/_AU14/Cassette/RisingSun/Help.ogg
+
+- type: entity
+  parent: RMCCassetteTapeBase
+  id: AU14CassetteTapeBlueStripe
+  name: Blue stripe cassette
+  components:
+  - type: Sprite
+    state: cassette_orange_blue
+  - type: Item
+    size: Small
+  - type: CassetteTape
+    songs:
+    - /Audio/_AU14/Cassette/BlueStripe/Beastie.ogg
+    - /Audio/_AU14/Cassette/BlueStripe/Tricky.ogg
+    - /Audio/_AU14/Cassette/BlueStripe/Message.ogg
+    - /Audio/_AU14/Cassette/BlueStripe/NoJoke.ogg
+    - /Audio/_AU14/Cassette/BlueStripe/Bells.ogg
+    - /Audio/_AU14/Cassette/BlueStripe/Jump.ogg
