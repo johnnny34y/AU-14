@@ -34,7 +34,7 @@
 - type: startingGear
   id: AU14GearCivilianEcologist
   equipment:
-    id: CMIDCardColonist
+    id: AU14IDCardColonyEcologist
     ears: CMHeadsetColony
     jumpsuit: AU14CivilianWorkwearGreen
     shoes: RMCShoesBlack

@@ -40,10 +40,9 @@
   id: AU14GearCivilianForeman
   equipment:
     head: RMCHardhatBlue
-    jumpsuit: AU14CivilianWeYuEngineerClothes
-    outerClothing: AU14CivilianFullSuitWeYuEngineer
+    jumpsuit: AU14CivilianWeYuEngineerFormanClothes
     shoes: RMCBootsCorporate
-    id: CMIDCardColonist
+    id: AU14IDCardColonyForeman
     ears: CMHeadsetColony
 
 - type: entity

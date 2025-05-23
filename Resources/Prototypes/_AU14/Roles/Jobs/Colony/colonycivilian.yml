@@ -36,7 +36,7 @@
   equipment:
     jumpsuit: CMJumpsuitColonist
     shoes: RMCShoesBlack
-    id: CMIDCardColonist
+    id: AU14IDCardColonyColonist
     ears: CMHeadsetColony
 
 - type: entity

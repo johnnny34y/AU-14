@@ -156,9 +156,17 @@
       entries:
       - id: AU14CivBallCapBlack
         amount: 30
+      - id: AU14CivBallCapBlueTrucker
+        amount: 30
+      - id: AU14CivBallCapRedTrucker
+        amount: 30
       - id: AU14USCMVeteranCap
         amount: 30
-      - id: ClothingHeadHatFedoraBrown
+      - id: AU14CivFedoraTan
+        amount: 30
+      - id: AU14CivFedoraBrown
+        amount: 30
+      - id: AU14CivFedoraGray
         amount: 30
     - name: Glasses
       entries:
@@ -194,6 +202,10 @@
       entries:
       - id: CMSatchel
         amount: 30
+      - id: AU14SlingSatchelBlack
+        amount: 30
+      - id: AU14SlingSatchelBlue
+        amount: 30
       - id: RMCBeltUtilityGeneral
         amount: 30
       - id: RMCPouchGeneral
@@ -227,11 +239,15 @@
         amount: 5
       - id: AU14CivilianFullSuitWeYuEngineer
         amount: 5
+      - id: AU14CivilianWeYuEngineerFormanClothes
+        amount: 1
     - name: Waste Management Clothing
       entries:
       - id: AU14CivilianSanitationClothes
         amount: 2
       - id: AU14CivilianFullSuitSanitation
+        amount: 2
+      - id: AU14CivilianHazardVestSanitation
         amount: 2
     - name: Jackets & Vests
       entries:
@@ -250,6 +266,10 @@
     - name: Storage & Belts
       entries:
       - id: CMSatchel
+        amount: 8
+      - id: AU14SlingSatchelBlack
+        amount: 8
+      - id: AU14SlingSatchelBlue
         amount: 8
       - id: CMSatchelEngineer
         amount: 8
@@ -400,6 +420,10 @@
         amount: 3
       - id: CMSatchel
         amount: 3
+      - id: AU14SlingSatchelBlack
+        amount: 3
+      - id: AU14SlingSatchelBlue
+        amount: 3
     - name: Field Supplies
       entries:
       - id: CMBurnKit10
@@ -507,6 +531,10 @@
         amount: 1
       - id: AU14CivilianTurnoutGear
         amount: 1
+      - id: AU14CivilianHazardVestParamedicWhite
+        amount: 1
+      - id: AU14CivilianHazardVestParamedicGreen
+        amount: 1
       - id: AU14ExternalWebbing
         amount: 1
       - id: AU14CivilianJacketSnowSuit
@@ -566,6 +594,10 @@
       - id: CMSatchelMedical
         amount: 1
       - id: CMSatchel
+        amount: 1
+      - id: AU14SlingSatchelBlack
+        amount: 1
+      - id: AU14SlingSatchelBlue
         amount: 1
     - name: Field Medical Supplies
       entries:

@@ -37,7 +37,7 @@
 - type: startingGear
   id: AU14GearCivilianPhysician
   equipment:
-    id: CMIDCardColonist
+    id: AU14IDCardColonyPhysician
     ears: CMHeadsetColony
     jumpsuit: RMCScrubsLightBlue
     shoes: RMCShoesBlack

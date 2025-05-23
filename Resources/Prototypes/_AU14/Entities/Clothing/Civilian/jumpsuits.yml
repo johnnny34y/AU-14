@@ -145,3 +145,30 @@
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Civilian/Uniforms/Sanitation.rsi
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: AU14CivilianWeYuEngineerFormanClothes
+  name: We-Yu Engineering Forman Clothes
+  description: Clothes designed for WeYu engineering formans.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Uniforms/foremanuniform.rsi
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: AU14CivilianKellandMiningClothes
+  name: Kelland Mining Clothes
+  description: Clothes made for the miners of the Kelland Mining Corporation. 
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Uniforms/kellandmininguniform.rsi
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: AU14CivilianBaristaClothes
+  name: Barista Clothes
+  description: Clothes designed for those who make coffee.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Uniforms/cuppajoesuniform.rsi

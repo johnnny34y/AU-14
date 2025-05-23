@@ -42,7 +42,7 @@
     jumpsuit: AU14CivilianSanitationClothes
     outerClothing: AU14CivilianFullSuitSanitation
     shoes: RMCBootsCorporate
-    id: CMIDCardColonist
+    id: AU14IDCardColonyWasteManagementSpecialist
     ears: CMHeadsetColony
 
 - type: entity

@@ -49,7 +49,7 @@
     jumpsuit: AU14CMBUniform
     belt: CMBeltSecurityMarshalFilled
     shoes: RMCBootsPMCFilled
-    id: RMCIDCardDeputy
+    id: AU14IDCardColonyCMBDeputy
     ears: CMHeadsetColony
 
 - type: entity

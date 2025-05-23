@@ -41,7 +41,7 @@
     jumpsuit: AU14CivilianBoilerSuitCyan
     outerClothing: RMCHazardVest
     shoes: RMCBootsCorporate
-    id: CMIDCardColonist
+    id: AU14IDCardColonyFreightSystemsSpecialist
     ears: CMHeadsetColony
 
 - type: entity

@@ -236,6 +236,17 @@
   - type: Clothing
     sprite: _AU14/Clothing/Civilian/Jacket/browntrenchcoat.rsi
 
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianBaristaApron
+  name: Barista Apron
+  description: A sturdy and well made apron, good for keeping your clothes clean.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/cuppajoesapron.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/cuppajoesapron.rsi
+
 #outer jumpsuits
 - type: entity
   parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
@@ -291,3 +302,48 @@
     sprite: _AU14/Clothing/Civilian/ServiceOuterJumpsuits/wyengineer.rsi
   - type: Clothing
     sprite: _AU14/Clothing/Civilian/ServiceOuterJumpsuits/wyengineer.rsi
+
+#Hazard Vests
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianHazardVestParamedicGreen
+  name: Green Paramedic Hazard Vest
+  description: A reflective vest made to keep paramedics safe while working in dark conditions.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/HazardVests/greenparamedichazardvest.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/HazardVests/greenparamedichazardvest.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianHazardVestParamedicWhite
+  name: White Paramedic Hazard Vest
+  description: A reflective vest made to keep paramedics safe while working in dark conditions.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/HazardVests/whiteparamedichazardvest.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/HazardVests/whiteparamedichazardvest.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianHazardVestSanitation
+  name: Sanitation Hazard Vest
+  description: A reflective vest made to keep sanitation workers safe while working in dark conditions.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/HazardVests/sanitationhazardvest.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/HazardVests/sanitationhazardvest.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  id: AU14CivilianHazardVestKellandMiningCorporation
+  name: Kelland Mining Hazard Vest
+  description: A reflective vest made to keep Kelland Mining Corporation workers safe while working in dark conditions.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/Civilian/Jacket/HazardVests/kellandmininghazardvest.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/Civilian/Jacket/HazardVests/kellandmininghazardvest.rsi
