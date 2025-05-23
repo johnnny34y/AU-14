@@ -96,7 +96,7 @@
   equipment:
     jumpsuit: RMCJumpsuitCivilian
     shoes: RMCBootsCorporate
-    id: CMIDCardColonist
+    id: AU14IDCardColonySynthetic
     ears: CMHeadsetColony
   inhand:
   - RMCSmartpackBlack

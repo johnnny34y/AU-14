@@ -41,7 +41,7 @@
     jumpsuit: AU14CivilianWeYuEngineerClothes
     outerClothing: AU14CivilianFullSuitWeYuEngineer
     shoes: RMCBootsCorporate
-    id: CMIDCardColonist
+    id: AU14IDCardColonyEngineer
     ears: CMHeadsetColony
 
 - type: entity

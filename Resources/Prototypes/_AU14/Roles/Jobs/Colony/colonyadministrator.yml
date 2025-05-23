@@ -49,7 +49,7 @@
   equipment:
     jumpsuit: CMJumpsuitLiaisonBlack
     shoes: RMCShoesLaceupBrown
-    id: CMIDCardColonist
+    id: AU14IDCardColonyAdministrator
     ears: CMHeadsetColony
     outerClothing: RMCJacketCorporateBlue
 

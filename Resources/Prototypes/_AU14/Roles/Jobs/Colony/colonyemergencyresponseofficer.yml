@@ -28,6 +28,7 @@
         RMCSkillVehicles: 2
         RMCSkillDomestics: 1
         RMCSkillEndurance: 2
+        RMCSkillMedical: 2
         RMCSkillCqc: 1
         RMCSkillMeleeWeapons: 1
     - type: JobPrefix
@@ -43,7 +44,7 @@
   equipment:
     jumpsuit: AU14CivilianParamedicClothesRed
     shoes: RMCBootsPMC
-    id: CMIDCardColonist
+    id: AU14IDCardColonyEmergencyResponseOfficer
     ears: CMHeadsetColony
     gloves: CMHandsBrown
     head: AU14CivBallCapBlack

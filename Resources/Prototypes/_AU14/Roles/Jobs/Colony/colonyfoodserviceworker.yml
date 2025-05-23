@@ -37,7 +37,7 @@
   equipment:
     jumpsuit: AU14CivilianWorkwearYellow
     shoes: RMCShoesBlack
-    id: CMIDCardColonist
+    id: AU14IDCardFoodServiceWorker
     ears: CMHeadsetColony
     outerClothing: RMCMedicalApron
 
