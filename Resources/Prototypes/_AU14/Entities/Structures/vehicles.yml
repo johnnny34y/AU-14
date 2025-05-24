@@ -789,7 +789,7 @@
         acts: [ "Destruction" ]
   - type: RequireProjectileTarget
 
-#ARC
+#TWE tank
 
 - type: entity
   abstract: true
@@ -836,6 +836,549 @@
   components:
   - type: Sprite
     state: twe_tank
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+#Bison
+
+- type: entity
+  abstract: true
+  id: AU14PropBison
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.4,0.5"
+        density: 190
+        layer:
+        - MobMask
+  - type: Sprite
+    sprite: _AU14/Structures/vehicles/bison.rsi
+    offset: 0.5, 0.5
+    noRot: true
+  - type: Clickable
+  - type: DeleteOnExplosion
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: AU14PropBison
+  id: AU14PropUSCMBison
+  suffix: Vehicle
+  name: Bison Cargo Transport
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: base_closed
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14PropBison
+  id: AU14PropUSCMBison2
+  suffix: Vehicle
+  name: Damaged Bison Cargo Transport
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: base_closed_damaged
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14PropBison
+  id: AU14PropUSCMBison3
+  suffix: Vehicle
+  name: Bison Cargo Transport
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: base_open
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14PropBison
+  id: AU14PropUSCMBison4
+  suffix: Vehicle
+  name: Damaged Bison Cargo Transport
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: base_open_damaged
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+#TRR Armored Truck
+
+- type: entity
+  abstract: true
+  id: AU14PropThroopArmoredTruck
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.4,0.5"
+        density: 190
+        layer:
+        - MobMask
+  - type: Sprite
+    sprite: _AU14/Structures/vehicles/throoparmoredtruck.rsi
+    offset: 0.5, 0.5
+    noRot: true
+  - type: Clickable
+  - type: DeleteOnExplosion
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: AU14PropThroopArmoredTruck
+  id: AU14PropThroopArmoredTruck1
+  suffix: Vehicle
+  name: Throop Rapid Response Armored Truck
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: armored_truck_trr
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+#USASF/USCM Fighter
+
+- type: entity
+  abstract: true
+  id: AU14PropUSASFAircraft
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.4,0.5"
+        density: 190
+        layer:
+        - MobMask
+  - type: Sprite
+    sprite: _AU14/Structures/vehicles/usasfaircraft.rsi
+    offset: 0.5, 0.5
+    noRot: true
+  - type: Clickable
+  - type: DeleteOnExplosion
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: AU14PropUSASFAircraft
+  id: AU14PropUSASFAircraft2
+  suffix: Vehicle
+  name: USASF Atmospheric Fighter
+  description: An aerial vehicle.
+  components:
+  - type: Sprite
+    state: evac_usaf
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14PropUSASFAircraft
+  id: AU14PropUSASFAircraft3
+  suffix: Vehicle
+  name: USCM Fighter
+  description: An aerial vehicle.
+  components:
+  - type: Sprite
+    state: evac_uscm
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+#USCM IFV
+
+- type: entity
+  abstract: true
+  id: AU14PropUSCMIFV
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.4,0.5"
+        density: 190
+        layer:
+        - MobMask
+  - type: Sprite
+    sprite: _AU14/Structures/vehicles/uscmifv.rsi
+    offset: 0.5, 0.5
+    noRot: true
+  - type: Clickable
+  - type: DeleteOnExplosion
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: AU14PropUSCMIFV
+  id: AU14PropUSCMIFV2
+  suffix: Vehicle
+  name: Infantry Fighting Vehicle
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: ifv_base
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14PropUSCMIFV
+  id: AU14PropUSCMIFV3
+  suffix: Vehicle
+  name: Destroyed Infantry Fighting Vehicle
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: ifv_destroyed
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+#USCM Troop Truck
+
+- type: entity
+  abstract: true
+  id: AU14PropUSCMTroopTruck
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.4,0.5"
+        density: 190
+        layer:
+        - MobMask
+  - type: Sprite
+    sprite: _AU14/Structures/vehicles/van.rsi
+    offset: 0.5, 0.5
+    noRot: true
+  - type: Clickable
+  - type: DeleteOnExplosion
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: AU14PropUSCMTroopTruck
+  id: AU14PropUSCMTroopTruck2
+  suffix: Vehicle
+  name: Troop Truck
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: truck_base
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14PropUSCMTroopTruck
+  id: AU14PropUSCMTroopTruck3
+  suffix: Vehicle
+  name: Destroyed Troop Truck
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: truck_broken
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14PropUSCMTroopTruck
+  id: AU14PropUSCMTroopTruck4
+  suffix: Vehicle
+  name: Tarp Back Troop Truck
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: van_base
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14PropUSCMTroopTruck
+  id: AU14PropUSCMTroopTruck5
+  suffix: Vehicle
+  name: Destroyed Tarp Back Troop Truck
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: van_broken
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+#VTOL
+
+- type: entity
+  abstract: true
+  id: AU14PropVTOL
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.4,0.5"
+        density: 190
+        layer:
+        - MobMask
+  - type: Sprite
+    sprite: _AU14/Structures/vehicles/vtol.rsi
+    offset: 0.5, 0.5
+    noRot: true
+  - type: Clickable
+  - type: DeleteOnExplosion
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: AU14PropVTOL
+  id: AU14PropVTOL1
+  suffix: Vehicle
+  name: Military VTOL
+  description: An aerial vehicle.
+  components:
+  - type: Sprite
+    state: vtol
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14PropVTOL
+  id: AU14PropVTOL2
+  suffix: Vehicle
+  name: Destroyed Military VTOL
+  description: An aerial vehicle.
+  components:
+  - type: Sprite
+    state: vtol_damaged
   - type: Clickable
   - type: InteractionOutline
   - type: Destructible
