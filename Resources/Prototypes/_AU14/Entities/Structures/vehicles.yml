@@ -489,3 +489,361 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: RequireProjectileTarget
+
+#USCM APCs
+
+- type: entity
+  abstract: true
+  id: AU14PropAPC
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.4,0.5"
+        density: 190
+        layer:
+        - MobMask
+  - type: Sprite
+    sprite: _AU14/Structures/vehicles/uscmapc.rsi
+    offset: 0.5, 0.5
+    noRot: true
+  - type: Clickable
+  - type: DeleteOnExplosion
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: AU14PropAPC
+  id: AU14PropAPCMedical
+  suffix: Vehicle
+  name: USCM Medical APC
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: apc_base_med
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14PropAPC
+  id: AU14PropAPCNormal
+  suffix: Vehicle
+  name: USCM APC
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: apc_base
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+#HEMETT Trucks
+
+- type: entity
+  abstract: true
+  id: AU14PropHemettTruck
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.4,0.5"
+        density: 190
+        layer:
+        - MobMask
+  - type: Sprite
+    sprite: _AU14/Structures/vehicles/militarycargotrucks.rsi
+    offset: 0.5, 0.5
+    noRot: true
+  - type: Clickable
+  - type: DeleteOnExplosion
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: AU14PropHemettTruck
+  id: AU14PropHemettTruckNoBed
+  suffix: Vehicle
+  name: Military Cargo Truck
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: miltruck_1
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14PropHemettTruck
+  id: AU14PropHemettTruckOpenBed
+  suffix: Vehicle
+  name: Military Cargo Truck
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: miltruck_2
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: AU14PropHemettTruck
+  id: AU14PropHemettTruckClosedBed
+  suffix: Vehicle
+  name: Military Cargo Truck
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: miltruck_3
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+#CLF Van
+
+- type: entity
+  abstract: true
+  id: AU14PropCLFVan
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.4,0.5"
+        density: 190
+        layer:
+        - MobMask
+  - type: Sprite
+    sprite: _AU14/Structures/vehicles/clfvan.rsi
+    offset: 0.5, 0.5
+    noRot: true
+  - type: Clickable
+  - type: DeleteOnExplosion
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: AU14PropCLFVan
+  id: AU14PropCLFVanProp
+  suffix: Vehicle
+  name: CLF Van
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: van_base
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+#ARC
+
+- type: entity
+  abstract: true
+  id: AU14PropARC
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.4,0.5"
+        density: 190
+        layer:
+        - MobMask
+  - type: Sprite
+    sprite: _AU14/Structures/vehicles/arc.rsi
+    offset: 0.5, 0.5
+    noRot: true
+  - type: Clickable
+  - type: DeleteOnExplosion
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: AU14PropARC
+  id: AU14PropARCDamaged
+  suffix: Vehicle
+  name: Damaged USCM ARC
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: arc_destroyed
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
+
+#ARC
+
+- type: entity
+  abstract: true
+  id: AU14PropTWETank
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.4,0.5"
+        density: 190
+        layer:
+        - MobMask
+  - type: Sprite
+    sprite: _AU14/Structures/vehicles/twetank.rsi
+    offset: 0.5, 0.5
+    noRot: true
+  - type: Clickable
+  - type: DeleteOnExplosion
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: AU14PropTWETank
+  id: AU14PropTWETankSouth
+  suffix: Vehicle
+  name: TWE Tank
+  description: A vehicle.
+  components:
+  - type: Sprite
+    state: twe_tank
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RequireProjectileTarget
