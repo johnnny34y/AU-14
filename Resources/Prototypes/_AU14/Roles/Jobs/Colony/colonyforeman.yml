@@ -21,6 +21,7 @@
     - type: Skills
       skills:
         RMCSkillFireman: 2
+        RMCSkillFirearms: 2
         RMCSkillVehicles: 1
         RMCSkillDomestics: 1
         RMCSkillEngineer: 4
