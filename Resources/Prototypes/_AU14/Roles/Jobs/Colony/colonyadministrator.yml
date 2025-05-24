@@ -27,7 +27,6 @@
         RMCSkillCqc: 1
         RMCSkillEngineer: 1
         RMCSkillConstruction: 1
-        RMCSkillFirearms: 1
         RMCSkillOverwatch: 1
         RMCSkillResearch: 1
         RMCSkillPolice: 1
@@ -36,6 +35,7 @@
         RMCSkillIntel: 1
         RMCSkillDomestics: 1
         RMCSkillNavigations: 1
+        RMCSkillFirearms: 1
     - type: JobPrefix
       prefix: au14-job-prefix-colonyadministrator
     - type: TacticalMapIcon

@@ -22,6 +22,7 @@
       skills:
         RMCSkillFireman: 1
         RMCSkillVehicles: 1
+        RMCSkillFirearms: 1
         RMCSkillDomestics: 1
         RMCSkillEngineer: 2
         RMCSkillConstruction: 2
