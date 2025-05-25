@@ -37,6 +37,9 @@
     layers:
     - state: base
       sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/ml66a.rsi
+    - sprite: _RMC14/Objects/Weapons/Guns/Attachments/barrel.rsi
+      state: d_ml66_barrel
+      offset: 0.65, 0
     - state: camo
       sprite: _RMC14/Objects/Weapons/Guns/SmartGuns/ml66a.rsi
       map: [ "enum.ItemCamouflageLayers.Layer" ]
@@ -50,11 +53,11 @@
     - Back
   - type: ItemCamouflage
     colors:
-      Jungle: "#ccd08d"
-      Desert: "#ffd2a6"
-      Snow: "#ddcbc9"
-      Classic: "#c7e7d9"
-      Urban: "#acb8c7"
+      Jungle: "#FFFFFF"
+      Desert: "#FFFFFF"
+      Snow: "#FFFFFF"
+      Classic: "#FFFFFF"
+      Urban: "#FFFFFF"
   - type: MeleeWeapon
     damage:
       types:
