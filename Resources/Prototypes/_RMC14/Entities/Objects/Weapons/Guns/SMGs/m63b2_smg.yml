@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: M63B2 submachine gun
+  name: M39B/2 submachine gun
   id: RMCWeaponSMGM63B2
-  description: A modified version M63 submachinegun, re-engineered for better weight, handling and accuracy. Given only to elite units.
+  description: A modified version M39 submachinegun, re-engineered for better weight, handling and accuracy. Given only to elite units.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/m63b2.rsi
