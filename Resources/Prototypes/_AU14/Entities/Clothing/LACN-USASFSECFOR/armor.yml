@@ -122,3 +122,19 @@
     sprite: _AU14/Clothing/USASFSecurityForces/chestrig.rsi
   - type: Clothing
     sprite: _AU14/Clothing/USASFSecurityForces/chestrig.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
+  id: AU14LACNICPS2
+  name: LACN ICPS-2 Aircrew Armor
+  description: A set of ballistic armor used by LACN aircrew.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/LACN/PilotGear/armor.rsi
+  - type: RMCArmorSpeedTier
+    speedTier: light
+  - type: CMArmor
+    bullet: 10
+    bio: 10
+    explosionArmor: 10
+  - type: CMHardArmor

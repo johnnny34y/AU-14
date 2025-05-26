@@ -129,3 +129,14 @@
     sprite: _AU14/Clothing/uacghelmet.rsi
   - type: Clothing
     sprite: _AU14/Clothing/uacghelmet.rsi
+
+- type: entity
+  parent: RMCMarineHelmetBase
+  id: AU14USASFAirCrewHelmet
+  name: USASF LAH-99 aircrew helmet
+  description: A helmet made for USASF aircrew. This one contains a small built-in camera and has cushioning to protect your fragile brain.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/helmet.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/helmet.rsi

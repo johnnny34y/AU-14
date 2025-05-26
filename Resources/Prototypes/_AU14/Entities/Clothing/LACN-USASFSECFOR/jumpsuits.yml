@@ -24,3 +24,12 @@
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USASFSecurityForces/uniform.rsi
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: AU14LACNPilotJumpsuit
+  name: LACN Aircrew Jumpsuit
+  description: A standard LACN Aircrew Jumpsuit. It has shards of light Kevlar to help protect against shrapnel.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/LACN/PilotGear/uniform.rsi

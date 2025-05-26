@@ -45,3 +45,39 @@
     slots:
     - MASK
     - EYES
+
+- type: entity
+  parent: RMCGogglesBallistic
+  id: AU14GogglesLAH99VisorHighTech
+  name: LAH-99 IHADSS Visor
+  description: An Integrated Helmet and Display Sighting System visor attached to LACN LAH-99 helmets, this one is reflective. This item can be worn as a mask or attached to a LAH-99 helmet.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/hightechvisor.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/hightechvisor.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/hightechvisor.rsi
+      state: helmet-down
+    toggledRsi:
+      sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/hightechvisor.rsi
+      state: helmet-down
+
+- type: entity
+  parent: RMCGogglesBallistic
+  id: AU14GogglesLACNLAH99VisorClear
+  name: Clear LAH-99 Visor
+  description: A visor attached to LAH-99 helmets. This item can be worn as a mask or attached to a LAH-99 helmet.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/clearvisor.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/clearvisor.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/clearvisor.rsi
+      state: helmet-down
+    toggledRsi:
+      sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/clearvisor.rsi
+      state: helmet-down
