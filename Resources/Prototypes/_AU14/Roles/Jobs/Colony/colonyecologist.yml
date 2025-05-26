@@ -1,0 +1,56 @@
+- type: job
+  parent: CMJobBase
+  id: AU14JobCivilianEcologist
+  name: au14-job-name-civilianecologist
+  description: au14-job-description-civilianecologist
+  setPreference: true
+  playTimeTracker: AU14JobCivilianEcologist
+  ranks:
+    RMCRankCivilianProfessor: []
+  startingGear: AU14GearCivilianEcologist
+  icon: "CMJobIconEmpty"
+  requireAdminNotify: true
+  joinNotifyCrew: false
+  supervisors: au14-job-supervisors-colonycivilian
+  accessGroups:
+  - Colonist
+  roleWeight: 0.25
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      skills:
+        RMCSkillFireman: 1
+        RMCSkillVehicles: 1
+        RMCSkillDomestics: 1
+        RMCSkillFirearms: 1
+    - type: JobPrefix
+      prefix: au14-job-prefix-civilianecologist
+    - type: TacticalMapIcon
+      icon:
+        sprite: _RMC14/Interface/map_blips.rsi
+        state: synth
+  hidden: false
+
+- type: startingGear
+  id: AU14GearCivilianEcologist
+  equipment:
+    id: AU14IDCardColonyEcologist
+    ears: CMHeadsetColony
+    jumpsuit: AU14CivilianWorkwearGreen
+    shoes: RMCShoesBlack
+    outerClothing: RMCLabcoatOpened
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: AU14SpawnPointCivilianEcologist
+  name: Spawn Point Civilian Ecologist
+  components:
+  - type: SpawnPoint
+    job_id: AU14JobCivilianEcologist
+  - type: Sprite
+    state: syn_spawn
+
+- type: playTimeTracker
+  id: AU14JobCivilianEcologist
+  isHumanoid: true

@@ -3,6 +3,7 @@
   id: CMSurvivorEngineer
   name: cm-job-name-survivor-engineer
   description: cm-job-description-survivor
+  setPreference: false
   playTimeTracker: CMJobSurvivorEngineer
   startingGear: RMCGearSurvivorEngineer
   accessGroups:
@@ -20,11 +21,13 @@
         RMCSkillPowerLoader: 2
         RMCSkillVehicles: 1
     - type: RMCSurvivor
+    - type: RMCRibbon
     - type: MotionDetectorTracked
     - type: NpcFactionMember
       factions:
       - Survivor
     - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
 
 - type: startingGear
   id: RMCGearSurvivorEngineer

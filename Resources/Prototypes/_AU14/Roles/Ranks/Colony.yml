@@ -1,0 +1,14 @@
+- type: rank
+  id: AU14RankCMBSrDeputy
+  name: Senior Deputy
+  prefix: Sr. Dep.
+
+- type: rank
+  id: AU14RankColonyAdministrator
+  name: Administrator
+  prefix: Admin.
+
+- type: rank
+  id: AU14RankColonySeniorAdministrator
+  name: Senior Administrator
+  prefix: Sr. Admin.

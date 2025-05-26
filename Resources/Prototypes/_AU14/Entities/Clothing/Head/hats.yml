@@ -85,3 +85,14 @@
     sprite: _AU14/Clothing/DesertHats/cap.rsi
   - type: Clothing
     sprite: _AU14/Clothing/DesertHats/cap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: AU14USASFCap
+  name: USASF Cap
+  description: A simple USASF cap.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/JungleHats/cap.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/JungleHats/cap.rsi
