@@ -12,6 +12,9 @@
     rsi:
       sprite: _AU14/Clothing/Goggles/m1a1clear.rsi
       state: helmet
+    toggledRsi:
+      sprite: _AU14/Clothing/Goggles/m1a1clear.rsi
+      state: helmet-down
 
 - type: entity
   parent: RMCGogglesBallistic
@@ -27,6 +30,9 @@
     rsi:
       sprite: _AU14/Clothing/Goggles/m1a1.rsi
       state: helmet
+    toggledRsi:
+      sprite: _AU14/Clothing/Goggles/m1a1.rsi
+      state: helmet-down
 
 - type: entity
   parent: RMCGogglesBallistic
@@ -42,6 +48,9 @@
     rsi:
       sprite: _AU14/Clothing/Goggles/m1a1dark.rsi
       state: helmet
+    toggledRsi:
+      sprite: _AU14/Clothing/Goggles/m1a1dark.rsi
+      state: helmet-down
 
 - type: entity
   parent: RMCGogglesBallistic
@@ -57,6 +66,9 @@
     rsi:
       sprite: _AU14/Clothing/Goggles/m1a1darkalt.rsi
       state: helmet
+    toggledRsi:
+      sprite: _AU14/Clothing/Goggles/m1a1darkalt.rsi
+      state: helmet-down
 
 - type: entity
   parent: RMCGogglesBallistic
@@ -72,3 +84,6 @@
     rsi:
       sprite: _AU14/Clothing/Goggles/m1a1green.rsi
       state: helmet
+    toggledRsi:
+      sprite: _AU14/Clothing/Goggles/m1a1green.rsi
+      state: helmet-down
