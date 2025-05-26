@@ -69,3 +69,12 @@
   components:
   - type: Sprite
     sprite: _AU14/Clothing/junglefatigues.rsi
+
+- type: entity
+  parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
+  id: AU14USASFPilotJumpsuit
+  name: USASF Aircrew Jumpsuit
+  description: A standard USASF Aircrew Jumpsuit. It has shards of light Kevlar to help protect against shrapnel.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/uniform.rsi

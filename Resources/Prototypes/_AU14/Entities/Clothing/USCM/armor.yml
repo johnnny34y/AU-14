@@ -160,3 +160,19 @@
     sprite: _AU14/Clothing/externalwebbing.rsi
   - type: Clothing
     sprite: _AU14/Clothing/externalwebbing.rsi
+
+- type: entity
+  parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
+  id: AU14USASFICPS2
+  name: USASF ICPS-2 Aircrew Armor
+  description: A set of ballistic armor used by USASF aircrew.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/armor.rsi
+  - type: RMCArmorSpeedTier
+    speedTier: light
+  - type: CMArmor
+    bullet: 10
+    bio: 10
+    explosionArmor: 10
+  - type: CMHardArmor

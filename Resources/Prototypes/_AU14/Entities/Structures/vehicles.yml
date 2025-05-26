@@ -1071,8 +1071,8 @@
   parent: AU14PropUSASFAircraft
   id: AU14PropUSASFAircraft2
   suffix: Vehicle
-  name: USASF Atmospheric Fighter
-  description: An aerial vehicle.
+  name: "USASF A/X-91 'Wraith'"
+  description: The A/X-91 Wraith is a transorbital VTOL fighter built for the USASF. This model is armed with dual GUA-19 rotary guns, seven Hydra rocket pods and two AGM-291 anti-vehicle missiles.
   components:
   - type: Sprite
     state: evac_usaf
@@ -1092,8 +1092,8 @@
   parent: AU14PropUSASFAircraft
   id: AU14PropUSASFAircraft3
   suffix: Vehicle
-  name: USCM Fighter
-  description: An aerial vehicle.
+  name: "A/X-90 'Jackal'"
+  description: The A/X-90 Jackal is the USCM counterpart to the USASF A/X-91. It is engineered for mass deployment and orbital insertion into hostile zones. Though it retains basic close air support capability, the Jackal is primarily tasked with forward reconnaissance, target designation and route clearance ahead of Marine drops.
   components:
   - type: Sprite
     state: evac_uscm
