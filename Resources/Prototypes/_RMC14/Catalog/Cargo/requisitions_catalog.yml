@@ -122,11 +122,11 @@
         crate: AU14CrateBoxM44
       - cost: 900
         crate: AU14CrateBoxD18
-      - cost: 950
     - name: Ammunition
       entries:
+      - cost: 650
         crate: AU14CrateBoxAR10Magazines
-      - cost: 750
+      - cost: 600
         crate: AU14CrateBoxRSH9SL
       - cost: 600
         crate: AU14CrateBoxBasiraMagazines
