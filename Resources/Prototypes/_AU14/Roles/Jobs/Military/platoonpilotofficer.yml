@@ -21,7 +21,7 @@
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govforplatco
   accessGroups:
-  - Colonist
+  - Pilot
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
