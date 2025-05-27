@@ -1,0 +1,57 @@
+- type: job
+  parent: CMJobBase
+  id: AU14JobGOVFORSquadRifleman
+  name: au14-job-name-govforsquadrifleman
+  description: au14-job-description-govforsquadrifleman
+  setPreference: true
+  playTimeTracker: AU14JobGOVFORSquadRifleman
+  ranks:
+    RMCRankPrivateFirstClass:
+    - !type:RoleTimeRequirement
+      role: AU14JobGOVFORSquadRifleman
+      time: 900 # 15 hours
+    RMCRankPrivate: []
+  startingGear: AU14GearGOVFORSquadRifleman
+  icon: "CMJobIconEmpty"
+  requireAdminNotify: true
+  joinNotifyCrew: false
+  supervisors: au14-job-supervisors-govforplatco
+  accessGroups:
+  - Rifleman
+  hasIcon: false
+  roleWeight: 0.25
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      skills:
+        RMCSkillEndurance: 1
+        RMCSkillFirearms: 1
+        RMCSkillConstruction: 2
+        RMCSkillEngineer: 3
+    - type: JobPrefix
+      prefix: au14-job-prefix-govforsquadrifleman
+    - type: TacticalMapIcon
+      icon:
+        sprite: _RMC14/Interface/map_blips.rsi
+        state: synth
+  hidden: false
+
+- type: startingGear
+  id: AU14GearGOVFORSquadRifleman
+  equipment:
+    id: AU14IDCardSquadRifleman
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: AU14SpawnPointGOVFORSquadRifleman
+  name: Spawn Point GOVFOR Squad Rifleman
+  components:
+  - type: SpawnPoint
+    job_id: AU14JobGOVFORSquadRifleman
+  - type: Sprite
+    state: syn_spawn
+
+- type: playTimeTracker
+  id: AU14JobGOVFORSquadRifleman
+  isHumanoid: true

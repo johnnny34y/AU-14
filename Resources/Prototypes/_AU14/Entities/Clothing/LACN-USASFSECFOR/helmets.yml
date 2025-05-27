@@ -19,3 +19,14 @@
     sprite: _AU14/Clothing/LACN/HelmetsHats/lacnslhelmet.rsi
   - type: Clothing
     sprite: _AU14/Clothing/LACN/HelmetsHats/lacnslhelmet.rsi
+
+- type: entity
+  parent: RMCMarineHelmetBase
+  id: AU14LACNAirCrewHelmet
+  name: LACN LAH-99 aircrew helmet
+  description: A helmet made for LACN aircrew. This one contains a small built-in camera and has cushioning to protect your fragile brain.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/LACN/PilotGear/helmet.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/LACN/PilotGear/helmet.rsi

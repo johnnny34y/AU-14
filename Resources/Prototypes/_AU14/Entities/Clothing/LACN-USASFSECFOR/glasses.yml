@@ -1,0 +1,35 @@
+- type: entity
+  parent: RMCGogglesBallistic
+  id: AU14GogglesLACNLAH99VisorMirror
+  name: Orange Mirrored LAH-99 Visor
+  description: A visor attached to LACN LAH-99 helmets, this one is reflective. This item can be worn as a mask or attached to a LAH-99 helmet.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/LACN/PilotGear/visor.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/LACN/PilotGear/visor.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _AU14/Clothing/LACN/PilotGear/visor.rsi
+      state: helmet-down
+    toggledRsi:
+      sprite: _AU14/Clothing/LACN/PilotGear/visor.rsi
+      state: helmet-down
+
+- type: entity
+  parent: RMCGogglesBallistic
+  id: AU14GogglesLACNLAH99Visor
+  name: Orange LAH-99 Visor
+  description: A visor attached to LAH-99 helmets. This item can be worn as a mask or attached to a LAH-99 helmet.
+  components:
+  - type: Sprite
+    sprite: _AU14/Clothing/LACN/PilotGear/transvisor.rsi
+  - type: Clothing
+    sprite: _AU14/Clothing/LACN/PilotGear/transvisor.rsi
+  - type: HelmetAccessory
+    rsi:
+      sprite: _AU14/Clothing/LACN/PilotGear/transvisor.rsi
+      state: helmet-down
+    toggledRsi:
+      sprite: _AU14/Clothing/LACN/PilotGear/transvisor.rsi
+      state: helmet-down

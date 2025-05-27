@@ -3,6 +3,7 @@
   id: CMSurvivorSecurity
   name: cm-job-name-survivor-security
   description: cm-job-description-survivor
+  setPreference: false
   playTimeTracker: CMJobSurvivorSecurity
   ranks:
     RMCRankCivilianOfficer: []
@@ -26,11 +27,13 @@
     - type: EquipSurvivorPreset
       preset: RMCSurvivorPresetSecurity
     - type: RMCSurvivor
+    - type: RMCRibbon
     - type: MotionDetectorTracked
     - type: NpcFactionMember
       factions:
       - Survivor
     - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
 
 - type: startingGear
   id: RMCGearSurvivorSecurity
