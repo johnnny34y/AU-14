@@ -19,17 +19,17 @@
       gun_chamber: !type:ContainerSlot
   - type: Gun
     projectileSpeed: 20
+    recoilUnwielded: 4
+    scatterWielded: 6
+    scatterUnwielded: 20
+    baseFireRate: 0.45
+    burstScatterMult: 1
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
     resetOnHandSelected: false
-    recoilUnwielded: 4
-    scatterWielded: 6
-    scatterUnwielded: 20
-    baseFireRate: 0.45
-    burstScatterMult: 1
   - type: GunIFF
     enabled: true
   - type: ShootAtFixedPoint
