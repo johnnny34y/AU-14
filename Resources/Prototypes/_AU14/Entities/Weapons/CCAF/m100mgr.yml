@@ -27,7 +27,6 @@
   - type: RMCSelectiveFire
     baseFireModes:
     - SemiAuto
-    projectileSpeed: 20
     recoilUnwielded: 4
     scatterWielded: 6
     scatterUnwielded: 20
