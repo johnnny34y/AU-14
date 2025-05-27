@@ -12,6 +12,9 @@
     - state: bolt-open
       sprite: _RMC14/Objects/Weapons/Guns/Rifles/ssg45/ssg45_icon.rsi
       map: [ "enum.GunVisualLayers.Base" ]
+    - sprite: _RMC14/Objects/Weapons/Guns/Attachments/barrel.rsi
+      state: d_ssg45_barrel
+      offset: 0.65, 0
     - state: mag-0
       sprite: _RMC14/Objects/Weapons/Guns/Rifles/ssg45/ssg45_icon.rsi
       map: [ "enum.GunVisualLayers.Mag" ]
@@ -92,9 +95,9 @@
           - RMCAttachmentS6ReflexSight
           - RMCAttachmentS84xTelescopicScope
           - RMCAttachmentS42xTelescopicMiniscope
+          - RMCAttachmentS42xAdvancedTelescopicMiniscope
       rmc-aslot-stock:
         locked: true
-        startingAttachable: RMCAttachmentSSG45Stock
         whitelist:
           tags:
           - RMCAttachmentSSG45Stock
@@ -112,10 +115,10 @@
           - RMCAttachmentFlamer
   - type: AttachableHolderVisuals
     offsets:
-      rmc-aslot-barrel: 0.875, 0.095
-      rmc-aslot-rail: 0.095, 0.25
-      rmc-aslot-stock: -0.41, 0.06
-      rmc-aslot-underbarrel: 0.345, -0.245
+      rmc-aslot-barrel: 0.955, -0.03
+      rmc-aslot-rail: 0.085, 0.15
+      rmc-aslot-stock: -0.41, 0.00
+      rmc-aslot-underbarrel: 0.445, -0.365
   - type: Tag
     tags:
     - RMCWeaponRifleSSG45
