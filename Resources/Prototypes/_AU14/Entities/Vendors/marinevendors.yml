@@ -507,7 +507,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14USCMaircrewvendor
-  name: USCM aircrew vendor
+  name: USASF aircrew vendor
   description: An automated rack hooked up to a small storage of aircrew apparel and equipment.
   components:
   - type: AccessReader
@@ -1228,7 +1228,7 @@
     - name: Submachine Guns
       entries:
       - id: WeaponSMGM63
-        amount: 1
+        amount: 2
     - name: Submachine Gun Ammunition
       entries:
       - id: CMMagazineSMGM63
@@ -1236,7 +1236,7 @@
     - name: Handguns
       entries:
       - id: RMCWeaponPistolM77Empty
-        amount: 1
+        amount: 2
     - name: Handgun Ammunition
       entries:
       - id: CMMagazinePistolM77AP

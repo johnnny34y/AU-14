@@ -1,7 +1,7 @@
 - type: gameMap
-  id: Riptide
-  mapName: USS Riptide (USCM)
-  mapPath: /Maps/_RMC14/USSRiptide.yml
+  id: RiptideLACN
+  mapName: USS Riptide (LACN)
+  mapPath: /Maps/_RMC14/USSRiptideLACN.yml
   minPlayers: 0
   maxPlayers: 75
   maxRandomOffset: 0
