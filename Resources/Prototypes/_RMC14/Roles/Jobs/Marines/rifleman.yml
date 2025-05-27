@@ -3,6 +3,7 @@
   id: CMRifleman
   name: cm-job-name-rifleman
   description: cm-job-description-rifleman
+  setPreference: false
   playTimeTracker: CMJobRifleman
   startingGear: CMGearRifleman
   dummyStartingGear: CMGearRiflemanEquipped

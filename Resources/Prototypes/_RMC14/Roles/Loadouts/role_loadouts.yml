@@ -888,3 +888,102 @@
   - FoodSweetsRMC
   - FoodPackagedRMC
   - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobGOVFORPlatCo
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobGOVFORPlatOp
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobGOVFORDSPilot
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobGOVFORDCC
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobGOVFORSectionSergeant
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobGOVFORSquadSergeant
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobGOVFORSquadRifleman
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobGOVFORSquadAutomaticRifleman
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC
+
+- type: roleLoadout
+  id: AU14JobGOVFORPlatoonCorpsman
+  points: 7
+  groups:
+  - PaperworkRMC
+  - CannedDrinksRMC
+  - FlasksRMC
+  - FoodSweetsRMC
+  - FoodPackagedRMC
+  - FoodHealthyRMC

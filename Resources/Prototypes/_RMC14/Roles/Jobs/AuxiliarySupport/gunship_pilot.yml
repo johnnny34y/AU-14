@@ -3,6 +3,7 @@
   id: CMPilotGunship
   name: cm-job-name-gunship-pilot
   description: cm-job-description-gunship-pilot
+  setPreference: false
   playTimeTracker: CMJobPilotGunship
   ranks:
     RMCRankSecondLT: []

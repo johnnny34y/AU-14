@@ -3,6 +3,7 @@
   id: CMSquadLeader
   name: cm-job-name-squad-leader
   description: cm-job-description-squad-leader
+  setPreference: false
   playTimeTracker: CMJobSquadLeader
   ranks:
     RMCRankGunnerySergeant:
