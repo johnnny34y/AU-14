@@ -20,10 +20,11 @@
       time: 720 # 12 hours
     AU14RankUSASFTechnicalSergeant: []
   startingGear: AU14GearGOVFORDCC
+  dummyStartingGear: AU14GearGOVFORDCCDummy
   icon: "CMJobIconDCC"
   requireAdminNotify: true
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-govforplatco
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - Pilot
   roleWeight: 0.25
@@ -68,3 +69,11 @@
 - type: playTimeTracker
   id: AU14JobGOVFORDCC
   isHumanoid: true
+
+- type: startingGear
+  id: AU14GearGOVFORDCCDummy
+  equipment:
+    outerClothing: AU14USASFICPS2
+    shoes: CMBootsBrown
+    head: AU14USASFAirCrewHelmet
+    jumpsuit: AU14USASFPilotJumpsuit

@@ -8,10 +8,11 @@
   ranks:
     RMCRankSergeant: []
   startingGear: AU14GearGOVFORSquadSergeant
+  dummyStartingGear: AU14GearGOVFORSquadSergantDummy
   icon: "CMJobIconFireteamLeader"
   requireAdminNotify: true
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-govforplatco
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - FTL
   overwatchSortPriority: -5
@@ -54,3 +55,11 @@
 - type: playTimeTracker
   id: AU14JobGOVFORSquadSergeant
   isHumanoid: true
+
+- type: startingGear
+  id: AU14GearGOVFORSquadSergantDummy
+  equipment:
+    outerClothing: AU14ArmorM3JungleOne
+    shoes: CMBootsBrown
+    head: AU14JungleBoonieHat
+    jumpsuit: AU14JungleFatigues

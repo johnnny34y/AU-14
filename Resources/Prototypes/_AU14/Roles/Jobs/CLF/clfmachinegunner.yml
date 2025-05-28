@@ -20,9 +20,12 @@
     components:
     - type: Skills
       skills:
-        RMCSkillFireman: 1
+        RMCSkillEndurance: 2
+        RMCSkillFirearms: 1
+        RMCSkillConstruction: 2
+        RMCSkillEngineer: 3
+        RMCSkillFireman: 2
         RMCSkillVehicles: 1
-        RMCSkillDomestics: 1
     - type: JobPrefix
       prefix: au14-job-prefix-clfmachinegunner
     - type: TacticalMapIcon

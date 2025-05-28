@@ -20,10 +20,11 @@
       time: 900 # 15 hours
     RMCRankPrivate: []
   startingGear: AU14GearGOVFORSquadAutomaticRifleman
+  dummyStartingGear: AU14GearGOVFORAutoRiflemanDummy
   icon: "CMJobIconSmartGunOperator"
   requireAdminNotify: true
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-govforplatco
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - SmartGunOperator
   overwatchSortPriority: -3
@@ -68,3 +69,11 @@
 - type: playTimeTracker
   id: AU14JobGOVFORSquadAutomaticRifleman
   isHumanoid: true
+
+- type: startingGear
+  id: AU14GearGOVFORAutoRiflemanDummy
+  equipment:
+    outerClothing: AU14ArmorSmartGunJungleCombatHarness
+    shoes: AU14BootsJungle
+    head: AU14JungleM10Helmet
+    jumpsuit: AU14JungleFatigues

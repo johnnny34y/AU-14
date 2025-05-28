@@ -12,10 +12,11 @@
       time: 1200 # 20 hours
     RMCRankLanceCorporal: []
   startingGear: AU14GearGOVFORPlatoonCorpsman
+  dummyStartingGear: AU14GearGOVFORCorpsmanDummy
   icon: "CMJobIconHospitalCorpsman"
   requireAdminNotify: true
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-govforplatco
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - HospitalCorpsman
   overwatchSortPriority: -2
@@ -59,3 +60,12 @@
 - type: playTimeTracker
   id: AU14JobGOVFORPlatoonCorpsman
   isHumanoid: true
+
+- type: startingGear
+  id: AU14GearGOVFORCorpsmanDummy
+  equipment:
+    outerClothing: AU14ArmorM3JungleOne
+    gloves: CMHandsLatex
+    shoes: CMBootsBlack
+    head: AU14JungleM10CorpsmanHelmet
+    jumpsuit: AU14JungleFatigues
