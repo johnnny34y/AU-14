@@ -16,10 +16,11 @@
       time: 3600 # 60 hours
     RMCRankStaffSergeant: []
   startingGear: AU14GearGOVFORSectionSergeant
+  dummyStartingGear: AU14GearGOVFORPlatoonSergantDummy
   icon: "CMJobIconSquadLeader"
   requireAdminNotify: true
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-govforplatco
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - SquadLeader
   overwatchSortPriority: -6
@@ -70,3 +71,11 @@
 - type: playTimeTracker
   id: AU14JobGOVFORSectionSergeant
   isHumanoid: true
+
+- type: startingGear
+  id: AU14GearGOVFORPlatoonSergantDummy
+  equipment:
+    outerClothing: AU14ArmorM3JungleTwo
+    shoes: CMBootsBrown
+    head: AU14JunglePatrolCap
+    jumpsuit: AU14JungleFatigues

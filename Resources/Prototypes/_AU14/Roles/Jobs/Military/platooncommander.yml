@@ -12,6 +12,7 @@
       time: 7200 # 120 hours
     RMCRankFirstLT: []
   startingGear: AU14GearGOVFORPlatCo
+  dummyStartingGear: AU14GearGOVFORPlatCoDummy
   icon: "CMJobIconExecutiveOfficer"
   requireAdminNotify: true
   joinNotifyCrew: false
@@ -66,3 +67,10 @@
 - type: playTimeTracker
   id: AU14JobGOVFORPlatCo
   isHumanoid: true
+
+- type: startingGear
+  id: AU14GearGOVFORPlatCoDummy
+  equipment:
+    shoes: CMBootsBlack
+    head: CMHeadCapPeakedFormal
+    jumpsuit: CMJumpsuitXOFormal

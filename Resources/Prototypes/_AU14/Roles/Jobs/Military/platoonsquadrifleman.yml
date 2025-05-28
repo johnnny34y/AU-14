@@ -12,10 +12,11 @@
       time: 900 # 15 hours
     RMCRankPrivate: []
   startingGear: AU14GearGOVFORSquadRifleman
+  dummyStartingGear: AU14GearGOVFORRiflemanDummy
   icon: "CMJobIconEmpty"
   requireAdminNotify: true
   joinNotifyCrew: false
-  supervisors: au14-job-supervisors-govforplatco
+  supervisors: au14-job-supervisors-govfor
   accessGroups:
   - Rifleman
   hasIcon: false
@@ -29,6 +30,8 @@
         RMCSkillFirearms: 1
         RMCSkillConstruction: 2
         RMCSkillEngineer: 3
+        RMCSkillFireman: 1
+        RMCSkillVehicles: 1
     - type: JobPrefix
       prefix: au14-job-prefix-govforsquadrifleman
     - type: TacticalMapIcon
@@ -55,3 +58,11 @@
 - type: playTimeTracker
   id: AU14JobGOVFORSquadRifleman
   isHumanoid: true
+
+- type: startingGear
+  id: AU14GearGOVFORRiflemanDummy
+  equipment:
+    outerClothing: AU14ArmorM3JungleThree
+    shoes: AU14BootsJungle
+    head: AU14JungleM10Helmet
+    jumpsuit: AU14JungleFatigues
