@@ -3,6 +3,7 @@
   id: CMHospitalCorpsman
   name: cm-job-name-hospital-corpsman
   description: cm-job-description-hospital-corpsman
+  setPreference: false
   playTimeTracker: CMJobHospitalCorpsman
   ranks:
     RMCRankCorporal:

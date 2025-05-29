@@ -459,9 +459,7 @@
       entries:
       - id: AU14LACNBoots
         amount: 2
-      - id: AU14LACNUniformCoat
-        amount: 2
-      - id: AU14LACNUniform
+      - id: AU14LACNPilotJumpsuit
         amount: 2
       - id: AU14LACNGloves
         amount: 2
@@ -481,17 +479,13 @@
         amount: 2
     - name: Helmets and Hats
       entries:
-      - id: AU14LACNHelmetStandard
+      - id: AU14LACNAirCrewHelmet
         amount: 2
       - id: AU14LACNNavyCap
         amount: 2
     - name: Armor
       entries:
-      - id: AU14ArmorPilotFlakJacket
-        amount: 2
-      - id: CMArmorM3VLFlakVest
-        amount: 2
-      - id: AU14ExternalWebbing
+      - id: AU14LACNICPS2
         amount: 2
     - name: Backpack
       entries:
@@ -541,11 +535,7 @@
 #        amount: 1
     - name: Mask
       entries:
-      - id: CMMaskGas
-        amount: 2
-      - id: RMCMaskRebreather
-        amount: 2
-      - id: CMMaskCoif
+      - id: AU14MaskLACNPilotOxygen
         amount: 2
       - id: RMCMaskScarfBlack
         amount: 2
@@ -557,15 +547,13 @@
         amount: 2
     - name: Miscellaneous
       entries:
-      - id: AU14GogglesM1A1ClearBallistic
+      - id: AU14GogglesLACNLAH99VisorMirror
         amount: 2
-      - id: AU14GogglesM1A1Ballistic
+      - id: AU14GogglesLAH99VisorHighTech
         amount: 2
-      - id: AU14GogglesM1A1DarkBallistic
+      - id: AU14GogglesLACNLAH99VisorClear
         amount: 2
-      - id: AU14GogglesM60
-        amount: 2
-      - id: AU14GogglesM1A1LaserBallistic
+      - id: AU14GogglesLACNLAH99Visor
         amount: 2
       - id: RMCGlassesMarineRpg
         amount: 2
