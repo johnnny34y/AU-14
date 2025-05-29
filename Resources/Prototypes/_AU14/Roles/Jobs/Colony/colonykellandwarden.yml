@@ -61,5 +61,5 @@
     state: syn_spawn
 
 - type: playTimeTracker
-  id: AU14JobcivilianKellandWarden
+  id: au14JobcivilianKellandWarden
   isHumanoid: true

@@ -1,6 +1,6 @@
 - type: job
   parent: CMJobBase
-  id: AU14JobCivilianprisoner
+  id: AU14Jobcivilianprisoner
   name: au14-job-name-civilianprisoner
   description: au14-job-description-civilianprisoner
   setPreference: true
@@ -24,7 +24,7 @@
       prefix: au14-job-prefix-civilianprisoner
     - type: TacticalMapIcon
       icon:
-        sprite: Resources/Textures/Interface/Misc/job_icons.rsi/Prisoner.png
+        sprite: _RMC14/Interface/map_blips.rsi
         state: synth
   hidden: false
 
@@ -40,19 +40,28 @@
   name: Spawn Point civilian prisoner
   components:
   - type: SpawnPoint
-    job_id: AU14JobCivilianprisoner
+    job_id: AU14Jobcivilianprisoner
   - type: Sprite
     state: syn_spawn
+
+
 - type: entity
   parent: MarkerBase
   id: auprisonerghost
-  name: prisoner colonist ghost role
+  name: Prisoner colonist ghost role
   components:
   - type: Sprite
     layers:
     - state: red
   - type: RandomHumanoidSpawner
-    settings: Aughostprisoner
+    settings: aughostprisoner
+
+- type: randomHumanoidSettings
+  parent: RMCSettingsGhostRole
+  id: aughostprisoner
+  components:
+  - type: RMCJobSpawner
+    job: AU14Jobcivilianprisoner
 
 - type: playTimeTracker
   id: AU14Jobcivilianprisoner
