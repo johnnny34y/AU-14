@@ -33,10 +33,10 @@
     - /Audio/_AU14/Voice/Corpsman/male_corpsman_30.ogg
     - /Audio/_AU14/Voice/Corpsman/male_corpsman_31.ogg
     - /Audio/_AU14/Voice/Corpsman/male_corpsman_32.ogg
-    - /Audio/_AU14/Voice/Corpsman/male_corpsman_33.ogg
-    - /Audio/_AU14/Voice/Corpsman/male_corpsman_34.ogg
-    - /Audio/_AU14/Voice/Corpsman/male_corpsman_35.ogg
-    - /Audio/_AU14/Voice/Corpsman/male_corpsman_36.ogg
+    - /Audio/_AU14/Voice/Corpsman/male_corpsman33.ogg
+    - /Audio/_AU14/Voice/Corpsman/male_corpsman34.ogg
+    - /Audio/_AU14/Voice/Corpsman/male_corpsman35.ogg
+    - /Audio/_AU14/Voice/Corpsman/male_corpsman36.ogg
 
 - type: soundCollection
   id: AU14FemaleCorpsman
