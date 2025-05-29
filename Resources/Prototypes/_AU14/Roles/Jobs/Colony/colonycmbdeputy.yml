@@ -52,6 +52,7 @@
     shoes: RMCBootsPMCFilled
     id: AU14IDCardColonyCMBDeputy
     ears: CMHeadsetColony
+    outerClothing: AU14CMBDeputyWindbreaker
 
 - type: entity
   parent: CMSpawnPointJobBase

@@ -507,7 +507,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14USCMaircrewvendor
-  name: USCM aircrew vendor
+  name: USASF aircrew vendor
   description: An automated rack hooked up to a small storage of aircrew apparel and equipment.
   components:
   - type: AccessReader
@@ -525,9 +525,7 @@
         amount: 2
       - id: AU14BootsJungle
         amount: 2
-      - id: AU14TacticalFlightSuit
-        amount: 2
-      - id: CMJumpsuitPilot
+      - id: AU14USASFPilotJumpsuit
         amount: 2
       - id: CMHandsBrown
         amount: 2
@@ -553,13 +551,9 @@
         amount: 2
     - name: Helmets and Hats
       entries:
-      - id: AU14DesertM30Helmet
+      - id: AU14USASFAirCrewHelmet
         amount: 2
-      - id: AU14JungleM30Helmet
-        amount: 2
-      - id: AU14JunglePatrolCap
-        amount: 2
-      - id: AU14DesertPatrolCap
+      - id: AU14USASFCap
         amount: 2
     - name: Heads Up Display
       entries:
@@ -567,9 +561,7 @@
         amount: 2
     - name: Armor
       entries:
-      - id: AU14ArmorPilotFlakJacket
-        amount: 2
-      - id: CMArmorM3VLFlakVest
+      - id: AU14USASFICPS2
         amount: 2
     - name: Backpack
       entries:
@@ -619,11 +611,7 @@
 #        amount: 1
     - name: Mask
       entries:
-      - id: CMMaskGas
-        amount: 2
-      - id: RMCMaskRebreather
-        amount: 2
-      - id: CMMaskCoif
+      - id: AU14MaskUSASFPilotOxygen
         amount: 2
       - id: RMCMaskScarfBlack
         amount: 2
@@ -635,15 +623,13 @@
         amount: 2
     - name: Miscellaneous
       entries:
-      - id: AU14GogglesM1A1ClearBallistic
+      - id: AU14GogglesLACNLAH99VisorMirror
         amount: 2
-      - id: AU14GogglesM1A1Ballistic
+      - id: AU14GogglesLAH99VisorHighTech
         amount: 2
-      - id: AU14GogglesM1A1DarkBallistic
+      - id: AU14GogglesLACNLAH99VisorClear
         amount: 2
-      - id: AU14GogglesM60
-        amount: 2
-      - id: AU14GogglesM1A1LaserBallistic
+      - id: AU14GogglesLACNLAH99Visor
         amount: 2
       - id: RMCGlassesMarineRpg
         amount: 2
@@ -1225,3 +1211,39 @@
         amount: 6
       - id: RMCBoxShotgunFlechette
         amount: 6
+
+- type: entity
+  parent: ColMarTechBase
+  id: AU14AircrewWeaponsVendor
+  name: aircrew weapons rack
+  description: An automated rack hooked up to a small storage of weapons.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessPilot" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/guns.rsi
+  - type: CMAutomatedVendor
+    sections:
+    - name: Submachine Guns
+      entries:
+      - id: WeaponSMGM63
+        amount: 2
+    - name: Submachine Gun Ammunition
+      entries:
+      - id: CMMagazineSMGM63
+        amount: 20
+    - name: Handguns
+      entries:
+      - id: RMCWeaponPistolM77Empty
+        amount: 2
+    - name: Handgun Ammunition
+      entries:
+      - id: CMMagazinePistolM77AP
+        amount: 20
+    - name: Attachments
+      entries:
+      - id: RMCAttachmentS6ReflexSight
+        amount: 2
+      - id: RMCAttachmentFlashlightGrip
+        amount: 2

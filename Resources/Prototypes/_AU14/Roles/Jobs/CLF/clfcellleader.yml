@@ -20,9 +20,22 @@
     components:
     - type: Skills
       skills:
-        RMCSkillFireman: 1
+        RMCSkillCqc: 2
+        RMCSkillConstruction: 2
+        RMCSkillEndurance: 2
+        RMCSkillEngineer: 2
+        RMCSkillFirearms: 2
+        RMCSkillFireman: 2
+        RMCSkillIntel: 2
+        RMCSkillJtac: 4
+        RMCSkillLeadership: 3
+        RMCSkillMedical: 1
+        RMCSkillNavigations: 1
+        RMCSkillOverwatch: 1
+        RMCSkillPolice: 1
+        RMCSkillPowerLoader: 1
+        RMCSkillSurgery: 1
         RMCSkillVehicles: 1
-        RMCSkillDomestics: 1
     - type: JobPrefix
       prefix: au14-job-prefix-clfcellleader
     - type: TacticalMapIcon

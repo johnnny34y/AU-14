@@ -3,6 +3,7 @@
   id: CMDropshipCrewChief
   name: cm-job-name-dcc
   description: cm-job-description-dcc
+  setPreference: false
   playTimeTracker: CMJobDropshipCrewChief
   ranks:
     RMCRankStaffSergeant:
