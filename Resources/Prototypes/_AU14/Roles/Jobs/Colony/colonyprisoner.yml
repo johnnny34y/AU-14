@@ -1,0 +1,59 @@
+- type: job
+  parent: CMJobBase
+  id: AU14JobCivilianprisoner
+  name: au14-job-name-civilianprisoner
+  description: au14-job-description-civilianprisoner
+  setPreference: true
+  playTimeTracker: AU14Jobcivilianprisoner
+  startingGear: AU14Gearcivilianprisoner
+  icon: "CMJobIconEmpty"
+  requireAdminNotify: true
+  joinNotifyCrew: false
+  supervisors: au14-job-supervisors-Loner
+  roleWeight: 0.6
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      skills:
+        RMCSkillFireman: 1
+        RMCSkillVehicles: 1
+        RMCSkillDomestics: 1
+        RMCSkillFirearms: 2
+    - type: JobPrefix
+      prefix: au14-job-prefix-civilianprisoner
+    - type: TacticalMapIcon
+      icon:
+        sprite: Resources/Textures/Interface/Misc/job_icons.rsi/Prisoner.png
+        state: synth
+  hidden: false
+
+- type: startingGear
+  id: AU14Gearcivilianprisoner
+  equipment:
+    jumpsuit: AU14CivilianPrisonJumpsuit
+    shoes: RMCShoesBlack
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: AU14SpawnPointcivilianprisoner
+  name: Spawn Point civilian prisoner
+  components:
+  - type: SpawnPoint
+    job_id: AU14JobCivilianprisoner
+  - type: Sprite
+    state: syn_spawn
+- type: entity
+  parent: MarkerBase
+  id: auprisonerghost
+  name: prisoner colonist ghost role
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: Aughostprisoner
+
+- type: playTimeTracker
+  id: AU14Jobcivilianprisoner
+  isHumanoid: true

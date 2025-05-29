@@ -17,6 +17,7 @@
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonyadministrator
   accessGroups:
+  - auadmin
   - Colonist
   roleWeight: 0.25
   special:

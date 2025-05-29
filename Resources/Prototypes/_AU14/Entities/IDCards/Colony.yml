@@ -141,3 +141,11 @@
   components:
   - type: PresetIdCard
     job: AU14JobCivilianUSASFRecruiter
+
+- type: entity
+  parent: CMIDCardBase
+  id: AU14IDCardcivilianKellandWarden
+  name: Warden ID card
+  components:
+  - type: PresetIdCard
+    job: AU14IDCardCivilianKellandWarden

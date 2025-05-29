@@ -1,0 +1,85 @@
+﻿- type: accessGroup
+  id: Colony
+  tags:
+  - CMAccessColonyPublic # any public doors that would be locked for outsiders but not your common civilian
+  - CMAccessColonyLogistics # colony cargo
+  - CMAccessColonyEngineering # colony engineering
+  - CMAccessColonyResearch # colony research
+  - CMAccessColonyBrig # colony general security
+  - CMAccessColonyMedbay # colony medical
+  - CMAccessColonyCommand # colony command
+  - CMAccessColonyChem # Access for chemistry in colony buildings.
+  - CMAccessColonyArmory # Access for gun cabinets
+  - AUAccesss
+  - AUAccessKelland
+  - AUAccesspress
+
+
+
+- type: accessGroup
+  id: Colonist
+  tags:
+  - CMAccessColonyPublic
+
+- type: accessGroup
+  id: auadmin
+  tags:
+  - CMAccessCommand
+  - CMAccessResearch
+  - CMAccessMedical
+  - CMAccessColonyPublic
+  - CMAccessColonyResearch
+  - CMAccessColonyEngineering
+  - CMAccessColonyLogistics
+  - CMAccessColonyBrig
+  - CMAccessColonyMedbay
+  - aunews
+
+
+- type: accessGroup
+  id: auengi
+  tags:
+  - CMAccessColonyPublic
+  - CMAccessColonyEngineering
+  - CMAccessColonyLogistics
+
+- type: accessGroup
+  id: aucmb
+  tags:
+  - CMAccessColonyPublic
+  - CMAccessColonyBrig
+  - CMAccessColonyCommand
+  - CMAccessColonyEngineering
+  - CMAccessColonyMedbay
+  - CMAccessColonyBrig
+
+
+- type: accessGroup
+  id: aumed
+  tags:
+  - CMAccessColonyPublic
+  - CMAccessColonyResearch
+  - CMAccessColonyMedbay
+  - CMAccessColonyChem
+  - AUAccesspress
+
+- type: accessGroup
+  id: aunews
+  tags:
+  - CMAccessColonyPublic
+
+
+- type: accessGroup
+  id: auwy
+  tags:
+  - CMAccessColonyPublic
+  - AUAccesswy
+  - RMCAccessWeYa
+
+
+
+- type: accessGroup
+  id: aukelland #temporary cmb access until I make a kelland door
+  tags:
+  - CMAccessColonyPublic
+  - CMAccessColonyBrig
