@@ -1,19 +1,4 @@
-﻿- type: accessGroup
-  id: Colony
-  tags:
-  - CMAccessColonyPublic # any public doors that would be locked for outsiders but not your common civilian
-  - CMAccessColonyLogistics # colony cargo
-  - CMAccessColonyEngineering # colony engineering
-  - CMAccessColonyResearch # colony research
-  - CMAccessColonyBrig # colony general security
-  - CMAccessColonyMedbay # colony medical
-  - CMAccessColonyCommand # colony command
-  - CMAccessColonyChem # Access for chemistry in colony buildings.
-  - CMAccessColonyArmory # Access for gun cabinets
-  - AUAccesss
-  - AUAccessKelland
-  - AUAccesspress
-
+﻿
 
 - type: accessGroup
   id: auadmin
