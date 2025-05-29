@@ -15,12 +15,6 @@
   - AUAccesspress
 
 
-
-- type: accessGroup
-  id: Colonist
-  tags:
-  - CMAccessColonyPublic
-
 - type: accessGroup
   id: auadmin
   tags:
