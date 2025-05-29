@@ -12,7 +12,6 @@
   - CMAccessColonyLogistics
   - CMAccessColonyBrig
   - CMAccessColonyMedbay
-  - aunews
 
 
 - type: accessGroup
@@ -40,7 +39,6 @@
   - CMAccessColonyResearch
   - CMAccessColonyMedbay
   - CMAccessColonyChem
-  - AUAccesspress
 
 - type: accessGroup
   id: aunews
@@ -52,7 +50,6 @@
   id: auwy
   tags:
   - CMAccessColonyPublic
-  - AUAccesswy
   - RMCAccessWeYa
 
 
