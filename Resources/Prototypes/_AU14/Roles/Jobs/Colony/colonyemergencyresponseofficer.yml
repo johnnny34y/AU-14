@@ -18,6 +18,7 @@
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
   - Colonist
+  - aumed
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial

@@ -43,7 +43,7 @@ AU14JobCivilianJournalist = Journalist
 au14-job-name-civiliancolonyadministrator = Colony Administrator
 au14-job-description-civiliancolonyadministrator = The head honcho of the colony.
 au14-job-prefix-colonyadministrator = ADMIN
-AU14JobCivilianColonyAdministrator = ADMIN
+AU14JobCivilianColonyAdministrator = Admin
 
 au14-job-name-civilianfreightsystemsspecialist = Freight Systems Specialist
 au14-job-description-civilianfreightsystemsspecialist = Manage the ASRS system and keep the colony supplied.
@@ -109,3 +109,21 @@ au14-job-name-civiliancolonysynthetic = Colony Operations Synthetic
 au14-job-description-civiliancolonysynthetic = You're an artificial person created by the Weyland-Yutani Corporation. Aid the colony personnel in their day to day tasks. You are incapable of utilizing ballistic weaponry. (WARNING: THIS ROLE REQUIRES HIGH ROLEPLAY PROWESS)
 au14-job-prefix-civiliancolonysynthetic = CSYNTH
 AU14JobCivilianColonySynthetic = Colony Operations Synthetic
+
+
+au14-job-name-civiliankellandwarden = Kelland Warden
+au14-job-description-civiliankellandwarden = You're middle management at the Kelland mining company, you have been assigned to management of the minimum security prison at this  colony. Have your prisoners, mine, produce and behave. If they're well-tempered allow them greater privilege or free travel in the colony.
+au14-job-prefix-civiliankellandwarden = WARD
+AU14Jobciviliankellandwarden = Kelland Warden
+
+
+au14-job-name-civilianprisoner = Prisoner
+au14-job-description-civilianprisoner = You've been assigned to a Kelland mining facility to pay your debt for petty crime. If you behave the warden might even let you free roam the colony.. or you could try escaping
+au14-job-prefix-civilianprisoner = INMATE
+AU14Jobcivilianprisoner = Prisoner
+
+
+au14-job-name-civilianminer = Miner
+au14-job-description-civilianminer = You're a Miner at this colony, coordinate with your foreman and company executives to get the materials you need. Be wary: There are older and fouler things than corpos in the deep places of the frontier
+au14-job-prefix-civilianminer = MINE
+AU14Jobcivilianminer=  Miner
