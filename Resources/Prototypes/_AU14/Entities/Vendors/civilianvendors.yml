@@ -380,27 +380,12 @@
         amount: 6
       - id: RMCPouchFirstResponder
         amount: 6
-      - id: RMCPouchReagentCanisterBicaridine
-        name: Pressurized Reagent Canister Pouch\n(Bicaridine)
-        amount: 6
-      - id: RMCPouchReagentCanisterKelotane
-        name: Pressurized Reagent Canister Pouch\n(Kelotane)
-        amount: 6
-      - id: RMCPouchReagentCanisterTricordrazine
-        name: Pressurized Reagent Canister Pouch\n(Tricordrazine)
-        amount: 6
-      - id: RMCPouchReagentCanister
-        name: Pressurized Reagent Canister Pouch\n(EMPTY)
-        amount: 6
       - id: RMCPouchVialFill
         name: vial pouch (Full)
         amount: 6
       - id: RMCPouchMedical
         amount: 6
       - id: RMCPouchSyringeFill
-        amount: 6
-      - id: RMCPouchFirstAidInjectors
-        name: first-aid pouch (refillable injectors)
         amount: 6
       - id: RMCPouchFirstAidSplintsGauzeOintment
         name: first-aid pouch (gauze, ointment) # TODO RMC14 splints
@@ -410,100 +395,78 @@
         amount: 6
     - name: Medical Belts
       entries:
-      - id: CMBeltMedicalFilled
-        amount: 2
-      - id: CMBeltMedicBagFilled
-        amount: 2
-    - name: Medical Bags
+      - id: CMBeltMedical
+        amount: 3
+      - id: CMBeltMedicBag
+        amount: 3
+    - name: General Medical Supplies
       entries:
-      - id: CMSatchelMedical
-        amount: 3
-      - id: CMSatchel
-        amount: 3
-      - id: AU14SlingSatchelBlack
-        amount: 3
-      - id: AU14SlingSatchelBlue
-        amount: 3
-    - name: Field Supplies
-      entries:
+      - id: CMOintment10
+        amount: 60
+      - id: CMGauze10
+        amount: 60
       - id: CMBurnKit10
-        amount: 20
+        amount: 30
       - id: CMTraumaKit10
-        amount: 20
+        amount: 30
       - id: CMSurgicalLine
-        amount: 5
+        amount: 6
       - id: CMSynthGraft
-        amount: 5
-    #    CMMedicalSplints
-      - id: CMBloodPackFull # TODO RMC14 O-
-        name: blood bag (O-)
+        amount: 6
+      - id: CMSyringe
         amount: 10
-    - name: Firstaid Kits
-      entries:
-      - id: CMAdvFirstAidKitFilled
-        amount: 5
-#        recommended: true
-      - id: CMFirstAidKitFilled
-        amount: 5
-      - id: CMBurnAidKitFilled
-        amount: 5
-      - id: CMToxinAidKitFilled
-        amount: 5
-      - id: CMFirstAidO2KitFilled
-        amount: 5
-#      - id: #    CMRadiationFirstaidKit
     - name: Pill Bottles
       entries:
       - id: CMPillCanisterBicaridine
-        amount: 5
-        recommended: true
+        amount: 10
       - id: CMPillCanisterDexalin
-        amount: 5
+        amount: 10
       - id: CMPillCanisterDylovene
-        amount: 5
+        amount: 10
       - id: CMPillCanisterInaprovaline
-        amount: 5
+        amount: 10
       - id: CMPillCanisterKelotane
-        amount: 5
-        recommended: true
+        amount: 10
+      - id: CMPillCanisterTricordrazine
+        amount: 10
 #      - id: CMPillCanisterPeridaxon
 #      - id: CMPillCanisterTramadol
     - name: Injectors
       entries:
-      - id: CMBicaridineAutoInjector
-        amount: 20
-      - id: CMDexalinPlusAutoInjector
-        amount: 20
       - id: CMEpinephrineAutoInjector
-        amount: 20
+        amount: 3
       - id: CMInaprovalineAutoInjector
-        amount: 20
-      - id: CMKelotaneAutoInjector
-        amount: 20
+        amount: 8
+      - id: CMDexalinPlusAutoInjector
+        amount: 15
+      - id: CMTricordrazineAutoInjector
+        amount: 15
     - name: Medical Utilities
       entries:
      #    CMMS11SmartRefillTank
      # FixOVien
+      - id: AU14CMDefibrillator
+        amount: 2
       - id: CMRollerBedSpawnFolded
         amount: 3
       - id: RMCRollerBedHospitalSheet2Folded
         amount: 3
-      - id: CMStasisBagFolded
-        amount: 2
       - id: RMCBoxBodyBag
-        amount: 5
+        amount: 3
+      - id: RMCBoxSterileMask
+        amount: 2
+      - id: RMCBoxLatexGloves
+        amount: 2
       - id: CMHealthAnalyzer
         amount: 3
       - id: RMCFlashlightPen
         amount: 3
       - id: ClothingNeckStethoscope
         amount: 3
-      - id: CMHyposprayWithVial
-        amount: 3
-      - id: RMCVial
-        amount: 20
       - id: RMCGlassesMedicalHUDGlasses
         amount: 3
+      - id: RMCVial
+        amount: 10
 
 - type: entity
   parent: ColMarTechBase

@@ -15,6 +15,7 @@
   accessGroups:
   - Colonist
   - auengi
+  - CMQM
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
