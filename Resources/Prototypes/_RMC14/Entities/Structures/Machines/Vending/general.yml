@@ -25,7 +25,13 @@
         amount: 30
       - id: AU14CassetteTapePurple
         amount: 30
+      - id: AU14CassetteTapeTan
+        amount: 30
+      - id: AU14CassetteTapeTWE
+        amount: 30
       - id: AU14CassetteTapePartyApproved
+        amount: 30
+      - id: AU14CassetteTapeWY
         amount: 30
     - name: Cards
       entries: []

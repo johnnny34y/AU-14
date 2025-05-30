@@ -72,7 +72,8 @@
 - type: entity
   parent: RMCCassetteTapeBase
   id: AU14CassetteTapePartyApproved
-  name: Party approved cassette
+  name: UPP cassette
+  description: "A plastic cassette tape. This one is labled 'CULTURAL INSTRUCTION TAPE – UNION ARCHIVE. NOT FOR LISTENING MORE THAN 15 MINUTES AND ONLY DURING PERMITTED LABOR BREAKS'"
   components:
   - type: Sprite
     state: cassette_camo
@@ -86,3 +87,60 @@
     - /Audio/_AU14/Cassette/PartyApproved/Caravan.ogg
     - /Audio/_AU14/Cassette/PartyApproved/Dushman.ogg
     - /Audio/_AU14/GMMusic/BloodType.ogg
+
+- type: entity
+  parent: RMCCassetteTapeBase
+  id: AU14CassetteTapeTan
+  name: Tan cassette
+  description: A plastic cassette tape. This one smells faintly of burning oil fields.
+  components:
+  - type: Sprite
+    state: cassette_tan
+  - type: Item
+    size: Small
+  - type: CassetteTape
+    songs:
+    - /Audio/_AU14/Cassette/Tan/TeenageDirtbag.ogg
+    - /Audio/_AU14/Cassette/Tan/Southtown.ogg
+    - /Audio/_AU14/Cassette/Tan/Serenity.ogg
+    - /Audio/_AU14/Cassette/Tan/WishYouWereHere.ogg
+    - /Audio/_AU14/Cassette/Tan/PrayerToGod.ogg
+    - /Audio/_AU14/Cassette/Tan/ItsBeenAwhile.ogg
+    - /Audio/_AU14/Cassette/Tan/FarFromAnyRoad.ogg
+
+- type: entity
+  parent: RMCCassetteTapeBase
+  id: AU14CassetteTapeTWE
+  name: TWE cassette
+  description: "A plastic cassette tape. This one is labeled 'A Taste of Her Majesty's Land - Songs from the Three Worlds Empire.'"
+  components:
+  - type: Sprite
+    state: cassette_dam
+  - type: Item
+    size: Small
+  - type: CassetteTape
+    songs:
+    - /Audio/_AU14/Cassette/TWE/london.ogg
+    - /Audio/_AU14/Cassette/TWE/Tactics.ogg
+    - /Audio/_AU14/Cassette/TWE/Falklands.ogg
+    - /Audio/_AU14/Cassette/TWE/Passenger.ogg
+    - /Audio/_AU14/Cassette/TWE/Malice.ogg
+    - /Audio/_AU14/Cassette/TWE/Rakuen.ogg
+    - /Audio/_AU14/Cassette/TWE/Killer.ogg
+
+- type: entity
+  parent: RMCCassetteTapeBase
+  id: AU14CassetteTapeWY
+  name: Weyland-Yutani cassette
+  components:
+  - type: Sprite
+    state: cassette_weya
+  - type: Item
+    size: Small
+  - type: CassetteTape
+    songs:
+    - /Audio/_AU14/Cassette/WY/everything.ogg
+    - /Audio/_AU14/Cassette/WY/YMCA.ogg
+    - /Audio/_AU14/Cassette/WY/silence.ogg
+    - /Audio/_AU14/Cassette/WY/sultan.ogg
+    - /Audio/_AU14/Cassette/WY/exit.ogg
