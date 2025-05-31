@@ -1,6 +1,6 @@
 - type: gameMap
   id: lv624insurgencycompmap
-  mapName: LV-624 Repaired (Insurgency)
+  mapName: LV-624 Repaired (Insurgency - LACN)
   mapPath: /Maps/_RMC14/lv624colonyfall.yml
   minPlayers: 0
   maxPlayers: 75
