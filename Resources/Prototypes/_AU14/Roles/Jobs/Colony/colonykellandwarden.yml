@@ -47,7 +47,7 @@
     jumpsuit: CMJumpsuitLiaisonBlack
     shoes: RMCShoesLaceupBrown
     id: AU14IDCardciviliankellandwarden
-    ears: CMHeadsetColony #no kelland headset yet
+    ears: AU14ColonyAdminHeadset #no kelland headset yet
     outerClothing: RMCJacketCorporateBlue
 
 - type: entity

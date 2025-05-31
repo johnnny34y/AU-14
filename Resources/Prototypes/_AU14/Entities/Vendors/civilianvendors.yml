@@ -265,6 +265,8 @@
         amount: 8
     - name: Storage & Belts
       entries:
+      - id: RMCSatchelLightpackWelder
+        amount: 8
       - id: CMSatchel
         amount: 8
       - id: AU14SlingSatchelBlack
@@ -285,6 +287,12 @@
         amount: 8
       - id: RMCPouchConstruction
         amount: 8
+      - id: CMWebbingPouch
+        amount: 3
+    - name: Synthetic Reset Key
+      entries:
+      - id: RMCSynthResetKey
+        amount: 2
 
 - type: entity
   parent: ColMarTechBase
@@ -544,6 +552,8 @@
         amount: 1
       - id: RMCPouchGeneralLarge
         amount: 1
+      - id: CMWebbingPouch
+        amount: 1
     - name: Belts
       entries:
       - id: CMBeltUtilityFilled
@@ -622,4 +632,135 @@
       - id: CMFireExtinguisherPortable
         amount: 4
       - id: RMCFireAxe
+        amount: 1
+      - id: RMCRadioHandheldColonyOff
+        amount: 1
+
+- type: entity
+  parent: ColMarTechBase
+  id: AU14CivilianColonyOperationsSyntheticVendor
+  name: Civilian Colony Operations Synthetic Vendor
+  description: A wardrobe containing all the clothes and supplies a COS would ever need.
+  suffix: Civ
+  components:
+  - type: Sprite
+    sprite: _AU14/Structures/Vendors/assortedequipment.rsi
+    layers:
+    - state: "base"
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded", "enum.VendingMachineVisualLayers.Base" ]
+  - type: CMAutomatedVendor
+    sections:
+    - name: Outerwear
+      entries:
+      - id: CMUtilityVestSynth
+        amount: 1
+      - id: AU14ExternalWebbing
+        amount: 1
+    - name: Innerwear
+      entries:
+      - id: CMJumpsuitSyntheticOutdated
+        amount: 1
+      - id: RMCJumpsuitCivilian
+        amount: 1
+      - id: AU14CivilianBoilerSuitWhite
+        amount: 1
+      - id: AU14CivilianBoilerSuitGray
+        amount: 1
+      - id: AU14CivilianBoilerSuitLightBlue
+        amount: 1
+      - id: AU14CivilianBoilerSuitDarkBlue
+        amount: 1
+      - id: AU14CivilianBoilerSuitCyan
+        amount: 1
+      - id: AU14CivilianBoilerSuitKhaki
+        amount: 1
+      - id: AU14CivilianBoilerSuitGreen
+        amount: 1
+    - name: Smartpacks
+      choices: { CMBackpack: 1 }
+      entries:
+      - id: RMCSmartpack
+        name: S-V42 smartpack, blue
+        recommended: true
+      - id: RMCSmartpackBlack
+        name: S-V42 smartpack, black
+      - id: RMCSmartpackGreen
+        name: S-V42 smartpack, green
+      - id: RMCSmartpackTan
+        name: S-V42 smartpack, tan
+      - id: RMCSmartpackWhite
+        name: S-V42 smartpack, white
+      - id: RMCSmartpackA1
+        name: S-V42A1 smartpack, blue
+      - id: RMCSmartpackA1Black
+        name: S-V42A1 smartpack, black
+      - id: RMCSmartpackA1Green
+        name: S-V42A1 smartpack, green
+      - id: RMCSmartpackA1Tan
+        name: S-V42A1 smartpack, tan
+      - id: RMCSmartpackA1White
+        name: S-V42A1 smartpack, white
+      - id: RMCBackpackRTO
+        name: radio telephone pack
+    - name: Headgear
+      entries:
+      - id: RMCHardhatBlue
+        amount: 1
+      - id: RMCHardhatOrange
+        amount: 1
+      - id: RMCHardHat
+        amount: 1
+      - id: RMCHardhatWhite
+        amount: 1
+    - name: Gloves
+      entries:
+      - id: RMCHandsVeteranInsulated
+        amount: 1
+    - name: Headsets
+      entries:
+      - id: CMHeadsetColony
+        amount: 1
+    - name: Storage & Belts
+      entries:
+      - id: RMCSatchelLightpackWelder
+        amount: 2
+      - id: CMSatchelEngineer
+        amount: 1
+      - id: CMBeltUtilityFilled
+        amount: 1
+      - id: RMCBeltUtilityGeneral
+        amount: 1
+      - id: RMCPouchGeneralLarge
+        amount: 2
+      - id: RMCPouchToolsSocFill
+        amount: 2
+      - id: RMCPouchElectronics
+        amount: 2
+      - id: RMCPouchConstruction
+        amount: 2
+      - id: RMCPouchMedkitFillAdvanced
+        amount: 1
+      - id: CMWebbingPouch
+        amount: 1
+      - id: RMCToolWebbingSmallERTFilled
+        amount: 1
+    - name: Utilities
+      entries:
+      - id: RMCFireAxe
+        amount: 1
+      - id: RMCSynthBreachingHammer
+        amount: 1
+      - id: CMFireExtinguisher
+        amount: 1
+      - id: RMCFlashlight
+        amount: 1
+      - id: CMFireExtinguisherPortable
+        amount: 2
+      - id: CMRollerBedSpawnFolded
+        amount: 2
+      - id: RMCRadioHandheldColonyOff
+        amount: 1
+      - id: RMCFlashlightPen
+        amount: 1
+      - id: RMCSynthResetKey
         amount: 1

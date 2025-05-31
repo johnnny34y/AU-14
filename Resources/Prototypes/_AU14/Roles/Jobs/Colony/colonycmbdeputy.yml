@@ -51,7 +51,7 @@
     belt: CMBeltSecurityMarshalFilled
     shoes: RMCBootsPMCFilled
     id: AU14IDCardColonyCMBDeputy
-    ears: CMHeadsetColony
+    ears: AU14CMBHeadset
     outerClothing: AU14CMBDeputyWindbreaker
 
 - type: entity
