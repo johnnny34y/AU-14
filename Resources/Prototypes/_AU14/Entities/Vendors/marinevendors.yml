@@ -184,7 +184,7 @@
         amount: 10
       - id: RMCMaskTornScarfBlack
         amount: 10
-    - name: Miscellaneous
+    - name: Glasses & Goggles
       entries:
       - id: AU14GogglesM1A1ClearBallistic
         amount: 20
@@ -202,21 +202,17 @@
         amount: 20
       - id: AU14GlassesBiMexOrange
         amount: 20
-#      - id: M5 Integrated Gas Mask
-#        amount: 10
-#      - id: M10 Helmet Netting
-#        amount: 10
-#      - id: M10 Helmet Rain Cover
-#        amount: 10
-#      - id: Firearm Lubricant
-#        amount: 15
-#      - id: Marine Flair
-#        amount: 15
-#      - id: Falling Falcons Shoulder Patch
-#        amount: 15
-#      - id: Marine Shoulder Patch
-#        amount: 15
-      - id: BedrollFolded
+    - name: Helmet Garb
+      entries:
+      - id: AU14HelmetGarbM10SkrimJungle
+        amount: 20
+      - id: AU14HelmetGarbM10SkrimDesert
+        amount: 20
+      - id: AU14HelmetGarbM10SkrimSnow
+        amount: 20
+      - id: AU14HelmetGarbM10RainCover
+        amount: 20
+      - id: AU14HelmetGarbM10Netting
         amount: 20
 
 - type: entity
@@ -235,6 +231,7 @@
     - name: Food
       entries:
       - id: CMMRE
+        name: MRE
         amount: 30
       - id: RMCBoxMRE
         amount: 5
@@ -258,7 +255,7 @@
         amount: 5
       - id: CMWelder
         amount: 5
-    - name: Flare and light
+    - name: Flares and lights
       entries:
       - id: RMCFlashlight # Combat Flashlight
         amount: 15
@@ -270,6 +267,22 @@
         amount: 5
       - id: RMCPackFlareCAS
         amount: 2
+    - name: Attachments
+      entries:
+      - id: RMCAttachmentRailFlashlight
+        amount: 8
+    - name: Medical Supplies
+      entries:
+      - id: CMGauze10
+        amount: 40
+      - id: CMOintment10
+        amount: 40
+      - id: CMTricordrazineAutoInjector
+        amount: 12
+      - id: CMPacketPillsTricordrazine
+        amount: 12
+      - id: CMEmergencyAutoInjector
+        amount: 1
     - name: Miscellaneous
       entries:
       - id: RMCEngineerKit
@@ -295,22 +308,8 @@
         amount: 5
       - id: RMCPowerCellHigh
         amount: 5
-    - name: Attachments
-      entries:
-      - id: RMCAttachmentRailFlashlight
-        amount: 15
-    - name: Medical Supplies
-      entries:
-      - id: CMGauze10
-        amount: 40
-      - id: CMOintment10
-        amount: 40
-      - id: CMTricordrazineAutoInjector
-        amount: 12
-      - id: CMPacketPillsTricordrazine
-        amount: 12
-      - id: CMEmergencyAutoInjector
-        amount: 2
+      - id: BedrollFolded
+        amount: 20
 
 #corpsman
 - type: entity
