@@ -48,7 +48,7 @@
     pocket1: RMCPouchAutoinjectorFill
     suitstorage: RMCFlashlight
     id: CMIDCardColonist
-    ears: CMHeadsetColony
+    ears: AU14CLFHeadset
     neck: RMCCLFArmband
   inhand:
   - CMAdvFirstAidKitFilled

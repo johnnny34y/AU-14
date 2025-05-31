@@ -1,19 +1,19 @@
 chat-radio-marine-highcommand = HighCom
 
 chat-radio-marine-common = Almayer
-chat-radio-marine-command = Command
+chat-radio-marine-command = GOVFOR CMD
 chat-radio-marine-medical = MedSci
 chat-radio-marine-engineer = Engi
 chat-radio-marine-military-police = MP
 chat-radio-marine-requisition = Req
 chat-radio-marine-intel = Intel
-chat-radio-marine-jtac = JTAC
+chat-radio-marine-jtac = ATC
 
 chat-radio-marine-alpha = Alpha
 chat-radio-marine-bravo = Bravo
 chat-radio-marine-charlie = Charlie
-chat-radio-marine-delta = Delta
-chat-radio-marine-echo = Echo
+chat-radio-marine-delta = GOVFOR
+chat-radio-marine-echo = CLF
 chat-radio-marine-foxtrot = Foxtrot
 
 chat-radio-forecon = FORECON
