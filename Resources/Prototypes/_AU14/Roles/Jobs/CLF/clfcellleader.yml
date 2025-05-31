@@ -54,7 +54,7 @@
     head: AU14CivBallCapBlack
     jumpsuit: CMJumpsuitColonist
     id: CMIDCardColonist
-    ears: CMHeadsetColony
+    ears: AU14CLFHeadset
     eyes: RMCGlassesAviators
   inhand:
   - RMCWeaponRifleType71

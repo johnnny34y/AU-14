@@ -37,8 +37,6 @@
         amount: 20
       - id: AU14HeadsetSectionMarine
         amount: 20
-      - id: CMEncryptionKeyJTAC
-        amount: 2
     - name: Webbings
       entries:
       - id: CMWebbingBrown
@@ -468,7 +466,7 @@
         amount: 2
       - id: AU14PVEHandsFingerlessBrownGloves
         amount: 2
-      - id: CMHeadsetSeniorCommand
+      - id: AU14HeadsetSectionLeader
         amount: 2
     - name: Webbings
       entries:
@@ -717,7 +715,7 @@
         amount: 2
       - id: AU14PVEHandsFingerlessBrownGloves
         amount: 2
-      - id: CMHeadsetSeniorCommand
+      - id: AU14HeadsetSectionLeader
         amount: 2
     - name: Webbings
       entries:
