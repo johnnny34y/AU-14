@@ -43,7 +43,7 @@
     neck: RMCCLFArmband
     jumpsuit: CMJumpsuitColonist
     id: CMIDCardColonist
-    ears: CMHeadsetColony
+    ears: AU14CLFHeadset
   inhand:
   - RMCWeaponLMGM60
 
