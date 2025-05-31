@@ -46,7 +46,7 @@
     jumpsuit: AU14CivilianWeYuEngineerFormanClothes
     shoes: RMCBootsCorporate
     id: AU14IDCardColonyForeman
-    ears: CMHeadsetColony
+    ears: AU14ColonyAdminHeadset
 
 - type: entity
   parent: CMSpawnPointJobBase
