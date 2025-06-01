@@ -94,6 +94,18 @@
         amount: 2
       - id: RMCRocketHJRA12
         amount: 2
+    - name: Improvised Explosive Devices
+      entries:
+      - id: AU14IEDGuide
+        amount: 5
+      - id: AU14RemoteSignallerAdvanced
+        amount: 5
+      - id: AU14IED
+        amount: 5
+      - id: AU14IEDLarge
+        amount: 3
+      - id: AU14IEDVest
+        amount: 2
 
 - type: entity
   parent: ColMarTechBase
@@ -241,8 +253,6 @@
         amount: 5
       - id: CMWelder
         amount: 5
-      - id: RemoteSignallerAdvanced
-        amount: 2
     - name: Flare and light
       entries:
       - id: RMCFlashlight # Combat Flashlight

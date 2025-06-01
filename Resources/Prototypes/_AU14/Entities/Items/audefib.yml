@@ -23,6 +23,14 @@
     size: Ginormous
     sprite: _AU14/Items/audefib.rsi
     heldPrefix: defib
+  - type: Clothing
+    sprite: _AU14/Items/audefib.rsi
+    slots:
+    - OUTERCLOTHING
+    - back
+    quickEquip: false
+    equipDelay: 1
+    unequipDelay: 1
   - type: Speech
     speechVerb: Robotic
   - type: ItemToggle
