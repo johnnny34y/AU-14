@@ -20,7 +20,9 @@
         amount: 3
       - id: WeaponRifleAR10
         amount: 4
-      - id: RMCWeaponMar50LMG
+      - id: WeaponRifleMAR40
+        amount: 2
+      - id: RMCWeaponRifleType71C
         amount: 1
     - name: Shotguns
       entries:
@@ -46,7 +48,7 @@
       entries:
       - id: RMCWeaponLauncherHJRA12
         amount: 1
-      - id: RMCWeaponRifleType71C
+      - id: RMCWeaponMar50LMG
         amount: 1
     - name: Rifle Ammunition
       entries:
@@ -56,6 +58,10 @@
         amount: 45
       - id: RMCMagazineRifleHunting
         amount: 25
+      - id: RMCMagazineRifleMAR40
+        amount: 35
+      - id: RMCMagazineMar50LMG
+        amount: 2
       - id: RMCMagazineLMGM60
         amount: 5
       - id: RMCMagazineRifleType71
@@ -101,7 +107,7 @@
       - id: AU14RemoteSignallerAdvanced
         amount: 5
       - id: AU14IED
-        amount: 5
+        amount: 6
       - id: AU14IEDLarge
         amount: 3
       - id: AU14IEDVest
@@ -292,3 +298,127 @@
         amount: 12
       - id: CMOintment10
         amount: 12
+
+- type: entity
+  parent: ColMarTechBase
+  id: AU14CLFphysicianvendor
+  name: CLF physician vendor
+  description: An automated rack hooked up to a small storage of medical supplies.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_gear.rsi
+  - type: CMAutomatedVendor
+    sections:
+    - name: Medical Pouches
+      entries:
+      - id: RMCPouchAutoinjector
+        amount: 2
+      - id: RMCPouchFirstResponder
+        amount: 2
+      - id: RMCPouchVialFill
+        name: vial pouch (Full)
+        amount: 2
+      - id: RMCPouchMedical
+        amount: 2
+      - id: RMCPouchSyringeFill
+        amount: 2
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: first-aid pouch (gauze, ointment) # TODO RMC14 splints
+        amount: 2
+      - id: RMCPouchFirstAidPills
+        name: first-aid pouch (pills)
+        amount: 2
+    - name: Medical Belts
+      entries:
+      - id: CMBeltMedical
+        amount: 1
+      - id: CMBeltMedicBag
+        amount: 1
+    - name: General Medical Supplies
+      entries:
+      - id: CMOintment10
+        amount: 60
+      - id: CMGauze10
+        amount: 60
+      - id: CMBurnKit10
+        amount: 30
+      - id: CMTraumaKit10
+        amount: 30
+      - id: CMSurgicalLine
+        amount: 6
+      - id: CMSynthGraft
+        amount: 6
+      - id: CMSyringe
+        amount: 10
+    - name: Pill Bottles
+      entries:
+      - id: CMPillCanisterBicaridine
+        amount: 10
+      - id: CMPillCanisterDexalin
+        amount: 10
+      - id: CMPillCanisterDylovene
+        amount: 10
+      - id: CMPillCanisterInaprovaline
+        amount: 10
+      - id: CMPillCanisterKelotane
+        amount: 10
+      - id: CMPillCanisterTricordrazine
+        amount: 10
+      - id: AU14PillCanisterMeralyne
+        amount: 1
+      - id: AU14PillCanisterDermaline
+        amount: 1
+      - id: AU14PillCanisterImidazoline
+        amount: 1
+      - id: AU14PillCanisterEthylredoxrazine
+        amount: 1
+      - id: AU14PillCanisterAlbuterol
+        amount: 1
+#      - id: CMPillCanisterPeridaxon
+#      - id: CMPillCanisterTramadol
+    - name: Injectors
+      entries:
+      - id: CMEpinephrineAutoInjector
+        amount: 3
+      - id: AU14NaloxoneAutoInjector
+        amount: 2
+      - id: CMInaprovalineAutoInjector
+        amount: 8
+      - id: CMDexalinPlusAutoInjector
+        amount: 15
+      - id: CMTricordrazineAutoInjector
+        amount: 15
+    - name: Medical Utilities
+      entries:
+     #    CMMS11SmartRefillTank
+     # FixOVien
+      - id: AU14CMDefibrillator
+        amount: 1
+      - id: CMRollerBedSpawnFolded
+        amount: 3
+      - id: RMCBoxBodyBag
+        amount: 3
+      - id: RMCBoxSterileMask
+        amount: 1
+      - id: RMCBoxLatexGloves
+        amount: 1
+      - id: CMHealthAnalyzer
+        amount: 1
+      - id: RMCFlashlightPen
+        amount: 1
+      - id: ClothingNeckStethoscope
+        amount: 1
+      - id: RMCGlassesMedicalHUDGlasses
+        amount: 1
+      - id: RMCVial
+        amount: 10
+    - name: Medical Gloves
+      entries:
+      - id: CMHandsLatex
+        amount: 1
+      - id: ClothingHandsGlovesNitrile
+        amount: 1
+    - name: Medical Masks
+      entries:
+      - id: CMMaskSterile
+        amount: 1

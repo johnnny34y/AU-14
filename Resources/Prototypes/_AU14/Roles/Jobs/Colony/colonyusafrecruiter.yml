@@ -9,7 +9,7 @@
     AU14RankUSASFTechnicalSergeant: []
   startingGear: AU14GearCivilianUSASFRecruiter
   icon: "CMJobIconEmpty"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:

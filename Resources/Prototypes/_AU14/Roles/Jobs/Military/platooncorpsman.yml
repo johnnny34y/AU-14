@@ -14,7 +14,7 @@
   startingGear: AU14GearGOVFORPlatoonCorpsman
   dummyStartingGear: AU14GearGOVFORCorpsmanDummy
   icon: "CMJobIconHospitalCorpsman"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:

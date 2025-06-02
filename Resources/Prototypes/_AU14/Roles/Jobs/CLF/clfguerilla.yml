@@ -9,7 +9,7 @@
     RMCRankCivilian: []
   startingGear: AU14GearCLFGuerilla
   icon: "RMCJobIconCLFSoldier"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-clflrs
   accessGroups:

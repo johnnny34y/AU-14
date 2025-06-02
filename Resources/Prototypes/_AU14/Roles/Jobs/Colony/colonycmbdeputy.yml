@@ -13,7 +13,7 @@
     RMCRankCMBDeputy: []
   startingGear: AU14GearCivilianCMBDeputy
   icon: "RMCJobIconBureauDeputy"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:

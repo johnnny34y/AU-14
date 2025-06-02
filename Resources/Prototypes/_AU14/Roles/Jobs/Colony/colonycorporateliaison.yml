@@ -21,7 +21,7 @@
     RMCRankWeYaJuniorExecutive: []
   startingGear: AU14GearCivilianCorporateLiaison
   icon: "CMJobIconLiaison"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:

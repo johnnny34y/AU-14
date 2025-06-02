@@ -9,7 +9,7 @@
     RMCRankCivilian: []
   startingGear: AU14GearCivilianEngineer
   icon: "CMJobIconMaintTech"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonyadministrator
   accessGroups:

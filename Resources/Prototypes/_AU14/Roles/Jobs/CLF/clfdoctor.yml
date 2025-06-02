@@ -9,7 +9,7 @@
     RMCRankCivilian: []
   startingGear: AU14GearCLFPhysician
   icon: "CMJobIconEmpty"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-clflrs
   accessGroups:
@@ -38,20 +38,15 @@
 - type: startingGear
   id: AU14GearCLFPhysician
   equipment:
-    mask: CMMaskSterile
     gloves: CMHandsLatex
     jumpsuit: RMCJumpsuitCivilian
     outerClothing: RMCLabcoatOpened
-    belt: CMBeltMedicBagFilled
     shoes: CMBootsBlackFilled
     ears2: RMCFlashlightPen
-    pocket1: RMCPouchAutoinjectorFill
     suitstorage: RMCFlashlight
     id: CMIDCardColonist
     ears: AU14CLFHeadset
     neck: RMCCLFArmband
-  inhand:
-  - CMAdvFirstAidKitFilled
 
 - type: entity
   parent: CMSpawnPointJobBase

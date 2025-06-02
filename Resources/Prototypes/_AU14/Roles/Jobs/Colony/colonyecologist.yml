@@ -9,7 +9,7 @@
     RMCRankCivilianProfessor: []
   startingGear: AU14GearCivilianEcologist
   icon: "CMJobIconEmpty"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
