@@ -37,11 +37,13 @@
         amount: 15
       - id: CMWebbingHolster
         amount: 15
-    - name: Helmets and Hats
+    - name: Headgear
       entries:
       - id: AU14LACNHelmetStandard
         amount: 25
       - id: AU14LACNNavyCap
+        amount: 25
+      - id: RMCM5CameraGear
         amount: 25
     - name: Armor
       entries:

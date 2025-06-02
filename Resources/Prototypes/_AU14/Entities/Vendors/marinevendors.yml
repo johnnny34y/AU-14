@@ -51,7 +51,7 @@
         amount: 15
       - id: CMWebbingHolster
         amount: 15
-    - name: Helmets and Hats
+    - name: Headgear
       entries:
       - id: AU14DesertM10Helmet
         amount: 25
@@ -68,6 +68,8 @@
       - id: AU14JungleFlapCap
         amount: 25
       - id: AU14DesertFlapCap
+        amount: 25
+      - id: RMCM5CameraGear
         amount: 25
     - name: Heads Up Display
       entries:
@@ -280,7 +282,9 @@
       - id: CMPacketPillsTricordrazine
         amount: 12
       - id: CMEmergencyAutoInjector
-        amount: 1
+        amount: 2
+      - id: AU14NaloxoneAutoInjector
+        amount: 2
     - name: Miscellaneous
       entries:
       - id: RMCEngineerKit
