@@ -10,7 +10,7 @@
   startingGear: AU14GearGOVFORSquadSergeant
   dummyStartingGear: AU14GearGOVFORSquadSergantDummy
   icon: "CMJobIconFireteamLeader"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:

@@ -9,7 +9,7 @@
     RMCRankCivilian: []
   startingGear: AU14Gearcivilianminer
   icon: "CMJobIconEmpty"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-foreman
   accessGroups:

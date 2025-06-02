@@ -22,7 +22,7 @@
   startingGear: AU14GearGOVFORSquadAutomaticRifleman
   dummyStartingGear: AU14GearGOVFORAutoRiflemanDummy
   icon: "CMJobIconSmartGunOperator"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:

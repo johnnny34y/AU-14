@@ -9,7 +9,7 @@
     RMCRankCivilianDoctor: []
   startingGear: AU14GearCivilianPhysician
   icon: "CMJobIconDoctor"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:

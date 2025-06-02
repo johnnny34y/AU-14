@@ -13,7 +13,7 @@
     RMCRankCivilianOfficer: []
   startingGear: AU14GearCivilianEmergencyResponseOfficer
   icon: "CMJobIconEmpty"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:

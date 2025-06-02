@@ -9,7 +9,7 @@
     RMCRankCivilianNurse: []
   startingGear: AU14GearCivilianNurse
   icon: "CMJobIconNurse"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:

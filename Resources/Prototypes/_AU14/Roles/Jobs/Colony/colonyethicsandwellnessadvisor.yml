@@ -9,7 +9,7 @@
     RMCRankCivilian: []
   startingGear: AU14GearCivilianEthicsAndWellnessAdvisor
   icon: "CMJobIconEmpty"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:

@@ -151,15 +151,25 @@
   - type: SmartGunArmor
 
 - type: entity
-  parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
+  parent: [ClothingOuterStorageBase, RMCAllowSuitStorageClothingExternalWebbing]
   id: AU14ExternalWebbing
   name: external webbing
-  description: An exterior webbing based off the original alice rig.
+  description: Designed to be worn over a jumpsuit rather than clipped on.
   components:
   - type: Sprite
-    sprite: _AU14/Clothing/externalwebbing.rsi
-  - type: Clothing
-    sprite: _AU14/Clothing/externalwebbing.rsi
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/external_webbing.rsi
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,3,1 # 2 slots
+  - type: FixedItemSizeStorage
+  - type: IgnoreContentsSize
+    items:
+      tags:
+      - MRE
+      - PillPacket
+      - PillCanister
+      - CMSurgicalCase
 
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]

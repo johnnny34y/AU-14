@@ -27,6 +27,7 @@
   supervisors: au14-job-supervisors-govfor
   accessGroups:
   - Pilot
+  - Rifleman
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
