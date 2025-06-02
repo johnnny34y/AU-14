@@ -437,12 +437,24 @@
         amount: 10
       - id: CMPillCanisterTricordrazine
         amount: 10
+      - id: AU14PillCanisterAlbuterol
+        amount: 3
+      - id: AU14PillCanisterImidazoline
+        amount: 3
+      - id: AU14PillCanisterEthylredoxrazine
+        amount: 3
+      - id: AU14PillCanisterLeporazine
+        amount: 3
+      - id: AU14PillCanisterCryoxadone
+        amount: 3
 #      - id: CMPillCanisterPeridaxon
 #      - id: CMPillCanisterTramadol
     - name: Injectors
       entries:
       - id: CMEpinephrineAutoInjector
         amount: 3
+      - id: AU14NaloxoneAutoInjector
+        amount: 6
       - id: CMInaprovalineAutoInjector
         amount: 8
       - id: CMDexalinPlusAutoInjector
@@ -601,6 +613,12 @@
         amount: 2
       - id: CMPillCanisterTricordrazine
         amount: 2
+      - id: AU14PillCanisterAlbuterol
+        amount: 2
+      - id: AU14PillCanisterEthylredoxrazine
+        amount: 2
+      - id: AU14PillCanisterLeporazine
+        amount: 2
     - name: Injectors
       entries:
       - id: CMEpinephrineAutoInjector
@@ -610,6 +628,8 @@
       - id: CMDexalinPlusAutoInjector
         amount: 2
       - id: CMTricordrazineAutoInjector
+        amount: 2
+      - id: AU14NaloxoneAutoInjector
         amount: 2
     - name: Assorted Utilities
       entries:
