@@ -133,18 +133,14 @@
         amount: 20
     - name: Webbings
       entries:
-      - id: CMWebbingBrown
-        amount: 2
-      - id: CMWebbingBlack
-        amount: 2
-      - id: CMWebbing
-        amount: 2
-      - id: CMWebbingKnivesFilled
-        amount: 1
-      - id: CMWebbingPouch
-        amount: 3
-      - id: CMWebbingHolster
+      - id: AU14WebbingMagazine
+        amount: 6
+      - id: AU14WebbingUtility
         amount: 4
+      - id: AU14WebbingDropPouch
+        amount: 4
+      - id: AU14WebbingDumpPouch
+        amount: 1
     - name: Helmets and Hats
       entries:
       - id: RMCHardhatWhite
@@ -154,7 +150,7 @@
       - id: RMCCoatMilitiaVest
         amount: 1
       - id: AU14ExternalWebbing
-        amount: 6
+        amount: 8
     - name: Backpack
       entries:
       - id: CMBackpackMarine
