@@ -220,9 +220,13 @@
         amount: 20
       - id: AU14GogglesM1A1DarkBallistic
         amount: 20
-      - id: AU14GogglesM60
-        amount: 20
       - id: AU14GogglesM1A1LaserBallistic
+        amount: 20
+      - id: AU14GogglesM1A1OrangeBallistic
+        amount: 20
+      - id: AU14GogglesM1A1PolarizedBallistic
+        amount: 20
+      - id: AU14GogglesM60
         amount: 20
       - id: RMCGlassesMarineRpg
         amount: 20
