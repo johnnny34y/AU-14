@@ -6,10 +6,6 @@
   components:
   - type: Sprite
     sprite: _AU14/Items/Smokes/balaji_imperials.rsi
-  - type: HelmetAccessory
-    rsi:
-      sprite: _AU14/Items/Smokes/Clothing/HelmetGarb/Smoking/CigPacks/weya.rsi
-      state: helmet
 
 - type: entity
   parent: RMCCigarettePackLuckySloths
@@ -19,10 +15,6 @@
   components:
   - type: Sprite
     sprite: _AU14/Items/Smokes/koorlander.rsi
-  - type: HelmetAccessory
-    rsi:
-      sprite: _AU14/Items/Smokes/Clothing/HelmetGarb/Smoking/CigPacks/weya.rsi
-      state: helmet
 
 - type: entity
   parent: RMCCigarettePackLuckySloths
@@ -32,7 +24,3 @@
   components:
   - type: Sprite
     sprite: _AU14/Items/Smokes/lady_fingers.rsi
-  - type: HelmetAccessory
-    rsi:
-      sprite: _AU14/Items/Smokes/Clothing/HelmetGarb/Smoking/CigPacks/weya.rsi
-      state: helmet
