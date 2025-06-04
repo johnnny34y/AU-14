@@ -1,4 +1,23 @@
 ﻿- type: entity
+  parent: CMVendor
+  id: AU14VendorKoorCigs
+  name: Koorlander Cigarette Machine
+  description: Manufactured by the Koorlander Corporation as part of their "Worker Morale Suite," these vending units were once standard issue for deep-bore miners, orbital rig crews and indentured work colonies. When Koorlander realized it was more profitable to sell cigarettes than drill oil or move rock, they laid off 32000 workers overnight and pivoted entirely to tobacco production. The machines stayed behind, now full of the only thing they still make.
+  components:
+  - type: Sprite
+    sprite: _AU14/Structures/Vendors/koorcigs.rsi
+  - type: VendingMachine
+    pack: AU14VendorKoorCigs
+
+- type: vendingMachineInventory
+  id: AU14VendorKoorCigs
+  startingInventory:
+    AU14CigaretteKoorlander: 50
+    AU14CigaretteLadyFingers: 20
+    RMCMatchboxFull: 15
+    RMCZippo: 10
+
+- type: entity
   parent: ColMarTechBase
   id: AU14CivilianSnowflakeVendor
   name: Snowflake Clothing Vendor
