@@ -319,8 +319,6 @@
         amount: 12
       - id: CMPacketPillsTricordrazine
         amount: 12
-      - id: CMEmergencyAutoInjector
-        amount: 2
       - id: AU14NaloxoneAutoInjector
         amount: 2
     - name: Miscellaneous
