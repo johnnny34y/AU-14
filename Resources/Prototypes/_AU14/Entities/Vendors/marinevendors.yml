@@ -305,10 +305,6 @@
         amount: 5
       - id: RMCPackFlareCAS
         amount: 2
-    - name: Attachments
-      entries:
-      - id: RMCAttachmentRailFlashlight
-        amount: 8
     - name: Medical Supplies
       entries:
       - id: CMGauze10
@@ -896,7 +892,7 @@
       - id: CMMagazineRifleM54CMK1
         amount: 42
       - id: CMMagazineRifleM54CMK1AP
-        amount: 6
+        amount: 2
     - name: Handguns
       entries:
       - id: CMWeaponPistolM1984Empty
@@ -909,6 +905,12 @@
         amount: 42
       - id: CMMagazinePistolM77AP
         amount: 14
+    - name: Attachments
+      entries:
+      - id: RMCAttachmentRailFlashlight
+        amount: 12
+      - id: RMCAttachmentTwoPointSling
+        amount: 12
     - name: Explosives
       entries:
       - id: RMCBoxHEDP
