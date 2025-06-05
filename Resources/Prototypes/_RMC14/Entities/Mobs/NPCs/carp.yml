@@ -77,7 +77,7 @@
   - type: ReplacementAccent
     accent: genericAggressive
   - type: Speech
-    speechSounds: LargeMob
+    speechVerb: LargeMob
   - type: GhostRole
     prob: 0
   - type: MobState
