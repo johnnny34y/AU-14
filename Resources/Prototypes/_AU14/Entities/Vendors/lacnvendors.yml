@@ -251,10 +251,6 @@
         amount: 5
       - id: RMCPowerCellHigh
         amount: 5
-    - name: Attachments
-      entries:
-      - id: RMCAttachmentRailFlashlight
-        amount: 15
     - name: Medical Supplies
       entries:
       - id: CMGauze10
@@ -771,7 +767,7 @@
       - id: AU14WeaponRifleKramerMagazineStandard
         amount: 42
       - id: AU14WeaponRifleKramerMagazineAP
-        amount: 6
+        amount: 2
     - name: Handguns
       entries:
       - id: AU14WeaponPistolTPR23B
@@ -780,6 +776,12 @@
       entries:
       - id: CMMagazinePistolM1984
         amount: 42
+    - name: Attachments
+      entries:
+      - id: RMCAttachmentRailFlashlight
+        amount: 12
+      - id: AU14AttachmentTwoPointSling
+        amount: 6
     - name: Explosives
       entries:
       - id: CMGrenadeFragOld
