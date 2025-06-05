@@ -342,6 +342,8 @@
         amount: 5
       - id: BedrollFolded
         amount: 20
+      - id: RMCZipties
+        amount: 30
 
 #corpsman
 - type: entity
@@ -937,6 +939,14 @@
         amount: 1
       - id: AU14BackpackRTOPackDesert
         amount: 1
+    - name: Equipment
+      entries:
+      - id: RMCLaserDesignator
+        amount: 1
+      - id: RMCWhistle
+        amount: 1
+      - id: RMCPackFlareCAS
+        amount: 2
 
 - type: entity
   parent: ColMarTechBase

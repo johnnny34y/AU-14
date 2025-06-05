@@ -251,6 +251,8 @@
         amount: 5
       - id: RMCPowerCellHigh
         amount: 5
+      - id: RMCZipties
+        amount: 30
     - name: Medical Supplies
       entries:
       - id: CMGauze10
