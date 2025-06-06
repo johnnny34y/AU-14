@@ -9,12 +9,13 @@
     RMCRankCivilian: []
   startingGear: AU14GearCivilianFreightSystemsSpecialist
   icon: "CMJobIconEmpty"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonyadministrator
   accessGroups:
   - Colonist
   - auengi
+  - CMCargoTech
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -45,6 +46,8 @@
     shoes: RMCBootsCorporate
     id: AU14IDCardColonyFreightSystemsSpecialist
     ears: CMHeadsetColony
+  inhand:
+  - CMStampApproved
 
 - type: entity
   parent: CMSpawnPointJobBase

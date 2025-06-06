@@ -9,7 +9,7 @@
     RMCRankCivilian: []
   startingGear: AU14Gearcivilianminer
   icon: "CMJobIconEmpty"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-foreman
   accessGroups:
@@ -36,9 +36,11 @@
   id: AU14Gearcivilianminer
   equipment:
     jumpsuit: AU14CivilianKellandMiningClothes
-    shoes: CMBootsBlack
+    outerClothing: AU14CivilianHazardVestKellandMiningCorporation
+    shoes: RMCBootsCorporate
     id: AU14IDCardColonyColonist
     ears: CMHeadsetColony
+    head: RMCHardhatOrange
 
 - type: entity
   parent: CMSpawnPointJobBase

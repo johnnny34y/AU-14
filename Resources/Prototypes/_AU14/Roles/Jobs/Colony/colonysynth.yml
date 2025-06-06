@@ -98,9 +98,7 @@
     jumpsuit: RMCJumpsuitCivilian
     shoes: RMCBootsCorporate
     id: AU14IDCardColonySynthetic
-    ears: CMHeadsetColony
-  inhand:
-  - RMCSmartpackBlack
+    ears: AU14ColonyAdminHeadset
 
 - type: entity
   parent: CMSpawnPointJobBase

@@ -51,8 +51,10 @@
     jumpsuit: CMJumpsuitLiaisonBlack
     shoes: RMCShoesLaceupBrown
     id: AU14IDCardColonyAdministrator
-    ears: CMHeadsetColony
+    ears: AU14ColonyAdminHeadset
     outerClothing: RMCJacketCorporateBlue
+  inhand:
+  - RMCRadioHandheldColonyOff
 
 - type: entity
   parent: CMSpawnPointJobBase

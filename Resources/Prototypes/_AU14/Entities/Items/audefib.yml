@@ -23,6 +23,14 @@
     size: Ginormous
     sprite: _AU14/Items/audefib.rsi
     heldPrefix: defib
+  - type: Clothing
+    sprite: _AU14/Items/audefib.rsi
+    slots:
+    - OUTERCLOTHING
+    - back
+    quickEquip: false
+    equipDelay: 1
+    unequipDelay: 1
   - type: Speech
     speechVerb: Robotic
   - type: ItemToggle
@@ -36,12 +44,12 @@
     allowDoAfterMovement: false
     canDefibCrit: false
     cmZapHeal:
-    - Brute: -12
-    - Burn: -12
-    - Toxin: -12
+    - Brute: -5
+    - Burn: -5
+    - Toxin: -2
     zapHeal:
       groups:
-        Airloss: -400
+        Airloss: -15
     zapSound:
       path: /Audio/_AU14/Medical/defib_release.ogg
       params:
@@ -62,7 +70,7 @@
       path: /Audio/_AU14/Medical/defib_ready.ogg
       params:
         volume: 0.1
-    zapDamage: 0
+    zapDamage: 25
   - type: DoAfter
   - type: UseDelay
   - type: StaticPrice

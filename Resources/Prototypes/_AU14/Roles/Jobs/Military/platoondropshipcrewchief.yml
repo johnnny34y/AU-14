@@ -21,12 +21,13 @@
     AU14RankUSASFTechnicalSergeant: []
   startingGear: AU14GearGOVFORDCC
   dummyStartingGear: AU14GearGOVFORDCCDummy
-  icon: "CMJobIconDCC"
+  icon: "AU14JobIconDCC"
   requireAdminNotify: true
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:
   - Pilot
+  - Rifleman
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -43,6 +44,7 @@
         RMCSkillPilot: 2
         RMCSkillPowerLoader: 2
         RMCSkillSurgery: 1
+        RMCSkillPolice: 1
     - type: JobPrefix
       prefix: au14-job-prefix-govfordcc
     - type: TacticalMapIcon

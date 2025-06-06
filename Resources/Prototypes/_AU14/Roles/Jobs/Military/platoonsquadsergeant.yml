@@ -9,8 +9,8 @@
     RMCRankSergeant: []
   startingGear: AU14GearGOVFORSquadSergeant
   dummyStartingGear: AU14GearGOVFORSquadSergantDummy
-  icon: "CMJobIconFireteamLeader"
-  requireAdminNotify: true
+  icon: "AU14JobIconSarge"
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:
@@ -28,6 +28,7 @@
         RMCSkillFirearms: 1
         RMCSkillFireman: 1
         RMCSkillJtac: 3
+        RMCSkillPolice: 1
     - type: JobPrefix
       prefix: au14-job-prefix-govforsquadsergeant
     - type: TacticalMapIcon

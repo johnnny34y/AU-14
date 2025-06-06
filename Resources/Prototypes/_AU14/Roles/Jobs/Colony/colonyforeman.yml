@@ -8,14 +8,15 @@
   ranks:
     RMCRankCivilian: []
   startingGear: AU14GearCivilianForeman
-  icon: "CMJobIconChiefEngineer"
-  requireAdminNotify: true
+  icon: "CMJobIconEmpty"
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonyadministrator
   accessGroups:
   - Colonist
   - auadmin
   - auengi
+  - CMCargoTech
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -46,7 +47,7 @@
     jumpsuit: AU14CivilianWeYuEngineerFormanClothes
     shoes: RMCBootsCorporate
     id: AU14IDCardColonyForeman
-    ears: CMHeadsetColony
+    ears: AU14ColonyAdminHeadset
 
 - type: entity
   parent: CMSpawnPointJobBase

@@ -9,11 +9,15 @@
     AU14RankCMBSrDeputy:
     - !type:RoleTimeRequirement
       role: AU14JobCivilianCMBDeputy
-      time: 1200 # 20 hours
-    RMCRankCMBDeputy: []
+      time: 2400 # 20 hours
+    RMCRankCMBDeputy:
+    - !type:RoleTimeRequirement
+      role: AU14JobCivilianCMBDeputy
+      time: 240 # 4 hours
+    AU14RankCMBProbDeputy: []
   startingGear: AU14GearCivilianCMBDeputy
   icon: "RMCJobIconBureauDeputy"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
@@ -51,7 +55,7 @@
     belt: CMBeltSecurityMarshalFilled
     shoes: RMCBootsPMCFilled
     id: AU14IDCardColonyCMBDeputy
-    ears: CMHeadsetColony
+    ears: AU14CMBHeadset
     outerClothing: AU14CMBDeputyWindbreaker
 
 - type: entity

@@ -20,8 +20,8 @@
       time: 90000 # 25 hours
     RMCRankWeYaJuniorExecutive: []
   startingGear: AU14GearCivilianCorporateLiaison
-  icon: "CMJobIconLiaison"
-  requireAdminNotify: true
+  icon: "CMJobIconEmpty"
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:
@@ -51,7 +51,7 @@
     jumpsuit: AU14CivilianWorkwearBlue
     shoes: RMCShoesLaceup
     id: AU14IDCardColonyCorporateLiaison
-    ears: CMHeadsetColony
+    ears: RMCHeadsetDistressWeYaColony
     outerClothing: AU14CivilianJacketOrangePufferJacket
 
 - type: entity

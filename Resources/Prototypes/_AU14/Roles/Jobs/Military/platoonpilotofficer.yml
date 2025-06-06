@@ -17,12 +17,13 @@
     RMCRankSecondLT: []
   startingGear: AU14GearGOVFORDSPilot
   dummyStartingGear: AU14GearGOVFORDSPilotDummy
-  icon: "CMJobIconPilotDropship"
+  icon: "AU14JobIconPilotOfficer"
   requireAdminNotify: true
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:
   - Pilot
+  - Rifleman
   roleWeight: 0.25
   special:
   - !type:AddComponentSpecial
@@ -39,6 +40,7 @@
         RMCSkillPilot: 2
         RMCSkillPowerLoader: 2
         RMCSkillSurgery: 1
+        RMCSkillPolice: 1
     - type: JobPrefix
       prefix: au14-job-prefix-govfordspilot
     - type: TacticalMapIcon
@@ -74,4 +76,3 @@
     mask: AU14MaskUSASFPilotOxygen
     head: AU14USASFAirCrewHelmet
     jumpsuit: AU14USASFPilotJumpsuit
-    eyes: AU14GogglesLACNLAH99VisorMirror

@@ -8,8 +8,8 @@
   ranks:
     RMCRankCivilian: []
   startingGear: AU14GearCivilianFoodServiceWorker
-  icon: "CMJobIconMessTech"
-  requireAdminNotify: true
+  icon: "CMJobIconEmpty"
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:

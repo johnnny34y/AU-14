@@ -8,8 +8,8 @@
   ranks:
     RMCRankCivilianDoctor: []
   startingGear: AU14GearCivilianPhysician
-  icon: "CMJobIconDoctor"
-  requireAdminNotify: true
+  icon: "CMJobIconEmpty"
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-colonycivilian
   accessGroups:

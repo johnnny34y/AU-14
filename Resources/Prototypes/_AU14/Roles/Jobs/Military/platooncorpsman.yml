@@ -13,8 +13,8 @@
     RMCRankLanceCorporal: []
   startingGear: AU14GearGOVFORPlatoonCorpsman
   dummyStartingGear: AU14GearGOVFORCorpsmanDummy
-  icon: "CMJobIconHospitalCorpsman"
-  requireAdminNotify: true
+  icon: "AU14JobIconCorpsman"
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-govfor
   accessGroups:
@@ -34,6 +34,7 @@
         RMCSkillSurgery: 1
         RMCSkillConstruction: 2
         RMCSkillEngineer: 3
+        RMCSkillPolice: 1
     - type: JobPrefix
       prefix: au14-job-prefix-govforplatooncorpsman
     - type: TacticalMapIcon

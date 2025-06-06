@@ -265,6 +265,8 @@
         amount: 8
     - name: Storage & Belts
       entries:
+      - id: RMCSatchelLightpackWelder
+        amount: 8
       - id: CMSatchel
         amount: 8
       - id: AU14SlingSatchelBlack
@@ -285,6 +287,14 @@
         amount: 8
       - id: RMCPouchConstruction
         amount: 8
+      - id: CMWebbingPouch
+        amount: 3
+    - name: Miscellaneous
+      entries:
+      - id: RMCSynthResetKey
+        amount: 2
+      - id: CMStampApproved
+        amount: 2
 
 - type: entity
   parent: ColMarTechBase
@@ -380,27 +390,12 @@
         amount: 6
       - id: RMCPouchFirstResponder
         amount: 6
-      - id: RMCPouchReagentCanisterBicaridine
-        name: Pressurized Reagent Canister Pouch\n(Bicaridine)
-        amount: 6
-      - id: RMCPouchReagentCanisterKelotane
-        name: Pressurized Reagent Canister Pouch\n(Kelotane)
-        amount: 6
-      - id: RMCPouchReagentCanisterTricordrazine
-        name: Pressurized Reagent Canister Pouch\n(Tricordrazine)
-        amount: 6
-      - id: RMCPouchReagentCanister
-        name: Pressurized Reagent Canister Pouch\n(EMPTY)
-        amount: 6
       - id: RMCPouchVialFill
         name: vial pouch (Full)
         amount: 6
       - id: RMCPouchMedical
         amount: 6
       - id: RMCPouchSyringeFill
-        amount: 6
-      - id: RMCPouchFirstAidInjectors
-        name: first-aid pouch (refillable injectors)
         amount: 6
       - id: RMCPouchFirstAidSplintsGauzeOintment
         name: first-aid pouch (gauze, ointment) # TODO RMC14 splints
@@ -410,100 +405,90 @@
         amount: 6
     - name: Medical Belts
       entries:
-      - id: CMBeltMedicalFilled
-        amount: 2
-      - id: CMBeltMedicBagFilled
-        amount: 2
-    - name: Medical Bags
+      - id: CMBeltMedical
+        amount: 3
+      - id: CMBeltMedicBag
+        amount: 3
+    - name: General Medical Supplies
       entries:
-      - id: CMSatchelMedical
-        amount: 3
-      - id: CMSatchel
-        amount: 3
-      - id: AU14SlingSatchelBlack
-        amount: 3
-      - id: AU14SlingSatchelBlue
-        amount: 3
-    - name: Field Supplies
-      entries:
+      - id: CMOintment10
+        amount: 60
+      - id: CMGauze10
+        amount: 60
       - id: CMBurnKit10
-        amount: 20
+        amount: 30
       - id: CMTraumaKit10
-        amount: 20
+        amount: 30
       - id: CMSurgicalLine
-        amount: 5
+        amount: 6
       - id: CMSynthGraft
-        amount: 5
-    #    CMMedicalSplints
-      - id: CMBloodPackFull # TODO RMC14 O-
-        name: blood bag (O-)
+        amount: 6
+      - id: CMSyringe
         amount: 10
-    - name: Firstaid Kits
-      entries:
-      - id: CMAdvFirstAidKitFilled
-        amount: 5
-#        recommended: true
-      - id: CMFirstAidKitFilled
-        amount: 5
-      - id: CMBurnAidKitFilled
-        amount: 5
-      - id: CMToxinAidKitFilled
-        amount: 5
-      - id: CMFirstAidO2KitFilled
-        amount: 5
-#      - id: #    CMRadiationFirstaidKit
     - name: Pill Bottles
       entries:
       - id: CMPillCanisterBicaridine
-        amount: 5
-        recommended: true
+        amount: 10
       - id: CMPillCanisterDexalin
-        amount: 5
+        amount: 10
       - id: CMPillCanisterDylovene
-        amount: 5
+        amount: 10
       - id: CMPillCanisterInaprovaline
-        amount: 5
+        amount: 10
       - id: CMPillCanisterKelotane
-        amount: 5
-        recommended: true
+        amount: 10
+      - id: CMPillCanisterTricordrazine
+        amount: 10
+      - id: AU14PillCanisterAlbuterol
+        amount: 3
+      - id: AU14PillCanisterImidazoline
+        amount: 3
+      - id: AU14PillCanisterEthylredoxrazine
+        amount: 3
+      - id: AU14PillCanisterLeporazine
+        amount: 3
+      - id: AU14PillCanisterCryoxadone
+        amount: 3
 #      - id: CMPillCanisterPeridaxon
 #      - id: CMPillCanisterTramadol
     - name: Injectors
       entries:
-      - id: CMBicaridineAutoInjector
-        amount: 20
-      - id: CMDexalinPlusAutoInjector
-        amount: 20
       - id: CMEpinephrineAutoInjector
-        amount: 20
+        amount: 3
+      - id: AU14NaloxoneAutoInjector
+        amount: 6
       - id: CMInaprovalineAutoInjector
-        amount: 20
-      - id: CMKelotaneAutoInjector
-        amount: 20
+        amount: 8
+      - id: CMDexalinPlusAutoInjector
+        amount: 15
+      - id: CMTricordrazineAutoInjector
+        amount: 15
     - name: Medical Utilities
       entries:
      #    CMMS11SmartRefillTank
      # FixOVien
+      - id: AU14CMDefibrillator
+        amount: 2
       - id: CMRollerBedSpawnFolded
         amount: 3
       - id: RMCRollerBedHospitalSheet2Folded
         amount: 3
-      - id: CMStasisBagFolded
-        amount: 2
       - id: RMCBoxBodyBag
-        amount: 5
+        amount: 3
+      - id: RMCBoxSterileMask
+        amount: 2
+      - id: RMCBoxLatexGloves
+        amount: 2
       - id: CMHealthAnalyzer
         amount: 3
       - id: RMCFlashlightPen
         amount: 3
       - id: ClothingNeckStethoscope
         amount: 3
-      - id: CMHyposprayWithVial
-        amount: 3
-      - id: RMCVial
-        amount: 20
       - id: RMCGlassesMedicalHUDGlasses
         amount: 3
+      - id: RMCVial
+        amount: 10
 
 - type: entity
   parent: ColMarTechBase
@@ -581,13 +566,15 @@
         amount: 1
       - id: RMCPouchGeneralLarge
         amount: 1
+      - id: CMWebbingPouch
+        amount: 1
     - name: Belts
       entries:
       - id: CMBeltUtilityFilled
         amount: 1
-      - id: CMBeltMedicBag
-        amount: 1
       - id: CMBeltMedical
+        amount: 1
+      - id: CMBeltMedicBag
         amount: 1
     - name: Bags
       entries:
@@ -599,49 +586,59 @@
         amount: 1
       - id: AU14SlingSatchelBlue
         amount: 1
-    - name: Field Medical Supplies
+    - name: General Medical Supplies
       entries:
+      - id: CMOintment10
+        amount: 20
+      - id: CMGauze10
+        amount: 20
       - id: CMBurnKit10
         amount: 5
       - id: CMTraumaKit10
         amount: 5
+      - id: CMSurgicalLine
+        amount: 1
+      - id: CMSynthGraft
+        amount: 1
     #    CMMedicalSplints
-    - name: Firstaid Kits
-      entries:
-#        recommended: true
-      - id: CMFirstAidKitFilled
-        amount: 1
-      - id: CMBurnAidKitFilled
-        amount: 1
-#      - id: #    CMRadiationFirstaidKit
     - name: Pill Bottles
       entries:
       - id: CMPillCanisterBicaridine
-        amount: 1
-        recommended: true
+        amount: 2
+      - id: CMPillCanisterDexalin
+        amount: 2
+      - id: CMPillCanisterDylovene
+        amount: 2
       - id: CMPillCanisterInaprovaline
-        amount: 1
+        amount: 2
       - id: CMPillCanisterKelotane
-        amount: 1
-        recommended: true
-#      - id: CMPillCanisterPeridaxon
-#      - id: CMPillCanisterTramadol
+        amount: 2
+      - id: CMPillCanisterTricordrazine
+        amount: 2
+      - id: AU14PillCanisterAlbuterol
+        amount: 2
+      - id: AU14PillCanisterEthylredoxrazine
+        amount: 2
+      - id: AU14PillCanisterLeporazine
+        amount: 2
     - name: Injectors
       entries:
-      - id: CMBicaridineAutoInjector
-        amount: 4
+      - id: CMEpinephrineAutoInjector
+        amount: 1
       - id: CMInaprovalineAutoInjector
-        amount: 4
-      - id: CMKelotaneAutoInjector
-        amount: 4
+        amount: 2
+      - id: CMDexalinPlusAutoInjector
+        amount: 2
+      - id: CMTricordrazineAutoInjector
+        amount: 2
+      - id: AU14NaloxoneAutoInjector
+        amount: 2
     - name: Assorted Utilities
       entries:
      #    CMMS11SmartRefillTank
      # FixOVien
       - id: CMRollerBedSpawnFolded
         amount: 2
-      - id: CMStasisBagFolded
-        amount: 1
       - id: RMCBoxBodyBag
         amount: 5
       - id: CMHealthAnalyzer
@@ -657,4 +654,135 @@
       - id: CMFireExtinguisherPortable
         amount: 4
       - id: RMCFireAxe
+        amount: 1
+      - id: RMCRadioHandheldColonyOff
+        amount: 1
+
+- type: entity
+  parent: ColMarTechBase
+  id: AU14CivilianColonyOperationsSyntheticVendor
+  name: Civilian Colony Operations Synthetic Vendor
+  description: A wardrobe containing all the clothes and supplies a COS would ever need.
+  suffix: Civ
+  components:
+  - type: Sprite
+    sprite: _AU14/Structures/Vendors/assortedequipment.rsi
+    layers:
+    - state: "base"
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded", "enum.VendingMachineVisualLayers.Base" ]
+  - type: CMAutomatedVendor
+    sections:
+    - name: Outerwear
+      entries:
+      - id: CMUtilityVestSynth
+        amount: 1
+      - id: AU14ExternalWebbing
+        amount: 1
+    - name: Innerwear
+      entries:
+      - id: CMJumpsuitSyntheticOutdated
+        amount: 1
+      - id: RMCJumpsuitCivilian
+        amount: 1
+      - id: AU14CivilianBoilerSuitWhite
+        amount: 1
+      - id: AU14CivilianBoilerSuitGray
+        amount: 1
+      - id: AU14CivilianBoilerSuitLightBlue
+        amount: 1
+      - id: AU14CivilianBoilerSuitDarkBlue
+        amount: 1
+      - id: AU14CivilianBoilerSuitCyan
+        amount: 1
+      - id: AU14CivilianBoilerSuitKhaki
+        amount: 1
+      - id: AU14CivilianBoilerSuitGreen
+        amount: 1
+    - name: Smartpacks
+      choices: { CMBackpack: 1 }
+      entries:
+      - id: RMCSmartpack
+        name: S-V42 smartpack, blue
+        recommended: true
+      - id: RMCSmartpackBlack
+        name: S-V42 smartpack, black
+      - id: RMCSmartpackGreen
+        name: S-V42 smartpack, green
+      - id: RMCSmartpackTan
+        name: S-V42 smartpack, tan
+      - id: RMCSmartpackWhite
+        name: S-V42 smartpack, white
+      - id: RMCSmartpackA1
+        name: S-V42A1 smartpack, blue
+      - id: RMCSmartpackA1Black
+        name: S-V42A1 smartpack, black
+      - id: RMCSmartpackA1Green
+        name: S-V42A1 smartpack, green
+      - id: RMCSmartpackA1Tan
+        name: S-V42A1 smartpack, tan
+      - id: RMCSmartpackA1White
+        name: S-V42A1 smartpack, white
+      - id: RMCBackpackRTO
+        name: radio telephone pack
+    - name: Headgear
+      entries:
+      - id: RMCHardhatBlue
+        amount: 1
+      - id: RMCHardhatOrange
+        amount: 1
+      - id: RMCHardHat
+        amount: 1
+      - id: RMCHardhatWhite
+        amount: 1
+    - name: Gloves
+      entries:
+      - id: RMCHandsVeteranInsulated
+        amount: 1
+    - name: Headsets
+      entries:
+      - id: CMHeadsetColony
+        amount: 1
+    - name: Storage & Belts
+      entries:
+      - id: RMCSatchelLightpackWelder
+        amount: 2
+      - id: CMSatchelEngineer
+        amount: 1
+      - id: CMBeltUtilityFilled
+        amount: 1
+      - id: RMCBeltUtilityGeneral
+        amount: 1
+      - id: RMCPouchGeneralLarge
+        amount: 2
+      - id: RMCPouchToolsSocFill
+        amount: 2
+      - id: RMCPouchElectronics
+        amount: 2
+      - id: RMCPouchConstruction
+        amount: 2
+      - id: RMCPouchMedkitFillAdvanced
+        amount: 1
+      - id: CMWebbingPouch
+        amount: 1
+      - id: RMCToolWebbingSmallERTFilled
+        amount: 1
+    - name: Utilities
+      entries:
+      - id: RMCFireAxe
+        amount: 1
+      - id: RMCSynthBreachingHammer
+        amount: 1
+      - id: CMFireExtinguisher
+        amount: 1
+      - id: RMCFlashlight
+        amount: 1
+      - id: CMFireExtinguisherPortable
+        amount: 2
+      - id: CMRollerBedSpawnFolded
+        amount: 2
+      - id: RMCRadioHandheldColonyOff
+        amount: 1
+      - id: RMCFlashlightPen
+        amount: 1
+      - id: RMCSynthResetKey
         amount: 1

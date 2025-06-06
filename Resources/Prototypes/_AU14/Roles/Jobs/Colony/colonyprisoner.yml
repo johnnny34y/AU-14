@@ -7,7 +7,7 @@
   playTimeTracker: AU14Jobcivilianprisoner
   startingGear: AU14Gearcivilianprisoner
   icon: "CMJobIconEmpty"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: false
   supervisors: au14-job-supervisors-Loner
   roleWeight: 0.6
