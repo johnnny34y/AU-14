@@ -289,9 +289,11 @@
         amount: 8
       - id: CMWebbingPouch
         amount: 3
-    - name: Synthetic Reset Key
+    - name: Miscellaneous
       entries:
       - id: RMCSynthResetKey
+        amount: 2
+      - id: CMStampApproved
         amount: 2
 
 - type: entity
