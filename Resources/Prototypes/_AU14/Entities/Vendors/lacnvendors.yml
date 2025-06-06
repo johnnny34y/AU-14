@@ -201,7 +201,7 @@
       - id: CMM11Knife
         amount: 15
       - id: CMEntrenchingTool
-        amount: 5
+        amount: 15
       - id: CMScrewdriver
         amount: 5
       - id: CMWirecutter
@@ -248,7 +248,7 @@
       #- id: CMSparePDTLBattleBuddyKit
       #  amount: 3
       - id: CMSandbagEmpty25
-        amount: 5
+        amount: 30
       - id: RMCPowerCellHigh
         amount: 5
       - id: RMCZipties
