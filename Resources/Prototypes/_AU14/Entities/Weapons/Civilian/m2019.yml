@@ -11,8 +11,6 @@
     - AU14WeaponRevolverM2019
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Civilian/m2019blaster.rsi
-  - type: Clothing
-    sprite: _AU14/Weapons/Guns/Civilian/m2019blaster.rsi
   - type: RevolverAmmoProvider
     whitelist:
       tags:
