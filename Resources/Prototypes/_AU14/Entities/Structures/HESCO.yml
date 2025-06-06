@@ -12,21 +12,24 @@
   - type: InteractionOutline
   - type: Damageable
     damageContainer: Inorganic
+  - type: Construction
+    graph: AU14HESCOGraph
+    node: nodeFilled
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 2000
+        damage: 1000
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 4000
+        damage: 1001
       behaviors:
       - !type:EmptyAllContainersBehaviour
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: Sprite
-    sprite:  _AU14/Structures/hesco.rsi
+    sprite: _AU14/Structures/hesco.rsi
     state: sand_wall
