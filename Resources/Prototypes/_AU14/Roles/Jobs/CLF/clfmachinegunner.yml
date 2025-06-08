@@ -43,7 +43,7 @@
     shoes: RMCBootsPMCFilled
     neck: RMCCLFArmband
     jumpsuit: CMJumpsuitColonist
-    id: CMIDCardColonist
+    id: AU14IDCardColonyColonist
     ears: AU14CLFHeadset
   inhand:
   - RMCWeaponLMGM60
