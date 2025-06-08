@@ -27,6 +27,7 @@
         RMCSkillResearch: 1
         RMCSkillSurgery: 2
         RMCSkillFirearms: 1
+        RMCSkillPolice: 1
     - type: JobPrefix
       prefix: au14-job-prefix-clfphysician
     - type: TacticalMapIcon
