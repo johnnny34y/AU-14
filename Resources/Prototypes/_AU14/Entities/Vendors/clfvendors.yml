@@ -212,9 +212,6 @@
         amount: 1
       - id: RMCPouchExplosive
         amount: 1
-      - id: RMCPouchFirstResponder
-        name: First Responder Pouch (Empty)
-        amount: 1
       - id: RMCPouchTools
         amount: 3
 #      - id: Sling Pouch
@@ -242,7 +239,7 @@
       - id: CMM11Knife
         amount: 15
       - id: CMEntrenchingTool
-        amount: 5
+        amount: 15
       - id: CMScrewdriver
         amount: 5
       - id: CMWirecutter
@@ -285,9 +282,11 @@
       #- id: CMSparePDTLBattleBuddyKit
       #  amount: 3
       - id: CMSandbagEmpty25
-        amount: 5
+        amount: 30
       - id: RMCPowerCellHigh
         amount: 5
+      - id: RMCZipties
+        amount: 30
     - name: Medical Supplies
       entries:
       - id: AU14HemostaticGauzePacket

@@ -151,9 +151,6 @@
       - id: RMCPouchBayonet
         name: Bayonet Sheath
         amount: 15
-      - id: RMCPouchFirstAid
-        name: First-Aid Pouch (Empty)
-        amount: 20
       - id: RMCPouchFlareFilled
         name: Flare Pouch (Full)
         amount: 15
@@ -179,9 +176,6 @@
         amount: 1
       - id: RMCPouchExplosive
         amount: 1
-      - id: RMCPouchFirstResponder
-        name: First Responder Pouch (Empty)
-        amount: 2
       - id: RMCPouchTools
         amount: 15
 #      - id: Sling Pouch

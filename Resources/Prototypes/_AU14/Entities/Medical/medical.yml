@@ -462,8 +462,8 @@
     noWoundsOnUserPopup: cm-wounds-already-treated-self-popup
     noWoundsOnTargetPopup: cm-wounds-already-treated-target-popup
   - type: MedicallyUnskilledDoAfter
-    min: 2
-    doAfter: 5
+    min: 5
+    doAfter: 8
 
 #tourniquet
 
@@ -507,5 +507,5 @@
     noWoundsOnUserPopup: cm-wounds-already-treated-self-popup
     noWoundsOnTargetPopup: cm-wounds-already-treated-target-popup
   - type: MedicallyUnskilledDoAfter
-    min: 6
-    doAfter: 8
+    min: 3
+    doAfter: 4
