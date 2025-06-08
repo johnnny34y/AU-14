@@ -78,6 +78,12 @@
         amount: 2
       - id: RMCMagazinePistolM77Rubber
         amount: 2
+    - name: Medical Supplies
+      entries:
+      - id: AU14HemostaticGauzePacket
+        amount: 4
+      - id: AU14Tourniquet
+        amount: 2
     - name: Inmate Clothing
       entries:
       - id: AU14CivilianPrisonJumpsuit
@@ -121,8 +127,6 @@
         amount: 1
     - name: Pouches
       entries:
-      - id: RMCPouchFirstAidSplintsGauzeOintment
-        amount: 1
       - id: RMCPouchRadio
         amount: 1
       - id: RMCPouchGeneralMedium
@@ -151,3 +155,9 @@
         amount: 1
       - id: RMCMagazineRifleM16
         amount: 4
+    - name: Medical Supplies
+      entries:
+      - id: AU14HemostaticGauzePacket
+        amount: 2
+      - id: AU14Tourniquet
+        amount: 1
