@@ -53,7 +53,7 @@
     neck: RMCCLFArmband
     head: AU14CivBallCapBlack
     jumpsuit: CMJumpsuitColonist
-    id: CMIDCardColonist
+    id: AU14IDCardColonyColonist
     ears: AU14CLFHeadset
     eyes: RMCGlassesAviators
   inhand:
