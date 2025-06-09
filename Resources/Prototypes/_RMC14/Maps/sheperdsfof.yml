@@ -1,5 +1,5 @@
 - type: gameMap
-  id: SheperdsForceonForce
+  id: SheperdsFOF
   mapName: LV-112 Sheperds Pride (CLF-USCM Force On Force)
   mapPath: /Maps/_RMC14/sheperds.yml
   minPlayers: 0
