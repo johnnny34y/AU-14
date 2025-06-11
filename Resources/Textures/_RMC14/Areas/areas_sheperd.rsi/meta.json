@@ -11,67 +11,67 @@
       "name": "oob"
     },
     {
-      "name": "uscm"
+      "name": "military"
     },
     {
-      "name": "uscm_barracks"
+      "name": "military_barracks"
     },
     {
-      "name": "uscm_barracks2"
+      "name": "military_barracks2"
     },
     {
-      "name": "uscm_baths"
+      "name": "military_baths"
     },
     {
-      "name": "uscm_briefing"
+      "name": "military_briefing"
     },
     {
-      "name": "uscm_brig"
+      "name": "military_brig"
     },
     {
-      "name": "uscm_cic"
+      "name": "military_cic"
     },
     {
-      "name": "uscm_w_gate"
+      "name": "military_w_gate"
     },
     {
-      "name": "uscm_e_gate"
+      "name": "military_e_gate"
     },
     {
-      "name": "uscm_garage"
+      "name": "military_garage"
     },
     {
-      "name": "uscm_hospital"
+      "name": "military_hospital"
     },
     {
-      "name": "uscm_lz"
+      "name": "military_lz"
     },
     {
-      "name": "uscm_nw_observe"
+      "name": "military_nw_observe"
     },
     {
-      "name": "uscm_ne_observe"
+      "name": "military_ne_observe"
     },
     {
-      "name": "uscm_sw_observe"
+      "name": "military_sw_observe"
     },
     {
-      "name": "uscm_se_observe"
+      "name": "military_se_observe"
     },
     {
-      "name": "uscm_office"
+      "name": "military_office"
     },
     {
-      "name": "uscm_perimeter"
+      "name": "military_perimeter"
     },
     {
-      "name": "uscm_platoon_commander"
+      "name": "military_platoon_commander"
     },
     {
-      "name": "uscm_waste"
+      "name": "military_waste"
     },
     {
-      "name": "uscm_yard"
+      "name": "military_yard"
     },
     {
       "name": "n_road"
