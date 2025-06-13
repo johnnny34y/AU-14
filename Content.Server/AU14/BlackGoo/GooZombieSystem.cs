@@ -276,7 +276,7 @@ namespace Content.Server.AU14.BlackGoo
         /// <param name="source">the entity having the GooZombieComponent</param>
         /// <param name="target">the entity you want to unzombify (different from source in case of cloning, for example)</param>
         /// <param name="zombiecomp"></param>
-        /// <remarks>
+
         ///     this currently only restore the skin/eye color from before zombified
 
         public bool UnZombify(EntityUid source, EntityUid target, GooZombieComponent? zombiecomp)
