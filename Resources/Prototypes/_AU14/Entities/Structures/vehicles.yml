@@ -1399,7 +1399,7 @@
   description: A stock car used by UA racing fame John Wayne Jr. Just pretend the supercharger is stock.
   components:
   - type: Sprite
-    sprite: sprite path/stockcar.rsi
+    sprite: _AU14/Structures/vehicles/stockcar.rsi
     state: stockcar
   - type: Clickable
   - type: InteractionOutline
